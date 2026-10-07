@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.2 : Prologue + Chapitre 1 (version détaillée)
+### Script v0.3 : Prologue + Chapitres 1 et 2
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -67,9 +67,9 @@ JORDAN : *(seul)* 29 ans. Une voiture, un appart, un vrai travail. Et je suis en
 
 [SFX] *Ding.* Une notification.
 [DISCORD] **#général**
-> **Camille** : free RP 100% legit 👉 `redroom.gift/claim` · *(il y a 1 minute)*
+> **Camil** : free RP 100% legit 👉 `redroom.gift/claim` · *(il y a 1 minute)*
 
-JORDAN : … Camille ? Il est encore sur le serveur, lui ? Je croyais qu'on l'avait…
+JORDAN : … Camil ? Il est encore sur le serveur, lui ? Je croyais qu'on l'avait…
 [ÉVÉNEMENT] Sous le message, une seule réaction apparaît : **👀 1**.
 [ÉVÉNEMENT] *(Optionnel, si le joueur survole la réaction.)* Une infobulle affiche : « **Ceyn** a réagi avec 👀 ». Le profil indique : *Inactif*.
 JORDAN : *(machinalement, comme tout le monde le ferait)* … Ceyn.
@@ -80,7 +80,7 @@ JORDAN : *(machinalement, comme tout le monde le ferait)* … Ceyn.
 2) Ne pas cliquer, aller dormir comme un adulte responsable de 29 ans.
 
 *Si 2 :*
-JORDAN : Non. J'ai l'âge de ne pas cliquer sur des liens de Camille. J'ai l'âge de beaucoup de choses, d'ailleurs.
+JORDAN : Non. J'ai l'âge de ne pas cliquer sur des liens de Camil. J'ai l'âge de beaucoup de choses, d'ailleurs.
 [ÉVÉNEMENT] Jordan se lève (craquement de dos). Pendant qu'il se retourne, **Snow** marche lentement sur le clavier : *tap… tap… Entrée.*
 [SFX] *Clic.*
 JORDAN : SNOW. NON.
@@ -141,8 +141,12 @@ JORDAN : … José.
 
 > Zone ouverte : trois points d'intérêt obligatoires, plus des PNJ optionnels. Le joueur peut les faire dans l'ordre qu'il veut.
 
-**A. La Place Camille**
-[DÉCOR] L'ancienne grand-place, rebaptisée. Une statue géante de **Camille**, les bras croisés, le menton levé, sur un socle gravé : « *Le Seul Vrai Fondateur (selon lui)* ». *(Le « selon lui » a été rajouté au marqueur par un anonyme.)*
+**A. La Place Camil**
+[DÉCOR] L'ancienne grand-place, rebaptisée. Au centre se dresse un **socle gigantesque** de dix mètres de haut, en marbre, avec des colonnes et des dorures. Au sommet trône une **statue de Camil, minuscule**. Il faut une longue-vue pour la voir. Elle prend une pose héroïque, sur la pointe des pieds. Gravure du socle : « *Le Seul Vrai Fondateur (selon lui)* ». *(Le « selon lui » a été rajouté au marqueur par un anonyme.)*
+JORDAN : … elle est où, la statue ?
+CLYDE : En haut. Plisse les yeux. *(Jordan plisse les yeux.)* Voilà. Le petit point.
+JORDAN : Le socle est plus grand que lui.
+CLYDE : Il a beaucoup insisté sur le socle.
 CLYDE : Il a fait renommer la place la semaine dernière. Avant, ça s'appelait « Place de la Red Room ». Avant ça, « Place des gens qui s'entendent bien ».
 JORDAN : Ça a pas duré longtemps, celle-là.
 [ÉVÉNEMENT] Une plaque au pied de la statue : « *Tout citoyen est prié de complimenter la statue en passant. — C.* »
@@ -150,9 +154,9 @@ JORDAN : Ça a pas duré longtemps, celle-là.
 1) Complimenter la statue.
 2) Ne rien dire.
 3) Jeter une canette dessus.
-*Si 1 :* JORDAN : « … belle… pierre. » · La statue ne réagit pas. Clyde a l'air déçu de toi.
+*Si 1 :* JORDAN : *(crie vers le haut)* « … BEAU… SOCLE ! » · La statue ne réagit pas. Clyde a l'air déçu de toi.
 *Si 2 :* Rien ne se passe. Clyde approuve en silence.
-*Si 3 :* [SFX] *Clong.* Un PNJ applaudit au loin. Objet obtenu : **Respect des Citoyens**, un objet de quête sans utilité, mais qui fait plaisir.
+*Si 3 :* La canette n'atteint même pas le sommet du socle. [SFX] *Clong.* Un PNJ applaudit quand même au loin. Objet obtenu : **Respect des Citoyens**, un objet de quête sans utilité, mais qui fait plaisir.
 
 **B. La Boutique de Mme Nitro-Pas-Chère**
 [DÉCOR] Une échoppe de badges, de stickers et de bannières de profil.
@@ -360,17 +364,18 @@ JOSÉ : … c'est pas pareil.
 > @everyone Des utilisateurs non autorisés ont été détectés dans #général. Rappel du règlement :
 > 1) Pas de memes. 2) Pas de vocal. 3) Pas d'AFK. 4) Pas d'amis. 5) Pas de chats.
 > Merci de votre compréhension.
-> — *Approuvé par Camille, Fondateur, Visionnaire, Meilleur Joueur du Serveur*
+> — *Approuvé par Camil, Fondateur, Visionnaire, Meilleur Joueur du Serveur*
 
-[ÉVÉNEMENT] Un hologramme géant de **Camille** apparaît au-dessus de sa statue, prenant exactement la même pose qu'elle.
+[ÉVÉNEMENT] Un projecteur s'allume au sommet du socle. Un hologramme de **Camil** apparaît… à taille réelle. On doit zoomer pour le voir. Il se tient sur une caisse marquée « NE PAS ENLEVER ».
 CAMILLE : Citoyens de Généralia. Vous l'avez sûrement remarqué : le serveur va mieux depuis que je m'en occupe.
 CITOYEN MUTÉ : 😐
 CAMILLE : J'ai toujours dit que la Red Room avait besoin d'un vrai leader. Quelqu'un de talentueux. De brillant. De modeste. *(Il marque une pause pour laisser le temps aux applaudissements. Il n'y en a pas.)* Bref. Moi.
 CAMILLE : Jordan, je sais que tu es là. Avec ton chat. Et ton dos. Rentre chez toi, l'ancêtre. Ici, c'est **mon** serveur maintenant.
-[ÉVÉNEMENT] L'hologramme se coupe au milieu d'un mot, comme si quelqu'un avait débranché une prise. *(Graine : ce n'est pas Camille qui contrôle la diffusion.)*
+[ÉVÉNEMENT] L'hologramme se coupe au milieu d'un mot, comme si quelqu'un avait débranché une prise. *(Graine : ce n'est pas Camil qui contrôle la diffusion.)*
 
 JOSÉ : … il a pas changé, hein.
-JORDAN : Le même ego, en hologramme de trente mètres.
+JORDAN : Le même ego. Dans le même petit hologramme.
+JOSÉ : Il a mis une caisse. Même en hologramme, il a mis une caisse.
 CLYDE : *(tout petit)* La Caserne d'Annonces est par là. Le Stade Orbital par là. Et le vocal… plus personne ne respire là-haut depuis longtemps.
 JOSÉ : Bidou va pas aimer ça.
 JORDAN : Bidou aime déjà pas respirer en temps normal.
@@ -391,4 +396,227 @@ JORDAN : Ceyn.
 - **Recrues** : José (combattant), Snow (compagnon), Clyde (guide).
 - **Objets clés** : Fragment du Premier Message (1/7), Relique Puante.
 - **Flags** : `snow_a_clique`, `jose_aveu_portugal`, `rateaux_jose`, `quete_bete_blanche`.
-- **Graines du twist posées** : 👀 de Ceyn (prologue) ; le cinquième lit de Düsseldorf (1-5-c) ; le message supprimé (1-7) ; l'hologramme de Camille coupé par quelqu'un d'autre (1-8) ; Ceyn brièvement « En ligne » (1-8).
+- **Graines du twist posées** : 👀 de Ceyn (prologue) ; le cinquième lit de Düsseldorf (1-5-c) ; le message supprimé (1-7) ; l'hologramme de Camil coupé par quelqu'un d'autre (1-8) ; Ceyn brièvement « En ligne » (1-8).
+
+---
+
+## CHAPITRE 2 : Le Stade Orbital
+
+> **Contexte** : le Modérateur Fou a enfermé Kevin dans le salon #rocket-league, transformé en stade flottant dans l'espace. Kevin y revit en boucle la finale des Worlds perdue contre **Vitality**, l'ennemi historique. Chaque fois que le but décisif est encaissé, la boucle recommence.
+> ❓ *Jordan : c'était bien les Worlds de Lyon (2025) ? Si oui, on peut relier le stade au voyage à Lyon. Le score ou un moment précis du match aiderait aussi.*
+
+### SCÈNE 2-1 : Décollage
+
+[DÉCOR] À la sortie de Généralia, un **portail en forme de but de Rocket League**. Au-dessus, un néon : « #rocket-league — 1 utilisateur (en boucle) ».
+CLYDE : Le salon de Kevin. Attention, il n'y a plus de gravité normale là-haut. Le Modérateur a tout réglé sur « Lune ».
+JORDAN : Kevin doit être aux anges.
+CLYDE : Il est en boucle depuis… *(il calcule)* … quatre cent douze matchs.
+JOSÉ : Ah. Donc il est pas aux anges.
+
+[ÉVÉNEMENT] L'équipe traverse le portail. Le saut se fait en voiture : Jordan au volant d'un *Octane* rouge, José à côté, Snow sur le tableau de bord.
+JOSÉ : Pourquoi c'est toi qui conduis ?
+JORDAN : Je suis le seul qui a le permis et une voiture, José.
+JOSÉ : Même dans un monde imaginaire ?
+JORDAN : *Surtout* dans un monde imaginaire.
+[SFX] Bruit de boost. [ÉVÉNEMENT] Fondu sur un ciel étoilé.
+
+### SCÈNE 2-2 : Le Stade Orbital
+
+[DÉCOR] Une arène de Rocket League **flottant dans l'espace**, posée sur un astéroïde. On voit la Terre au loin, et un satellite qui passe. Les tribunes sont remplies de **spectateurs jaunes et noirs** aux antennes d'abeille, les **Supporters de la Ruche**. De l'autre côté, une seule tribune rouge et vide, sauf un petit drapeau « KC » qui flotte tout seul.
+[MUSIQUE] Thème du **Stade Orbital** : électro épique, version synthwave du thème de menu de Rocket League. À chaque reset de la boucle, la musique saute comme un disque rayé.
+
+[ÉVÉNEMENT] Sur le terrain, une voiture bleue fait des acrobaties parfaites : aerials, flip resets, ceiling shots. Au volant, Kevin, casque de cosmonaute sur la tête.
+KEVIN : *(dans les haut-parleurs du stade, il commente son propre match)* … Kevin récupère la balle, angle d'approche 37,4 degrés, vitesse optimale, trajectoire parfaite, c'est mathématiquement impossible de rater…
+[SFX] *BUZZER.* Un but jaune géant s'affiche : « **VITALITY MARQUE** ». La foule d'abeilles bourdonne de joie.
+KEVIN : … c'était mathématiquement impossible de rater.
+[ÉVÉNEMENT] Un effet de cassette qu'on rembobine. Tout recommence : la balle revient au centre, le chrono à 5:00.
+KEVIN : *(même intonation, mot pour mot)* Kevin récupère la balle, angle d'approche 37,4 degrés…
+
+JORDAN : Il est bloqué.
+CLYDE : Quatre cent treize.
+JOSÉ : Il fait le même commentaire à chaque fois ?
+CLYDE : Mot pour mot. Sauf la fois 207. Il a dit « skibidi ». On sait pas pourquoi.
+
+### SCÈNE 2-3 : Les tribunes (exploration)
+
+> Zone ouverte. Le joueur doit comprendre comment briser la boucle. Trois indices sont à récupérer dans les tribunes.
+
+**A. Le Kop Rouge (la tribune vide)**
+[ÉVÉNEMENT] Le petit drapeau KC flotte seul. En s'en approchant, on entend des chants lointains, très faibles : « *KC… KC…* ».
+CLYDE : Les supporters de Kevin étaient là, avant. Le Modérateur les a mutés un par un.
+JORDAN : Alors on va chanter, nous.
+[CHOIX]
+1) Chanter « KC ! KC ! »
+2) Rester digne, on a 29 ans.
+*Si 1 :* JORDAN et JOSÉ : « KC ! KC ! KC ! » · [SFX] Le stade tremble légèrement. Sur le terrain, Kevin tourne la tête une demi-seconde, puis reprend sa boucle.
+[FLAG] `indice_chant = true`
+*Si 2 :* JORDAN : « Non. J'ai une réputation. » · JOSÉ : « Laquelle ? Le vieux ? » · *(Retour au choix.)*
+
+**B. La Cabine des Commentateurs**
+[DÉCOR] Un studio vitré au-dessus du terrain. Dedans, un robot-commentateur en costume jaune et une **Commentatrice** en tailleur.
+[ÉVÉNEMENT] *Tentative de drague de José (chapitre 2).* Jingle Pierre.
+JOSÉ : *(ajuste son foulard)* Mademoiselle. Archéologue. Stylé. J'ai un rapport assez fort avec la balle, moi aussi.
+COMMENTATRICE : *(sourit)* Oh, c'est mignon. Vous êtes supporter de qui ?
+JOSÉ : Karmine, évidemment.
+COMMENTATRICE : *(son sourire disparaît)* Je suis Vitality depuis 2016.
+[ÉVÉNEMENT] Silence. José recule de trois pas, sans la quitter des yeux.
+JOSÉ : Désolé. J'ai des principes.
+[ÉVÉNEMENT] Jingle triste, mais *fier*.
+[FLAG] `rateaux_jose += 1` *(Variante : celui-là, c'est José qui l'a mis.)*
+JORDAN : C'est la première fois que c'est toi qui refuses.
+JOSÉ : Il y a des choses plus importantes que l'amour, Jordan. Il y a la rivalité.
+
+[ÉVÉNEMENT] Sur le pupitre de la cabine, un écran affiche les **statistiques de Kevin** sur les 413 boucles.
+> Tirs : 4 130 · Arrêts : 8 260 · Buts : 0 · Buts encaissés en fin de match : 413 · Phrase la plus prononcée : « angle d'approche » (413) · Deuxième phrase : « skibidi » (1)
+CLYDE : La boucle est bloquée sur le moment du but. Tant qu'il le revit à l'identique, ça recommence. Il faut qu'il se passe quelque chose de **différent**.
+[FLAG] `indice_stats = true`
+
+**C. Le Vestiaire**
+[DÉCOR] Un casier au nom de Kevin. Dedans : un diplôme d'ingénieur encadré, un poster de fusée, une maquette de satellite… et un post-it « *si on perd je pars sur Mars* ».
+[ÉVÉNEMENT] Au fond du casier, une photo de la Red Room au complet devant un stade, tous en maillot. Kevin est au centre, bras levés.
+JOSÉ : C'était avant la finale. Il y croyait tellement.
+JORDAN : On y croyait tous.
+[ÉVÉNEMENT] *(Graine discrète.)* Au dos de la photo, un petit tampon : « *Photo : Ceyn* ».
+[ÉVÉNEMENT] Mécanique « Ceyn. » :
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+CLYDE : *(il ne connaît pas le gag, mais il le fait quand même, par politesse)* … Ceyn ?
+[ÉVÉNEMENT] *(Ils rangent la photo et reprennent comme si de rien n'était.)*
+[FLAG] `indice_vestiaire = true`
+
+**PNJ optionnels**
+- **Une Abeille Supportrice** : « Bzz. Ça fait 413 fois qu'on gagne. Honnêtement, on commence à s'ennuyer. On peut pas gagner contre quelqu'un d'autre ? »
+- **Un vendeur de hot-dogs spatial** : « Hot-dog en apesanteur, 12 €. » *(À Jordan :)* « Pour vous, 18 €. Vous avez une voiture. »
+- **Une bannière LoL abandonnée** (« LEC — Summer Split ») : si le joueur l'examine, Kevin hurle depuis le terrain, sans sortir de sa boucle : « ENLEVEZ ÇA DE MON STADE. »
+
+### SCÈNE 2-4 : Entrer dans la boucle
+
+[ÉVÉNEMENT] Quand les trois indices sont trouvés, Clyde ouvre un accès au terrain.
+CLYDE : Si vous entrez sur le terrain, vous entrez dans la boucle. Vous allez revivre la même minute avec lui. À vous de la changer.
+JORDAN : Et si on n'y arrive pas ?
+CLYDE : Vous serez commentateurs pour l'éternité.
+JOSÉ : Ça va, il y a pire comme métier.
+
+[ÉVÉNEMENT] L'équipe descend sur le terrain. La boucle les absorbe : effet de rembobinage, chrono à **1:00**.
+KEVIN : *(sans les regarder)* Kevin récupère la balle, angle d'approche 37,4 degrés…
+JORDAN : KEVIN !
+KEVIN : *(se fige, les regarde enfin)* … Jordan ? José ? *(Un temps.)* Vous êtes pas censés être là. Dans ma simulation, vous êtes dans les tribunes, et vous pleurez.
+JOSÉ : On pleurait pas.
+KEVIN : José, j'ai 413 enregistrements de toi en train de pleurer.
+
+> **Mécanique de boucle (puzzle)** : le joueur dispose d'une minute de match par essai. Il doit faire **trois choses différentes** pendant la boucle, une par indice trouvé. Chaque essai raté rembobine la minute, avec une réplique différente de Kevin, de plus en plus brainrot.
+>
+> 1. **Le chant** (`indice_chant`) : faire chanter le Kop Rouge. Les supporters mutés se remettent à chanter : « KC ! KC ! ».
+> 2. **Les stats** (`indice_stats`) : utiliser *Souvenirs du Crétacé* de Jordan sur le gardien jaune pour révéler sa faiblesse (« Il défend toujours à gauche. Je l'ai vu en 1998. »).
+> 3. **La photo** (`indice_vestiaire`) : montrer la photo d'équipe à Kevin.
+>
+> **Bonus caché** : poser Snow sur la balle. Snow refuse de bouger, le ballon ne peut plus avancer, et l'arbitre siffle « **ballon bloqué par un chat** ». Kevin : « Ça, c'est pas dans mes calculs. »
+
+**Répliques de Kevin à chaque échec** (dans l'ordre) :
+1. « Statistiquement, on perd. J'ai simulé 14 millions de futurs. On perd dans tous. »
+2. « Sauf un. Dans un futur, le ballon est un sigma. Mais c'est pas réaliste. »
+3. « La gravité de cet astéroïde est de 0,16 g, la balle part à 98 km/h… c'est cooked. Skibidi cooked. Rizz-less. »
+4. « J'ai un doctorat. Enfin presque. Et je suis en train de dire "skibidi" dans l'espace. Mes parents seraient tellement fiers. »
+5. « Vous savez qu'Elon pourrait m'embaucher, hein ? Il cherche des ingénieurs. Il cherche pas des gens qui perdent contre Vitality. »
+
+### SCÈNE 2-5 : La photo
+
+[ÉVÉNEMENT] Une fois les trois actions réalisées, la boucle se fige au moment exact du but. La balle reste suspendue devant la cage de Kevin.
+KEVIN : *(regarde la photo)* … on y croyait vraiment, hein.
+JORDAN : Ouais.
+KEVIN : J'ai calculé tout ce qui pouvait se passer pendant ce match. Les angles, les rebonds, le boost. Mais j'avais pas calculé que ça ferait aussi mal de perdre contre *eux*.
+JOSÉ : Personne calcule ça. C'est pour ça qu'on est supporters et pas ingénieurs.
+KEVIN : Je suis les deux.
+JOSÉ : Ben c'est pour ça que t'as deux fois plus mal.
+*(Un temps.)*
+KEVIN : *(sourit enfin)* Ok. Ok. On la rejoue. Pas pour changer le passé. Juste pour… le kiffer.
+JORDAN : Et pour leur mettre une raclée.
+KEVIN : *(rabat sa visière)* Ça aussi, c'est dans mes calculs.
+
+[ÉVÉNEMENT] **Kevin rejoint l'équipe.** La boucle se brise comme une vitre. Le chrono passe en **PROLONGATION**.
+[ÉVÉNEMENT] Les abeilles du stade se rassemblent au centre du terrain et fusionnent dans un bourdonnement assourdissant.
+
+### SCÈNE 2-6 : Boss : la Reine de la Ruche
+
+[DÉCOR] Une gigantesque **reine abeille jaune et noire**, couronnée, avec des réacteurs de Rocket League à la place des ailes.
+REINE DE LA RUCHE : BZZZ. 413 VICTOIRES. 413. VOUS POUVEZ PAS GAGNER. C'EST ÉCRIT DANS LES STATS.
+KEVIN : Les stats, c'est moi qui les écris.
+REINE DE LA RUCHE : … BZZ ?
+
+> **Équipe imposée pour ce combat** : Jordan, José, Kevin. Snow est en tribune.
+>
+> **Compétences de Kevin débloquées** :
+> - *Aerial* : attaque aérienne, ignore la défense des ennemis volants.
+> - *Calcul de trajectoire* : le prochain coup est un critique garanti.
+> - *Mode Brainrot* : effet aléatoire parmi « Skibidi » (dégâts ×3), « Ohio » (Kevin s'attaque lui-même) et « Rizz » (charme l'ennemi un tour).
+> - *Décollage* : fuite de combat garantie (désactivée contre les boss : « Même moi je peux pas fuir ça »).
+
+[COMBAT] **La Reine de la Ruche** (3 phases)
+- **Mécanique centrale : le ballon.** Un ballon géant rebondit dans l'arène. Chaque tour, il se rapproche du but de l'équipe (jauge de 0 à 5). À 5, c'est un « but encaissé » : dégâts massifs à toute l'équipe. Les attaques physiques et *Aerial* repoussent le ballon vers le but adverse ; un **but marqué** étourdit la Reine un tour.
+- **Phase 1 : Coup d'envoi**
+  - *Essaim* : invoque deux **Abeilles Supportrices** qui soignent la Reine.
+  - *Piqûre jaune* : poison sur un allié.
+  - Réplique, REINE : « BZZ. VOUS AVEZ DÉJÀ PERDU UNE FOIS. VOUS ÊTES HABITUÉS. »
+- **Phase 2 (sous 60 %) : Prolongation**
+  - La Reine utilise *Rembobinage* : elle tente de relancer la boucle et soigne 20 % de ses PV.
+  - Le chant « KC ! KC ! » du Kop Rouge **annule le Rembobinage** si `indice_chant = true`. Sinon, il faut le contrer avec une *Relique Puante* (« Les abeilles détestent ça. Tout le monde déteste ça. »).
+  - Réplique, KEVIN : « Pas cette fois. Je ferme la boucle. Comme une fonction récursive bien écrite. »
+- **Phase 3 (sous 25 %) : But en or**
+  - La Reine se met en **défense totale** devant son but. Seul un *Calcul de trajectoire* suivi d'un *Aerial* peut marquer.
+  - Si le joueur tente autre chose : KEVIN : « Non non non, angle d'approche, Jordan ! 37,4 degrés ! »
+  - Quand le but est marqué : cinématique. Le ballon traverse la Reine, qui explose en confettis jaunes. Le stade s'illumine en rouge.
+
+### SCÈNE 2-7 : Après le match
+
+[ÉVÉNEMENT] Le tableau d'affichage clignote : « **RED ROOM 1 – 0 VITALITY** ». Puis, juste en dessous, en petit : « *(Ce résultat n'a aucune valeur officielle.)* »
+KEVIN : *(fixe l'écran)* Ça change rien à la vraie finale.
+JORDAN : Non.
+KEVIN : *(sourit jusqu'aux oreilles)* Mais putain, ça fait du bien.
+JOSÉ : Mec, t'as les yeux qui brillent.
+KEVIN : C'est la poussière cosmique. *(Un temps.)* Et l'émotion. Mais surtout la poussière cosmique.
+
+[ÉVÉNEMENT] Le Kop Rouge se remplit : les supporters mutés retrouvent la voix et chantent. Snow est au premier rang, il ne chante pas.
+[ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (2/7)**. Il tombe du ciel au centre du terrain.
+[ÉVÉNEMENT] Objet obtenu : **Maillot de Finale**, une armure pour Kevin. *Description : « Encore un peu humide de larmes. Défense +15. »*
+
+KEVIN : Bon. Vous m'expliquez ce qui se passe ? Pourquoi on est dans Discord, pourquoi j'étais en boucle, et pourquoi y a un chat dans l'espace ?
+JORDAN : C'est le Modérateur Fou. Et apparemment, Camil est derrière.
+KEVIN : Camil ? *(Il réfléchit.)* Statistiquement, ça tient. Il a jamais supporté qu'on fasse des trucs sans lui.
+JOSÉ : Il a fait une statue de lui. Minuscule. Sur un socle immense.
+KEVIN : *(très sérieux)* Il compense. C'est de la physique de base. Plus la masse est petite, plus le socle doit être grand pour garder le même… ego.
+JOSÉ : C'est vrai, ça ?
+KEVIN : Non. Mais ça sonnait bien.
+
+[ÉVÉNEMENT] Kevin regarde la Terre au loin.
+KEVIN : Vous savez quoi ? Quand on sortira d'ici, je postule chez SpaceX. Pour de vrai.
+JORDAN : Tu dis ça depuis trois ans.
+KEVIN : Oui. Mais là, j'ai battu une reine abeille dans l'espace. J'ai de l'expérience terrain.
+
+### SCÈNE 2-8 : Sortie du stade
+
+[ÉVÉNEMENT] Retour vers le portail. Une bannière LoL est restée accrochée au-dessus de la sortie.
+KEVIN : Non. Je passe pas sous ça.
+JORDAN : Kevin, c'est une bannière.
+KEVIN : C'est une bannière **LoL**. C'est pire.
+[ÉVÉNEMENT] *(Le joueur doit faire le tour du stade pour sortir. Trente secondes de détour. Kevin est satisfait.)*
+
+[ÉVÉNEMENT] Sur la carte du monde, un nouveau message du Modérateur Fou défile dans le ciel :
+[DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
+> @everyone Un utilisateur a quitté la boucle sans autorisation. Une enquête est ouverte. Rappel : le salon **#vocal-1** est fermé jusqu'à nouvel ordre. Toute respiration y est interdite.
+> — *Approuvé par Camil (1,62 m avec talonnettes)*
+
+KEVIN : Toute respiration est interdite ? Mais Bidou…
+JOSÉ : Bidou respire déjà à moitié en temps normal.
+JORDAN : Alors on n'a pas de temps à perdre.
+
+**FIN DU CHAPITRE 2**
+
+---
+
+### Récapitulatif chapitre 2 (pour l'intégration)
+- **Recrue** : Kevin (combattant).
+- **Objets clés** : Fragment du Premier Message (2/7), Maillot de Finale.
+- **Flags** : `indice_chant`, `indice_stats`, `indice_vestiaire`, `rateaux_jose` (variante « refus par principe »).
+- **Mécaniques nouvelles** : puzzle de boucle temporelle (une minute par essai), ballon et jauge de but en combat.
+- **Graines du twist** : le tampon « Photo : Ceyn » au dos de la photo d'équipe (photographe = ses photos de mode).
+- **Suite naturelle** : chapitre 3, #vocal-1 et Bidou.

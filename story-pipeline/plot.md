@@ -1,7 +1,7 @@
 # Intrigue : « Red Room — Le Serveur Maudit » (v1)
 
 ## Prémisse
-Une nuit, au QG, Jordan reçoit sur le Discord de la Red Room un lien posté par le compte de **Camille**, un ancien du groupe parti en mauvais termes : « free RP 100% legit ». Il clique. Le serveur est corrompu et Jordan est aspiré **à l'intérieur de Discord**.
+Une nuit, au QG, Jordan reçoit sur le Discord de la Red Room un lien posté par le compte de **Camil**, un ancien du groupe parti en mauvais termes : « free RP 100% legit ». Il clique. Le serveur est corrompu et Jordan est aspiré **à l'intérieur de Discord**.
 
 Chaque salon est devenu un royaume. Le **Modérateur Fou**, un bot devenu tyran, y fait régner l'ordre : memes bannis, vocaux mutés, AFK kickés. Les amis de la Red Room sont dispersés dans les salons, transformés ou piégés. Jordan doit les retrouver un par un.
 
@@ -34,8 +34,8 @@ Jordan découvre le monde. José fouille les ruines des vieux messages, persuad�
 - Gag : « Tu m'as désinvité ! »
 - Mini-boss : le **Gardien des Épinglés**.
 
-### Chapitre 2 : Le Stade Orbital (Kevin)
-Kevin a été condamné à rejouer en boucle la finale des **Worlds de Rocket League** perdue.
+### Chapitre 2 : Le Stade Orbital (Kevin) : rédigé, voir draft.md
+Kevin a été condamné à rejouer en boucle la finale des **Worlds de Rocket League** perdue contre **Vitality**, le rival historique. Boss : la Reine de la Ruche.
 - Pour le libérer, on gagne le match, ou on l'aide à accepter la défaite.
 - Gag : il calcule des trajectoires parfaites puis dit « ratio » sans raison.
 - Le stade est entouré de bannières LoL, que Kevin trouve insupportables.
@@ -65,10 +65,10 @@ Alex est hors du serveur, à un ping de 400. Toute la Red Room fait le trajet, f
 - Il « ne voulait pas nous voir » ? Twist mignon : il préparait en secret la carte d'accès à la Tour des Modérateurs.
 
 ### Interlude : le Barbecue de la Red Room
-La grande scène chorale, juste avant l'assaut. Tout le monde parle de Camille, persuadé que c'est lui le coupable.
+La grande scène chorale, juste avant l'assaut. Tout le monde parle de Camil, persuadé que c'est lui le coupable.
 
 ### Final : la Tour des Modérateurs
-- **Boss 1 : Camille**, sur un trône à son effigie. On le bat. Il hurle que c'est lui le patron… puis les fils de marionnette apparaissent : il n'a jamais rien contrôlé. **Pas de réconciliation** : il est banni du serveur pour de bon, avec le dernier coup de marteau 🔨.
+- **Boss 1 : Camil**, sur un trône à son effigie. On le bat. Il hurle que c'est lui le patron… puis les fils de marionnette apparaissent : il n'a jamais rien contrôlé. **Pas de réconciliation** : il est banni du serveur pour de bon, avec le dernier coup de marteau 🔨.
 - **Révélation** : Ceyn, ancien fondateur, le 👀 du prologue, l'auteur du « message supprimé », le cinquième lit de Düsseldorf. Il a gardé le rôle **propriétaire du serveur** (👑) et veut **reprendre le contrôle du Discord qu'il a fondé**. Toute l'équipe dit en chœur : « Ceyn. »
 - **Boss 2 : Ceyn**, qui fusionne avec le Modérateur Fou.
 - **Fin** : Jordan se réveille au QG. Le vocal se remplit. Dernier message dans le salon : Ceyn tape « … », puis « Ceyn est en train d'écrire… », et ne finit jamais son message. Générique.

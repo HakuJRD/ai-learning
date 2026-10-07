@@ -100,9 +100,9 @@
 
 ## Antagonistes
 
-### Camille : le faux cerveau, vrai méchant
+### Camil : le faux cerveau, vrai méchant
 - Ancien de la Red Room, parti en mauvais termes. **Pas de réconciliation.**
-- Dans le jeu : un **ego démesuré**. Il se fait ériger des statues, renomme les places à son nom, s'embrouille avec tout le monde.
+- Dans le jeu : un **ego démesuré** dans un **tout petit corps** (running gag : il est très petit). Statues minuscules sur socles immenses, caisses pour paraître plus grand, trône beaucoup trop haut. Il renomme les places à son nom et s'embrouille avec tout le monde.
 - Il croit diriger le Modérateur Fou ; en fait, il est **manipulé** par Ceyn. Boss à battre, mais pas l'instigateur.
 - Choix d'écriture : sa méchanceté passe par l'ego et les embrouilles, pas par ce qui s'est passé dans la vraie vie.
 
