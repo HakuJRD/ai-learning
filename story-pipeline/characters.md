@@ -60,15 +60,17 @@
   - *Destin Figé* : Statut « Étourdi » sur tous les ennemis (la ult de Bard).
 - Membre fondateur (chambre de Düsseldorf).
 
-## Robin : le Soldat Malgré Lui
+## Robin : l'Aviateur Malgré Lui
 - **Main top**, joue des persos très « chad », Garen en tête.
-- Passionné d'IA et de LLM. N'ayant pas trouvé de travail dans le domaine, il est à l'armée **à contrecœur**.
-- Très engagé, plutôt à gauche.
+- Passionné d'IA et de LLM. Il fait son service comme **aviateur**, avec un poste à responsabilité, et prépare une **thèse** là-bas en parallèle.
+- Très engagé, plutôt à gauche (« Vive la lutte »).
+- **Phrase culte** : « **Zingis** », un mot qui veut tout et rien dire, inventé par Jordan et repris par Robin à toutes les sauces.
+- **Emma** : sa copine depuis très, très longtemps. Clin d'œil dans le jeu (photo, appel radio pendant le boss du chapitre 4).
 - **Compétences** :
   - *JUSTICE DÉMACIENNE* : Mono, très gros dégâts.
-  - *Tourniquet* : Zone.
+  - *Frappe Aérienne* : Zone.
   - *Grève Générale* : Statut « Étourdi » sur tous les ennemis (chance).
-  - *Cri de Ralliement* : Buff défense de l'équipe.
+  - *Plan de Vol* : Buff défense de l'équipe.
 - Membre fondateur (chambre de Düsseldorf). A fait le voyage au Portugal.
 
 ## Alex : le Moine Trop Beau

@@ -11,7 +11,7 @@ Chaque salon est devenu un royaume. Le **Modérateur Fou**, un bot devenu tyran,
 | #général | **Généralia**, la capitale déchue | José | Ruines de vieux messages, chantier de fouilles des épinglés |
 | #rocket-league | **Le Stade Orbital** | Kevin | Arène flottante dans l'espace, ballon géant |
 | #vocal-1 | **Les Cimes Sans Air** | Bidou | Montagne où le Modérateur a coupé le son *et* l'oxygène |
-| #annonces | **La Caserne d'Annonces** | Robin | Seul salon où on ne peut pas parler, seulement obéir. Robin y est enrôlé de force |
+| #annonces | **La Base d'Annonces** | Robin | Base aérienne où seuls les modos peuvent parler. Robin y est aviateur, à contrecœur |
 | #memes | **Le Désert des Memes Bannis** | Florian | Désert de memes morts. Florian y vit en campagnard avec son tracteur |
 | #afk | **Le Marais d'AFK** | Yanis | Tout y est au ralenti. Yanis est le seul à s'y sentir chez lui |
 | (hors carte) | **Les Terres Lointaines (ping 400)** | Alex | Zone hors serveur. Alex « ne veut pas nous voir » |
@@ -43,10 +43,11 @@ Kevin revit en boucle la demi-finale des **Worlds RLCS de Düsseldorf (13 août 
 - Énigmes : dalles de glace et quiz du Yéti Roadie. Le cri final est poussé par toute l'équipe.
 - Boss : le Grand Mute. Interventions : Camil en hologramme (buff du boss), puis un sbire envoyé par « le Sergent » Robin.
 
-### Chapitre 4 : La Caserne d'Annonces (Robin)
-Robin est sergent dans l'armée du Modérateur, à contrecœur. Il rêvait de devenir ingénieur IA, et il est là à garder une porte.
-- Il organise en secret le **syndicat des sbires**.
-- Combat final du chapitre : une **grève générale** retourne l'armée contre le Modérateur, et Robin conclut au cri de « JUSTICE ! ».
+### Chapitre 4 : La Base d'Annonces (Robin) : rédigé, voir draft.md
+#annonces est une base aérienne où seuls les modérateurs peuvent parler. Robin y est aviateur et chef d'escouade, écrit sa thèse en cachette et prépare la grève des sbires.
+- Énigmes : interrupteurs pour écrire ZINGIS sur la piste, puis discours de grève avec choix de slogans.
+- Boss : l'Adjudant @everyone. Interventions : les sbires invoqués font grève, puis Emma envoie un panier repas par radio.
+- Le système de réserve s'active (5 personnages).
 
 ### Chapitre 5 : Le Désert des Memes Bannis (Florian)
 Florian, en pantacourt sur son tracteur, rage contre tout ce qui bouge. Mais il recueille les memes orphelins et les nourrit.

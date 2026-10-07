@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.5 : Prologue + Chapitres 1 à 3
+### Script v0.6 : Prologue + Chapitres 1 à 4
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -375,7 +375,7 @@ CAMILLE : Jordan, je sais que tu es là. Avec ton chat. Et ton dos. Rentre chez 
 JOSÉ : … il a pas changé, hein.
 JORDAN : Le même ego. Dans le même petit hologramme.
 JOSÉ : Il a mis une caisse. Même en hologramme, il a mis une caisse.
-CLYDE : *(tout petit)* La Caserne d'Annonces est par là. Le Stade Orbital par là. Et le vocal… plus personne ne respire là-haut depuis longtemps.
+CLYDE : *(tout petit)* La Base d'Annonces est par là. Le Stade Orbital par là. Et le vocal… plus personne ne respire là-haut depuis longtemps.
 JOSÉ : Bidou va pas aimer ça.
 JORDAN : Bidou aime déjà pas respirer en temps normal.
 BIDOU *(voix lointaine, venue du ciel, très faible)* : … j'ai… *(inspire)* … entendu… *(inspire)* … je suis vexé…
@@ -825,14 +825,14 @@ JORDAN : Il regarde tout le monde comme ça.
 BIDOU : Il me regarde comme si je lui devais de l'argent.
 JORDAN : *(un temps)* … tout le monde lui doit de l'argent, en fait. C'est moi qui paye les croquettes.
 
-KEVIN : Si Robin est sergent chez le Modérateur, il est dans la **Caserne d'Annonces**.
+KEVIN : Si Robin est sergent chez le Modérateur, il est dans la **Base d'Annonces**.
 JOSÉ : Robin, dans l'armée du Modérateur. Contre sa volonté. *(Il secoue la tête.)* Encore une fois.
 BIDOU : Il doit être… *(inspire)* … furieux.
 JORDAN : Furieux, et en train d'organiser une grève. Je le connais.
 
 [ÉVÉNEMENT] Sur la carte du monde, un message du Modérateur Fou défile dans le ciel :
 [DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
-> @everyone Le salon #vocal-1 a été rouvert illégalement. Les responsables sont priés de se présenter à la **Caserne d'Annonces** pour leur sanction. Rappel : la grève est interdite. *(Une grève est en cours.)*
+> @everyone Le salon #vocal-1 a été rouvert illégalement. Les responsables sont priés de se présenter à la **Base d'Annonces** pour leur sanction. Rappel : la grève est interdite. *(Une grève est en cours.)*
 > — *Approuvé par Camil (1,62 m)*
 
 **FIN DU CHAPITRE 3**
@@ -848,4 +848,228 @@ JORDAN : Furieux, et en train d'organiser une grève. Je le connais.
   - **Intervention 1** : hologramme de Camil, qui buffe le boss et vexe Bidou (buff attaque pour Bidou).
   - **Intervention 2** : un Sbire déserteur envoyé par « le Sergent » Robin donne la Bonbonne d'Air Dorée.
 - **Ceyn** : écrit dans la neige sur le Lac Gelé (gag uniquement).
-- **Suite** : chapitre 4, la Caserne d'Annonces et Robin.
+- **Suite** : chapitre 4, la Base d'Annonces et Robin.
+
+---
+
+## CHAPITRE 4 : La Base d'Annonces
+
+> **Contexte** : le salon **#annonces** est devenu une **base aérienne militaire**. Dans #annonces, seuls les modérateurs ont le droit de parler, alors tout le monde obéit en silence. Robin y a été affecté comme **aviateur**, avec un poste à responsabilité : il commande une escouade de Sbires du Modérateur. À contrecœur, évidemment. La nuit, il travaille en cachette sur sa **thèse**. Et il prépare une **grève générale**.
+> **Moments clés** : l'arrivée sans droit de parole, l'infiltration, Robin, la tour de contrôle (interrupteurs), le discours de grève (choix de dialogue), le boss.
+> **Équipe** : Jordan, José, Kevin, Bidou, puis Robin (le système de réserve s'active).
+
+### SCÈNE 4-1 : Interdit de parler
+
+[DÉCOR] Une base aérienne grise sous un ciel orange. Des pistes, des hangars, une tour de contrôle. Partout, des haut-parleurs. Des **avions de papier géants** traversent le ciel en traînant des banderoles : « RAPPEL DU RÈGLEMENT », « MISE À JOUR DES CONDITIONS D'UTILISATION ».
+[MUSIQUE] Thème de la **Base** : marche militaire, jouée au kazoo.
+
+JORDAN : Bon. On cherche Robin, on…
+[ÉVÉNEMENT] La bulle de Jordan est remplacée par une boîte grise :
+> *Vous n'avez pas la permission d'envoyer des messages dans ce salon.*
+JOSÉ : Qu'est-ce que…
+> *Vous n'avez pas la permission d'envoyer des messages dans ce salon.*
+KEVIN : *(lève un doigt, ouvre la bouche, la referme)*
+BIDOU : *(inspire très fort pour crier)*
+> *Vous n'avez pas la permission d'envoyer des messages dans ce salon.*
+BIDOU : *(boude en silence)*
+
+[ÉVÉNEMENT] Clyde se met devant l'équipe.
+CLYDE : Ah, moi j'ai le droit. Je suis un bot. *(Il se racle la gorge électronique.)* Mes amis vous font dire qu'ils cherchent un certain Robin, et que le petit chevelu est vexé.
+[ÉVÉNEMENT] Clyde devient **l'interprète** de l'équipe pendant toute la première partie du chapitre. *(Ça ne dure que deux ou trois scènes : le gag doit rester court.)*
+
+> **Ennemis de la zone** : **Sbires du Modérateur** (mono, statut *Muet*), **Avions de Papier** (mono, rapides), **Haut-Parleurs** (zone, statut *Confusion* : « ANNONCE IMPORTANTE ! »).
+
+### SCÈNE 4-2 : L'infiltration
+
+[DÉCOR] L'entrée de la base. Deux **Sbires de garde** (petits marteaux 🔨 sur pattes) bloquent la barrière.
+SBIRE DE GARDE : Civils interdits. Uniforme obligatoire.
+CLYDE : *(traduit)* Ils disent qu'il nous faut des uniformes.
+[ÉVÉNEMENT] *(Mini-objectif : la laverie de la base, juste à côté. Une machine à laver géante tourne. Il faut attendre la fin du cycle et récupérer 4 uniformes. Un combat contre 2 Haut-Parleurs dans la laverie.)*
+[ÉVÉNEMENT] L'équipe enfile les uniformes, tous beaucoup trop grands ou trop petits. Celui de José s'arrête au mollet.
+JOSÉ : *(réussit enfin à parler, car le gag de l'interdiction s'arrête dès qu'ils sont en uniforme)* … non. Non non non. Le pantalon tombe PAS sur la paire. Il tombe nulle part. Il s'arrête en plein milieu de ma jambe.
+KEVIN : C'est un pantacourt.
+JOSÉ : Je suis pas Florian !
+BIDOU : Je peux parler ? *(Inspire.)* JE PEUX PARLER ! *(Inspire.)* … j'avais rien à dire, en fait.
+SBIRE DE GARDE : *(regarde l'équipe de haut en bas)* … ok. Passez, soldats.
+[ÉVÉNEMENT] *Snow*, qui n'a pas d'uniforme, passe tranquillement entre les jambes des gardes. Personne ne dit rien. *prrrt.*
+SBIRE DE GARDE : … ah. Ça pue.
+
+### SCÈNE 4-3 : Robin
+
+[DÉCOR] Un hangar plongé dans la pénombre. Un avion de chasse en carton, une rangée de lits de camp. Dans un coin, une petite lampe de bureau : **Robin**, en combinaison d'aviateur, galons sur l'épaule, tape à toute vitesse sur un vieil ordinateur portable. Sur un post-it collé à l'écran : « *Thèse — chapitre 3 — NE PAS SE FAIRE GRILLER* ».
+[ÉVÉNEMENT] Sur le mur, une photo de **Emma**, punaisée à côté d'un planning de garde. Un petit cœur dessiné au feutre dessus.
+
+ROBIN : *(sans lever les yeux)* Si c'est pour l'inspection, je dors. Officiellement, je dors.
+JORDAN : Robin.
+ROBIN : *(lève la tête, ferme l'ordi d'un coup sec)* … Jordan ? *(Il voit les uniformes.)* Pourquoi vous êtes déguisés en soldats ?
+JOSÉ : Pour te chercher. Et j'ai un pantacourt, Robin. Un PANTACOURT.
+ROBIN : *(se lève, très ému, les serre tous dans ses bras)* Les gars… *(Il recule, regarde Bidou.)* Ça a marché, la bonbonne ?
+BIDOU : J'ai respiré, Robin. *(Inspire.)* Pour la première fois de ma vie, j'ai respiré.
+ROBIN : *(fier)* Zingis.
+KEVIN : Zingis.
+JORDAN : Zingis.
+CLYDE : *(perdu)* … ça veut dire quoi ?
+JORDAN : Tout. Et rien.
+ROBIN : C'est Jordan qui l'a inventé. Moi je l'ai juste… perfectionné.
+
+[ÉVÉNEMENT] Robin rouvre son ordinateur pour leur montrer. Titre du document : « *Thèse — Peut-on remplacer un Modérateur par un LLM ? (Spoiler : oui, et en mieux)* ».
+ROBIN : Je devais travailler sur l'IA. J'ai fini aviateur, chef d'escouade, à surveiller des marteaux sur pattes. Alors la nuit, j'écris ma thèse. Et le jour, je prépare la révolution.
+KEVIN : Tu fais les deux en même temps ?
+ROBIN : J'ai un poste à responsabilités. Je suis très organisé.
+[ÉVÉNEMENT] *(Gag, optionnel)* Si le joueur examine la bibliographie de la thèse : « *Ceyn et al. (2019). Pourquoi personne ne répond dans #général. Éditions Inactives.* »
+ROBIN : Ceyn.
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+KEVIN : Ceyn.
+BIDOU : *(inspire)* Ceyn.
+*(Robin referme l'ordi comme si de rien n'était.)*
+
+ROBIN : Bon. Écoutez. Les sbires du Modérateur, je les connais. Ils sont exploités. Pas de pause, pas de congés, ils bannissent des gens 24 h sur 24. Ils veulent faire grève. Mais ils ont peur. Il leur faut un **signal**.
+JORDAN : Quel signal ?
+ROBIN : Les lumières de la piste. Si on les allume pour écrire le mot de code, tous les sbires de la base le verront. Et ils poseront leurs marteaux.
+JOSÉ : C'est quoi, le mot de code ?
+ROBIN : *(sourit)* À ton avis.
+TOUS : … zingis.
+ROBIN : Personne au Modérateur ne pourra le décoder. Ça veut rien dire.
+
+### SCÈNE 4-4 : La Tour de Contrôle (interrupteurs)
+
+[DÉCOR] Le sommet de la tour de contrôle. Une grande vitre donne sur la piste. Un tableau de **6 interrupteurs** commande les rampes lumineuses de la piste.
+> **Énigme d'interrupteurs** : chaque interrupteur allume une rampe de lumières sur la piste et en inverse une ou deux voisines. Il faut trouver la combinaison qui écrit **ZINGIS** en lumières. Un indice est affiché en permanence sur la vitre : la vue de la piste, avec les lettres qui se forment au fur et à mesure.
+> Au bout de 3 essais ratés, Kevin propose la solution : « C'est de l'algèbre booléenne. J'ai fait ça en L2. Enfin, j'ai dormi pendant, mais j'ai fait ça. »
+
+[ÉVÉNEMENT] *Tentative de drague de José (chapitre 4)*. Dans la tour, une **Pilote de Chasse** en combinaison, casque sous le bras, vérifie la météo. Jingle Pierre.
+JOSÉ : *(ajuste le col de son uniforme trop court)* Mademoiselle. Archéologue. Stylé. Soldat, aussi, depuis… vingt minutes.
+PILOTE : Désolée, je décolle dans deux minutes.
+JOSÉ : Je peux venir ?
+PILOTE : C'est un monoplace.
+[ÉVÉNEMENT] Par la vitre, on la voit monter dans un jet et décoller à toute vitesse. Jingle triste, couvert par le bruit du réacteur.
+JOSÉ : *(regarde le ciel)* Elle a littéralement pris la fuite.
+[FLAG] `rateaux_jose += 1`
+
+[ÉVÉNEMENT] Une fois l'énigme résolue, la piste s'illumine. Vu du ciel, en lettres de lumière géantes : **ZINGIS**.
+[SFX] Partout dans la base, des petits *clong* : les sbires posent leurs marteaux, un par un.
+ROBIN : *(à la fenêtre, ému)* Ça y est. Ils ont vu.
+
+### SCÈNE 4-5 : Le Discours (choix de dialogue)
+
+[DÉCOR] La grande cour de la base. Des centaines de Sbires du Modérateur rassemblés, marteaux au sol, hésitants. Robin monte sur une caisse.
+JOSÉ : *(chuchote)* Lui aussi il monte sur une caisse ?
+JORDAN : *(chuchote)* Lui, c'est pour qu'on le voie. Pas pour paraître grand.
+ROBIN : Camarades sbires !
+SBIRES : … ?
+ROBIN : Depuis des semaines, on bannit, on mute, on kick. Sans pause. Sans merci. Sans tickets resto.
+SBIRE : *(timide)* C'est vrai qu'on a jamais de tickets resto…
+
+> **Choix de dialogue** : Robin demande à Jordan de l'aider à convaincre la foule. Le joueur choisit **3 slogans** parmi 6. Chaque bon slogan fait monter une jauge « Motivation des Sbires ». Il faut 3 bons slogans sur 3 ; en cas d'erreur, la foule hue et on recommence le choix.
+> - « Pas de ban sans pause café ! » ✅
+> - « Le marteau, c'est pour les clous, pas pour les gens ! » ✅
+> - « Zingis pour tous ! » ✅
+> - « Travaillez plus ! » ❌ *(ROBIN : « JORDAN. »)*
+> - « Achetez Discord Nitro ! » ❌ *(SBIRE : « On est déjà payés en Nitro, c'est le problème. »)*
+> - « Vive Camil ! » ❌ *(Silence glacial. Un sbire jette une tomate.)*
+
+[ÉVÉNEMENT] Après trois bons slogans, la foule explose.
+SBIRES : GRÈVE ! GRÈVE ! GRÈVE !
+ROBIN : *(lève le poing)* VIVE LA LUTTE !
+[ÉVÉNEMENT] **Robin rejoint l'équipe.**
+> **Système de réserve** : CLYDE : « Vous êtes cinq, mais le serveur limite les combats à quatre. Le cinquième attend sur le banc et peut être échangé entre les tours. » JOSÉ : « Comme au barbecue. Il y a jamais assez de chaises. »
+
+[SFX] Toutes les sirènes de la base se déclenchent. Un haut-parleur géant descend du ciel, accroché à un avion de papier.
+
+### SCÈNE 4-6 : Boss : l'Adjudant @everyone
+
+[DÉCOR] Un **mégaphone géant** à moustache, avec une casquette d'adjudant et des bras mécaniques. Chaque phrase qu'il prononce s'affiche en lettres capitales énormes.
+ADJUDANT : GRÈVE NON AUTORISÉE. TOUS LES SBIRES AU RAPPORT. @EVERYONE. @EVERYONE. @EVERYONE.
+ROBIN : *(s'avance, en uniforme)* Pas aujourd'hui, mon adjudant.
+ADJUDANT : SERGENT ROBIN. VOUS ÊTES CHEF D'ESCOUADE. VOUS AVEZ DES RESPONSABILITÉS.
+ROBIN : Justement. *(Il dégaine une épée bien trop grande, à la Garen.)* Ma responsabilité, c'est eux.
+
+> **Compétences de Robin** (aviateur, main Garen) : *JUSTICE DÉMACIENNE* (mono, très gros dégâts), *Frappe Aérienne* (zone), *Grève Générale* (statut *Étourdi* sur tous les ennemis, chance), *Plan de Vol* (buff défense de l'équipe).
+
+[COMBAT] **L'Adjudant @everyone** (2 phases, avec interventions)
+
+- **Phase 1**
+  - *Annonce Générale* : zone.
+  - *@everyone* : statut *Confusion* sur un allié.
+  - *Garde-à-vous !* : statut *Paralysie* sur un allié un tour.
+
+- **Intervention 1 (au tour 2) : la grève**
+  [ÉVÉNEMENT] L'Adjudant lance *Renforts* pour invoquer des sbires.
+  ADJUDANT : SBIRES ! EN POSITION !
+  [ÉVÉNEMENT] Trois sbires arrivent… s'assoient par terre, croisent les bras, et sortent une banderole « EN GRÈVE ».
+  SBIRE : Désolé chef. Pause syndicale.
+  ADJUDANT : … ???
+  [ÉVÉNEMENT] L'invocation échoue. Elle échouera **à chaque tentative** pour le reste du combat.
+  ROBIN : *(très fier)* Zingis.
+
+- **Phase 2 (sous 50 % de PV)**
+  - L'Adjudant passe en *Volume Maximum* : buff attaque.
+  - *Rappel du Règlement* : zone, gros dégâts.
+  - *Corvée de Chiottes* : debuff défense sur un allié.
+
+- **Intervention 2 (au début de la phase 2) : Emma**
+  [ÉVÉNEMENT] La radio de Robin grésille. Une voix douce.
+  EMMA *(radio)* : Robin ? C'est Emma. Ça fait trois jours que t'as pas répondu. Tout va bien ?
+  ROBIN : *(rougit, entre deux coups)* Emma ! Euh… oui, oui. Je suis juste… en train de combattre un mégaphone géant. Dans Discord.
+  EMMA *(radio)* : … d'accord. Mais t'as mangé ?
+  ROBIN : … non.
+  EMMA *(radio)* : Je m'en doutais. Je t'envoie quelque chose.
+  [ÉVÉNEMENT] Un petit avion de papier rose traverse le terrain et lâche un colis dans les bras de Robin : **Panier Repas d'Emma**. Utilisé automatiquement : **soin complet de l'équipe**, et **buff attaque et défense pour Robin** jusqu'à la fin du combat.
+  EMMA *(radio)* : Et rentre pas trop tard. Bisous.
+  ROBIN : *(fond complètement)* … bisous.
+  JOSÉ : *(les larmes aux yeux)* Ça, c'est l'amour. Ça fait combien de temps, vous deux ?
+  ROBIN : Très, très, très longtemps.
+  JOSÉ : *(regarde le ciel, là où la pilote a décollé)* Un jour. Un jour, moi aussi.
+  ADJUDANT : FIN DES COMMUNICATIONS PERSONNELLES !
+  ROBIN : Toi, tu ne parles pas comme ça d'Emma.
+
+- **Fin du combat**
+  [ÉVÉNEMENT] Cinématique : Robin fait tournoyer son épée (*Tourniquet* à la Garen), saute, et l'abat sur l'Adjudant en hurlant : « ZIIIIINGIIIIS ! » Le mégaphone se tord, crache un dernier « @everyo… » et s'écrase. Les sbires en grève applaudissent.
+
+### SCÈNE 4-7 : Après la grève
+
+[DÉCOR] La base, de jour. Les sbires ont accroché des banderoles « ZINGIS » partout. Un barbecue s'improvise sur la piste.
+[ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (4/7)**.
+[ÉVÉNEMENT] Objet obtenu : **Galons de Sergent**, accessoire pour Robin. *Description : « Responsabilités +10. Envie d'être là −50. »*
+
+ROBIN : Bon. Je résume. On est dans Discord, le Modérateur a pris le pouvoir, Camil s'est autoproclamé chef, et Jordan a amené son chat.
+JORDAN : C'est à peu près ça.
+ROBIN : Camil, sur un trône. *(Il secoue la tête.)* Ça m'étonne pas. Un tyran, ça commence toujours par une statue.
+JOSÉ : La sienne est minuscule.
+ROBIN : Ça commence toujours par une *petite* statue.
+
+JOSÉ : Au fait, Robin. Le Portugal. Toi aussi t'y étais.
+ROBIN : Oui ?
+JOSÉ : Sans moi.
+ROBIN : José, c'est toi qui pouvais pas venir.
+JOSÉ : *(se tourne lentement vers Jordan)* Ça, c'est ce qu'on t'a dit de dire.
+JORDAN : Je l'ai PAS désinvité !
+
+BIDOU : Et maintenant ? *(Inspire.)* On va où ?
+ROBIN : Dans les rapports des sbires, il y a une zone qu'ils appellent le **Désert des Memes Bannis**. Le Modérateur y jette tous les memes interdits. Et il paraît qu'un type en pantacourt vit là-bas avec un tracteur, et qu'il crie sur tout le monde.
+TOUS : … Florian.
+
+[ÉVÉNEMENT] Sur la carte du monde, un message du Modérateur Fou défile dans le ciel, avec des fautes de frappe :
+[DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
+> @everyone La base d'annonces est temporairement fermée pour cause de grvèe. Les memes restent interdits. Le #memes est sous haute surveillance.
+> — *Approuvé par Camil (1,62 m)*
+ROBIN : Il a écrit « grvèe ». Il panique.
+KEVIN : Zingis.
+
+**FIN DU CHAPITRE 4**
+
+---
+
+### Récapitulatif chapitre 4 (pour l'intégration)
+- **Recrue** : Robin (combattant, aviateur, main Garen). **Le système de réserve s'active** (5 personnages, 4 en combat).
+- **Gags** : Clyde interprète (« Vous n'avez pas la permission d'envoyer des messages dans ce salon ») ; uniforme en pantacourt pour José ; « zingis ».
+- **Énigmes** : la laverie (mini-objectif), les interrupteurs de la Tour (écrire ZINGIS sur la piste), le discours (choix de slogans).
+- **Objets clés** : Fragment du Premier Message (4/7), Galons de Sergent, Panier Repas d'Emma (scripté).
+- **Flags** : `rateaux_jose`.
+- **Boss** : l'Adjudant @everyone (2 phases).
+  - **Intervention 1** : les sbires invoqués font grève, l'invocation échoue.
+  - **Intervention 2** : Emma à la radio envoie un panier repas (soin de l'équipe, buff de Robin).
+- **Ceyn** : dans la bibliographie de la thèse de Robin (gag uniquement).
+- **Clin d'œil** : Emma (photo dans le hangar et intervention radio).
+- **Suite** : chapitre 5, le Désert des Memes Bannis et Florian.
