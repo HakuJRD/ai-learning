@@ -39,10 +39,10 @@ Kevin revit en boucle la demi-finale des **Worlds RLCS de Düsseldorf (13 août 
 - Quête à objets « Le Kop Rouge » : posters, écharpe, billet. Le Kop chante et l'équipe accède au terrain.
 - Boss : la Reine de la Ruche.
 
-### Chapitre 3 : Les Cimes Sans Air (Bidou)
-Le Modérateur a coupé l'air du salon vocal. Bidou essaie de chanter la ballade qui rouvrira le vocal, mais il n'a jamais assez de souffle pour la finir.
-- Puzzle : récupérer des **bonbonnes d'air** pour lui permettre de finir la chanson.
-- Si le joueur choisit une réplique qui le vexe, il boude et refuse de rejoindre l'équipe pendant un temps.
+### Chapitre 3 : Les Cimes Sans Air (Bidou) : rédigé, voir draft.md
+Le Modérateur a coupé l'air et le son de #vocal-1. Bidou ne parvient jamais à finir la Chanson du Vocal.
+- Quête : trois Bonbonnes d'Air. Le dernier couplet est chanté par toute l'équipe.
+- Boss : le Grand Mute. Interventions : Camil en hologramme (buff du boss), puis un sbire envoyé par « le Sergent » Robin.
 
 ### Chapitre 4 : La Caserne d'Annonces (Robin)
 Robin est sergent dans l'armée du Modérateur, à contrecœur. Il rêvait de devenir ingénieur IA, et il est là à garder une porte.

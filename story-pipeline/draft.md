@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.3 : Prologue + Chapitres 1 et 2
+### Script v0.4 : Prologue + Chapitres 1 à 3
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -641,3 +641,205 @@ JORDAN : Alors on n'a pas de temps à perdre.
 - **Boss** : la Reine de la Ruche (2 phases, attaques, invocations et soin standards).
 - **Graines du twist** : le tampon « Photo : Ceyn » au dos de la photo de Düsseldorf.
 - **Suite** : chapitre 3, #vocal-1 et Bidou.
+
+---
+
+## CHAPITRE 3 : Les Cimes Sans Air
+
+> **Contexte** : le salon **#vocal-1** est devenu une montagne où le Modérateur Fou a coupé le son… et l'air. Bidou est coincé au sommet. Il essaie de chanter la **Chanson du Vocal**, la seule chose capable de rouvrir le salon, mais il n'a jamais assez de souffle pour la finir.
+> **Moments clés** : l'ascension, Bidou vexé, les bonbonnes d'air, la chanson, le boss.
+> **Équipe** : Jordan, José, Kevin, puis Bidou (4 personnages, l'équipe est complète pour la première fois).
+
+### SCÈNE 3-1 : Le pied de la montagne
+
+[DÉCOR] Une montagne grise et enneigée. Au sommet, une énorme icône de **haut-parleur barré 🔇** plantée comme un drapeau. Un panneau en bois à l'entrée du sentier : « **#vocal-1 — RESPIRATION INTERDITE. Par ordre du Modérateur.** » Le son est étouffé, comme sous l'eau.
+[MUSIQUE] Thème des **Cimes** : flûte de montagne, mais les notes s'arrêtent avant la fin de chaque phrase musicale.
+
+[ÉVÉNEMENT] Les bulles de dialogue sont **plus petites** dans cette zone, avec une police plus fine.
+KEVIN : L'air se raréfie. À cette altitude, le taux d'oxygène baisse d'environ 30 %.
+JOSÉ : Et Bidou est en haut ?
+KEVIN : Avec ses poumons ? *(Il fait un calcul rapide sur ses doigts.)* Il respire à peu près 40 % d'un humain normal. En temps normal. Donc là…
+JORDAN : Donc là, faut se dépêcher.
+KEVIN : Donc là, c'est un miracle de la biologie. Skibidi miracle.
+
+[ÉVÉNEMENT] *(Ascension : courte carte de montagne avec 2 ou 3 combats aléatoires.)*
+> **Ennemis de la zone** : **Micros Coupés** (mono, statut *Muet*), **Larsens Sauvages** (zone, faibles), **Échos** (ils répètent la dernière attaque utilisée par l'équipe).
+
+### SCÈNE 3-2 : Le refuge (tentative de drague de José)
+
+[DÉCOR] Un petit refuge à mi-chemin. Une **Guide de Montagne** en doudoune violette, avec un petit rond rouge ⛔ flottant au-dessus de sa tête : statut Discord « **Ne pas déranger** ».
+[ÉVÉNEMENT] Jingle Pierre.
+JOSÉ : *(ajuste son foulard, essoufflé)* Mademoiselle. Archéologue. Stylé. Alpiniste, aussi, depuis… dix minutes.
+GUIDE : *(montre le rond rouge au-dessus de sa tête, sans un mot)*
+JOSÉ : … c'est quoi ?
+KEVIN : Statut « Ne pas déranger ». Ses notifications sont coupées. Tu pourrais lui écrire un poème, techniquement, elle le recevrait jamais.
+JOSÉ : *(très digne)* Le plus triste, c'est qu'elle saura jamais ce qu'elle a raté.
+[FLAG] `rateaux_jose += 1`
+[ÉVÉNEMENT] Elle vend des **Pastilles pour la Gorge** (soin de *Muet*). Prix Jordan : +30 %.
+
+### SCÈNE 3-3 : Bidou
+
+[DÉCOR] Le sommet. Un plateau battu par le vent, sous l'énorme 🔇. Au centre, Bidou, assis en tailleur, avec un luth. Il gratte une corde, inspire, ouvre la bouche…
+BIDOU : *(chantant)* ♪ Oh vocal… ♪ *(inspire)* ♪ … ouvre-toi… ♪ *(inspire)* ♪ … pour que… ♪ *(inspire. Inspire. Rien ne vient.)*
+[SFX] La note s'éteint. Le 🔇 au-dessus de lui brille plus fort, satisfait.
+BIDOU : *(pose le luth, à bout de souffle)* … toujours… le même… couplet…
+
+JORDAN : BIDOU !
+BIDOU : *(se retourne lentement, l'air sombre)* … Ah. Vous voilà.
+JOSÉ : On est venus te chercher !
+BIDOU : Ça fait trois jours. *(Inspire.)* Trois jours que je chante seul sur une montagne. Sans air. Kevin, t'étais où ?
+KEVIN : En boucle dans un stade spatial contre Vitality.
+BIDOU : *(un temps)* … ok, ça, c'est une vraie excuse. *(Il se tourne vers Jordan.)* Et toi ?
+JORDAN : Moi j'ai… euh… combattu une épingle géante.
+BIDOU : Une épingle.
+JORDAN : Une grosse épingle.
+
+[CHOIX]
+1) « Désolé Bidou, on est venus dès qu'on a pu. »
+2) « T'aurais pu descendre, aussi. »
+3) « Tu tiens le coup ? T'as pas l'air trop essoufflé. »
+
+*Si 1 :*
+BIDOU : *(radouci)* … ok. Ça va. *(Inspire.)* Je vous pardonne. Mais je note.
+*Si 2 :*
+BIDOU : *(se fige)* Descendre. *(Inspire.)* DESCENDRE ? Avec MES poumons ? Tu sais combien il y a de marches ?! *(Il se retourne et tourne le dos à l'équipe.)* C'est bon. J'ai compris. Je boude.
+[FLAG] `bidou_vexe = true`
+JOSÉ : *(chuchote)* Bravo.
+KEVIN : *(chuchote)* Il va bouder au moins vingt minutes. J'ai des données.
+*(Il faut lui reparler une deuxième fois. Il accepte, en grommelant.)*
+BIDOU : … bon. Je boude, mais je vous aide. C'est pas pareil.
+*Si 3 :*
+BIDOU : *(plisse les yeux)* « Pas trop essoufflé » ? *(Inspire.)* Je suis au sommet d'une montagne sans air, Jordan. Je suis au MAXIMUM de l'essoufflement. Je suis le champion du monde de l'essoufflement.
+JOSÉ : Et il est dans son élément.
+BIDOU : *(un temps, puis il sourit malgré lui)* … un peu, ouais.
+
+*(Convergence.)*
+BIDOU : La Chanson du Vocal. Si je la chante en entier, le salon se rouvre, et tout le monde retrouve la voix. Le problème… c'est le dernier couplet. Il est trop long. J'ai jamais assez d'air.
+KEVIN : Il te faut de l'oxygène en bouteille.
+BIDOU : Le Modérateur a caché trois **Bonbonnes d'Air** sur la montagne. *(Inspire.)* Je les ai vues. J'avais juste pas le souffle d'aller les chercher.
+
+> **Quête : « Trois Bonbonnes »** (quête à objets)
+> - **Bonbonne 1** : dans une grotte, gardée par 3 Micros Coupés (combat).
+> - **Bonbonne 2** : chez la Guide de Montagne. Elle est en « Ne pas déranger », donc on ne peut pas lui parler. Il faut **attendre** qu'elle passe « En ligne » : sortir du refuge et revenir. Elle la donne gratuitement : « Pour le petit monsieur qui chante. On l'entend depuis trois jours. Il chante faux, mais il chante. »
+> - **Bonbonne 3** : au bord d'une falaise. Snow est assis dessus et refuse de bouger. Il faut lui donner des **Croquettes Spatiales** (il en reste du chapitre 2, ou la Guide en vend). Snow laisse la bonbonne… et une Relique Puante.
+> BIDOU *(en voyant la Relique)* : Ah non. Non non. Pas ici. Il y a déjà pas d'air.
+
+### SCÈNE 3-4 : La Chanson du Vocal
+
+[ÉVÉNEMENT] Retour au sommet avec les trois bonbonnes. Bidou en prend une, inspire un grand coup, et reprend son luth.
+BIDOU : *(chantant)* ♪ Oh vocal, ouvre-toi, pour que tous les copains… ♪
+[ÉVÉNEMENT] Il enchaîne, de plus en plus fort. Le 🔇 au-dessus de lui commence à trembler.
+BIDOU : ♪ … reviennent un soir, autour d'un bon barbecue… ♪ *(deuxième bonbonne)* ♪ … de Düsseldorf à Lyon, de Toulouse à Europa Park… ♪ *(troisième bonbonne)* ♪ … et au Portugal… ♪
+JOSÉ : *(à voix basse)* Où j'étais désinvité.
+JORDAN : *(à voix basse)* José, pas maintenant.
+BIDOU : ♪ … et pour le dernier couplet… ♪ *(Il inspire. La bonbonne est vide.)* ♪ … pour… le… ♪
+[SFX] La note se brise. Silence.
+BIDOU : *(à genoux, désespéré)* … toujours. Toujours le dernier couplet.
+
+[ÉVÉNEMENT] Un temps. Jordan s'avance.
+JORDAN : Alors on le chante avec toi.
+KEVIN : Mathématiquement, quatre paires de poumons, c'est plus que une.
+JOSÉ : Et demie. Pour Bidou, on compte une demie.
+BIDOU : *(regarde José)* … je suis vexé. *(Inspire.)* Mais allez-y.
+[ÉVÉNEMENT] Les quatre chantent ensemble le dernier couplet, faux, mais fort.
+TOUS : ♪ … ET LA RED ROOM CHANTERA, MÊME SANS AIR, MÊME SANS VOIX ! ♪
+[SFX] Le 🔇 géant se fissure. Un vrai son revient : le vent, les oiseaux, le *bloop* lointain de quelqu'un qui se connecte.
+[ÉVÉNEMENT] **Bidou rejoint l'équipe.**
+BIDOU : *(ému, essoufflé)* C'était… *(inspire)* … pas mal. Pour des amateurs.
+
+[ÉVÉNEMENT] Le 🔇 se détache de la montagne, tombe devant l'équipe, et se déplie en un énorme golem de métal noir.
+
+### SCÈNE 3-5 : Boss : le Grand Mute
+
+[DÉCOR] Un golem géant en forme de haut-parleur barré. À la place du visage, une barre de volume à zéro.
+GRAND MUTE : … … … *(Ses bulles de dialogue sont vides.)*
+KEVIN : Il dit rien.
+JOSÉ : Il est muté. C'est le boss du silence, il est muté. C'est logique, en fait.
+BIDOU : *(sort son luth)* Moi, je vais le faire parler.
+
+> **Équipe** : Jordan, José, Kevin, Bidou.
+> **Compétences de Bidou** : *Ballade (inachevée)* (soin mono), *Refrain Essoufflé* (soin de groupe), *Note Vexée* (mono), *Bouderie* (buff attaque sur soi, debuff défense sur soi).
+> Rappel : sa jauge de magie s'appelle **Souffle**. Quand elle est vide, l'animation le montre plié en deux.
+
+[COMBAT] **Le Grand Mute** (2 phases, avec interventions)
+
+- **Phase 1**
+  - *Coupure de Micro* : statut *Muet* sur un allié.
+  - *Larsen* : zone.
+  - *Silence Pesant* : debuff attaque sur toute l'équipe.
+
+- **Intervention 1 (au tour 3) : Camil**
+  [ÉVÉNEMENT] Un petit projecteur s'allume derrière le boss. Hologramme de **Camil**, debout sur sa caisse « NE PAS ENLEVER ».
+  CAMIL : Je vois que vous faites du bruit dans mon serveur. Grand Mute, je t'accorde le rôle **Administrateur**.
+  [ÉVÉNEMENT] Le Grand Mute reçoit un **buff défense** et une couronne dorée qui flotte au-dessus de lui.
+  CAMIL : Et toi, Bidou. Franchement, tu chantes comme une cornemuse percée.
+  BIDOU : *(se fige)* … pardon ?
+  [ÉVÉNEMENT] Bidou reçoit automatiquement le statut *Vexé* : **buff attaque** pour le reste du combat.
+  BIDOU : C'est bon. J'ai compris. *(Il serre son luth.)* Je vais te le chanter, ton dernier couplet.
+  JORDAN : Camil, t'es sur une caisse.
+  CAMIL : C'EST UN PIÉDESTAL. *(L'hologramme se coupe.)*
+  *(Kevin ne réagit pas. Il fixe le boss.)*
+
+- **Phase 2 (sous 50 % de PV)**
+  - Le Grand Mute gagne *Mute Général* : statut *Muet* sur toute l'équipe (2 tours).
+  - Et *Écrasement* : mono, gros dégâts.
+
+- **Intervention 2 (au premier *Mute Général*) : un Sbire déserteur**
+  [ÉVÉNEMENT] Un **Sbire du Modérateur** (petit marteau 🔨 sur pattes) arrive en courant sur le côté du terrain, regarde à gauche, à droite, et jette un objet à l'équipe.
+  SBIRE : Pssst ! De la part du **Sergent**. *(Il chuchote.)* Il a dit : « Vive la lutte. »
+  [ÉVÉNEMENT] Objet reçu : **Bonbonne d'Air Dorée**. Utilisée automatiquement : retire *Muet* à toute l'équipe et rend le Souffle de Bidou au maximum.
+  JOSÉ : « Vive la lutte » ? Y a qu'une personne qui dit ça.
+  JORDAN : … Robin.
+  [ÉVÉNEMENT] Le sbire repart en courant.
+  KEVIN : Robin est sergent chez le Modérateur ? *(Un temps.)* Robin ? Le gars qui fait grève quand on lui demande de ramener des chips ?
+  *(Graine du chapitre 4.)*
+
+- **Fin du combat**
+  [ÉVÉNEMENT] Cinématique : Bidou se met devant l'équipe, inspire un très grand coup grâce à la Bonbonne Dorée et chante **une seule note**, longue, magnifique, interminable. La barre de volume du golem monte de 0 à 100, puis explose. Le Grand Mute se brise en mille petits 🔇.
+  BIDOU : *(à bout de souffle, mais triomphant)* … ça… *(inspire)* … c'était… *(inspire)* … le dernier couplet.
+
+### SCÈNE 3-6 : Le vocal rouvert
+
+[DÉCOR] Le ciel de la montagne se dégage. Le son revient partout : vent, oiseaux, notifications.
+[DISCORD] 🔊 **#vocal-1** · *réouvert*
+[ÉVÉNEMENT] Dans la liste du vocal qui s'affiche à l'écran, quelques noms grisés s'allument un instant : *Robin (en service)*, *Florian (en colère)*, *Yanis (en train de manger)*… et **Ceyn** 🔇, connecté et muet, qui disparaît aussitôt.
+[ÉVÉNEMENT] Mécanique « Ceyn. » :
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+KEVIN : Ceyn.
+BIDOU : *(inspire)* … Ceyn.
+[ÉVÉNEMENT] *(Ils reprennent comme si de rien n'était.)*
+
+[ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (3/7)**.
+[ÉVÉNEMENT] Objet obtenu : **Luth à Souffle Long**, une arme pour Bidou. *Description : « Accordé pour les chansons courtes. Très courtes. »*
+
+BIDOU : Bon. Expliquez-moi tout. Le Modérateur, Camil, le serveur… et pourquoi le chat de Jordan me regarde comme ça ?
+JORDAN : Il regarde tout le monde comme ça.
+BIDOU : Il me regarde comme si je lui devais de l'argent.
+JORDAN : *(un temps)* … tout le monde lui doit de l'argent, en fait. C'est moi qui paye les croquettes.
+
+KEVIN : Si Robin est sergent chez le Modérateur, il est dans la **Caserne d'Annonces**.
+JOSÉ : Robin, dans l'armée du Modérateur. Contre sa volonté. *(Il secoue la tête.)* Encore une fois.
+BIDOU : Il doit être… *(inspire)* … furieux.
+JORDAN : Furieux, et en train d'organiser une grève. Je le connais.
+
+[ÉVÉNEMENT] Sur la carte du monde, un message du Modérateur Fou défile dans le ciel :
+[DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
+> @everyone Le salon #vocal-1 a été rouvert illégalement. Les responsables sont priés de se présenter à la **Caserne d'Annonces** pour leur sanction. Rappel : la grève est interdite. *(Une grève est en cours.)*
+> — *Approuvé par Camil (1,62 m)*
+
+**FIN DU CHAPITRE 3**
+
+---
+
+### Récapitulatif chapitre 3 (pour l'intégration)
+- **Recrue** : Bidou (combattant). L'équipe atteint 4 personnages.
+- **Quête** : « Trois Bonbonnes » (grotte avec combat, PNJ en « Ne pas déranger », Snow).
+- **Objets clés** : Fragment du Premier Message (3/7), Luth à Souffle Long, Pastilles pour la Gorge (soin de *Muet*).
+- **Flags** : `bidou_vexe`, `rateaux_jose`.
+- **Boss** : le Grand Mute (2 phases).
+  - **Intervention 1** : hologramme de Camil, qui buffe le boss et vexe Bidou (buff attaque pour Bidou).
+  - **Intervention 2** : un Sbire déserteur envoyé par « le Sergent » (Robin) donne la Bonbonne d'Air Dorée.
+- **Graines** : Ceyn connecté muet dans la liste du vocal ; Robin annoncé comme sergent résistant.
+- **Suite** : chapitre 4, la Caserne d'Annonces et Robin.
+- ❓ *Quel barde Bidou joue-t-il (Bard, Seraphine, Sona…) ? On pourra en glisser une référence dans ses animations.*
