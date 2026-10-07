@@ -1,23 +1,102 @@
 # Personnages
 
-> Fiches à compléter. Les traits ci-dessous sont des **questions** et non des faits : la vraie personnalité de chacun vient de Jordan.
+> Les traits viennent de Jordan. Les classes et compétences sont des **propositions** à valider.
 
 ## Jordan : le protagoniste
-- Rôle dans la Red Room : ?
-- Main LoL / poste : ?
-- Tic, phrase culte, défaut attachant : ?
-- Classe RPG proposée : à définir
+- Hôte du **QG** (son appart, lieu des soirées Mario Party alcoolisées).
+- C'est lui qui organise les voyages de la Red Room.
+- Running gag avec José : « Tu m'as désinvité ! » (Portugal). Jordan jure que non.
+- **Classe proposée** : *L'Hôte*, un leader polyvalent.
+  - *Soirée au QG* : soigne toute l'équipe, mais chance de statut « Gueule de bois » au tour suivant.
+  - *Ping @everyone* : appelle un allié de réserve pour une attaque.
+  - *Organiser un voyage* : téléportation entre zones déjà visitées.
+- ❓ À compléter : ton jeu ou ta main, ton défaut attachant, une phrase culte.
 
-## La Red Room (équipe à recruter)
-| Perso   | Poste / main LoL | Trait marquant / running gag | Phrase culte | Classe RPG |
-|---------|------------------|------------------------------|--------------|------------|
-| José    | ? | ? | ? | ? |
-| Kevin   | ? | ? | ? | ? |
-| Bidou   | ? | ? | ? | ? |
-| Robin   | ? | ? | ? | ? |
-| Alex    | ? | ? | ? | ? |
-| Florian | ? | ? | ? | ? |
-| Yanis   | ? | ? | ? | ? |
+## José : l'Archéologue Stylé
+- Passionné d'archéologie et de mode. Il se répète qu'il est **un mec cool**, et il l'est.
+- Il aime que son pantalon « tombe bien sur la paire ».
+- Cherche désespérément une copine, façon **Pierre dans Pokémon** : il drague chaque PNJ féminine et se prend un râteau à chaque fois.
+- Joue **Neon** sur Valorant.
+- Running gag : « Tu m'as désinvité » (Portugal).
+- **Compétences** :
+  - *Fouille des messages épinglés* : trouve des objets rares.
+  - *Sprint Néon* : agit en premier.
+  - *Tombé de pantalon parfait* : buff de charisme ; contre une ennemie, ça échoue toujours.
+  - *Je suis un mec cool* : immunité à la peur.
+- Membre fondateur (chambre de Düsseldorf).
 
-## Antagoniste
-- À choisir selon le pitch retenu (voir plot.md).
+## Kevin : l'Ingénieur Orbital
+- Très intelligent, passionné d'espace, gros diplômes. Il rêve de bosser dans le spatial (SpaceX & co.).
+- En même temps, il a le cerveau totalement **brainrot** : il passe d'une équation à « skibidi » dans la même phrase.
+- Se prend la tête, très gentil.
+- **Fan de Rocket League**, il déteste LoL : il râle dans chaque zone qui parle de LoL.
+- **Compétences** :
+  - *Aerial* : une attaque aérienne.
+  - *Calcul de trajectoire* : coup critique garanti.
+  - *Mode Brainrot* : effet aléatoire, du génial au désastreux.
+  - *Décollage* : fuite de combat garantie.
+- Trauma : les **Worlds de Rocket League** perdus.
+- Membre fondateur (chambre de Düsseldorf).
+
+## Bidou : le Barde à Bout de Souffle
+- Joueur de support, il aime les **bardes**.
+- Gros running gag sur ses poumons : il manque toujours d'air. Version jeu : sa ressource n'est pas le mana mais le **Souffle**, et ses chansons sont toujours coupées avant le dernier couplet.
+- Rageux et **très susceptible**. Une jauge de *Vexation* le fait passer en mode Berserk quand on le vexe.
+- **Compétences** :
+  - *Ballade (inachevée)* : soin.
+  - *Reprendre son souffle* : passe son tour, recharge le Souffle.
+  - *C'est bon, j'ai compris* : il boude, puis frappe très fort.
+- Membre fondateur (chambre de Düsseldorf).
+
+## Robin : le Soldat Malgré Lui
+- **Main top**, joue des persos très « chad », Garen en tête.
+- Passionné d'IA et de LLM. N'ayant pas trouvé de travail dans le domaine, il est à l'armée **à contrecœur**.
+- Très engagé, plutôt à gauche.
+- **Compétences** :
+  - *JUSTICE DÉMACIENNE* : grosse attaque.
+  - *Tourniquet* : touche tous les ennemis.
+  - *Grève générale* : tous les ennemis de type « sbire » arrêtent de combattre un tour.
+  - *Familier IA* : un petit assistant qu'il n'a « pas le droit d'utiliser en service ».
+- Membre fondateur (chambre de Düsseldorf). A fait le voyage au Portugal.
+
+## Alex : le Moine Trop Beau
+- Le plus gros geek de LoL du groupe. Joue tous les postes, surtout **jungle et Lee Sin**.
+- Running gag : il est **trop beau**, et ça le gêne qu'on le lui dise.
+- Running gag : il habite loin et « ne veut pas nous voir ».
+- **Compétences** :
+  - *Insec* : renvoie un ennemi dans les rangs adverses.
+  - *Beauté aveuglante* : passif, les ennemis ratent plus souvent.
+  - *C'est loin chez moi* : peut quitter le combat et revenir plus tard.
+
+## Florian : le Tireur Campagnard
+- Gros **rageux** en jeu, mais un amour dans la vraie vie.
+- ADC, joue **Zeri**.
+- Running gag : campagnard qui porte des **pantacourts** (à confirmer, j'ai compris « pentes à court »).
+- **Compétences** :
+  - *Rafale électrique* : attaque Zeri.
+  - *Rage de tilt* : plus il prend de dégâts, plus il tape fort.
+  - *Câlin* : soin, uniquement hors combat (c'est un amour).
+- A fait le voyage au Portugal.
+
+## Yanis : le Faon Lent
+- Jungler, joue **Lilia**.
+- Running gag : il est **lent** en tout, il mange lentement. Dans le jeu, il a la vitesse la plus basse et joue toujours en dernier.
+- Sourire d'enfer, dents ultra blanches, sourire communicatif.
+- **Compétences** :
+  - *Sourire éclatant* : aveugle les ennemis et soigne le moral de l'équipe.
+  - *Sieste de Lilia* : endort les ennemis.
+  - *J'arrive* : promet d'agir, agit trois tours plus tard, mais très fort.
+
+## Antagonistes
+
+### Camille : le faux méchant
+- Ancien de la Red Room, avec qui le groupe s'est un peu brouillé.
+- Le joueur pense tout le jeu qu'il est le maître du **Modérateur Fou**.
+- En réalité, c'est un pion : manipulé, ou lui aussi piégé.
+
+### Ceyn : le vrai cerveau
+- La révélation de la fin.
+- ❓ À préciser pour que le twist fasse rire : qui est Ceyn pour le groupe, son caractère, ses tics, ce qui rend drôle le fait que ce soit lui.
+
+### Le Modérateur Fou
+- Le bot boss, l'arme du méchant. Il veut un serveur « propre et productif » : il ban les memes, mute les vocaux et kick les AFK.
