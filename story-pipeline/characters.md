@@ -86,7 +86,9 @@
 ## Florian : le Tireur Campagnard
 - Gros **rageux** en jeu, mais un amour dans la vraie vie.
 - ADC, joue **Zeri**.
-- Running gag : campagnard en **pantacourt**.
+- Running gag : campagnard en **pantacourt**, avec son tracteur.
+- Fait l'ascenseur en classé, souvent tout en bas.
+- **Phrases cultes** : « C'est moi le meilleur », « J'ai juste pas de chance », « C'est pas ma faute (c'est le jungler) ».
 - **Compétences** :
   - *Rafale Électrique* : Mono.
   - *Tir de Tracteur* : Zone.

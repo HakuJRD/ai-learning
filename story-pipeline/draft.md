@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.6 : Prologue + Chapitres 1 à 4
+### Script v0.7 : Prologue + Chapitres 1 à 5
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -380,7 +380,7 @@ JOSÉ : Bidou va pas aimer ça.
 JORDAN : Bidou aime déjà pas respirer en temps normal.
 BIDOU *(voix lointaine, venue du ciel, très faible)* : … j'ai… *(inspire)* … entendu… *(inspire)* … je suis vexé…
 
-[ÉVÉNEMENT] Ouverture de la carte du monde. Les salons **#rocket-league**, **#vocal-1** et **#memes** deviennent accessibles.
+[ÉVÉNEMENT] Ouverture de la carte du monde. Les salons **#rocket-league** et **#vocal-1** deviennent accessibles.
 
 **FIN DU CHAPITRE 1**
 
@@ -1047,12 +1047,12 @@ JOSÉ : *(se tourne lentement vers Jordan)* Ça, c'est ce qu'on t'a dit de dire.
 JORDAN : Je l'ai PAS désinvité !
 
 BIDOU : Et maintenant ? *(Inspire.)* On va où ?
-ROBIN : Dans les rapports des sbires, il y a une zone qu'ils appellent le **Désert des Memes Bannis**. Le Modérateur y jette tous les memes interdits. Et il paraît qu'un type en pantacourt vit là-bas avec un tracteur, et qu'il crie sur tout le monde.
+ROBIN : Dans les rapports des sbires, il y a une zone qu'ils appellent les **Enfers du Classé**. Le Modérateur y envoie tous ceux qui perdent leurs parties classées. Et il paraît qu'un type en pantacourt y pousse un rocher depuis trois jours, en hurlant que c'est pas sa faute.
 TOUS : … Florian.
 
 [ÉVÉNEMENT] Sur la carte du monde, un message du Modérateur Fou défile dans le ciel, avec des fautes de frappe :
 [DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
-> @everyone La base d'annonces est temporairement fermée pour cause de grvèe. Les memes restent interdits. Le #memes est sous haute surveillance.
+> @everyone La base d'annonces est temporairement fermée pour cause de grvèe. Rappel : le salon **#classé** reste ouvert. Bonne chance pour remonter.
 > — *Approuvé par Camil (1,62 m)*
 ROBIN : Il a écrit « grvèe ». Il panique.
 KEVIN : Zingis.
@@ -1072,4 +1072,199 @@ KEVIN : Zingis.
   - **Intervention 2** : Emma à la radio envoie un panier repas (soin de l'équipe, buff de Robin).
 - **Ceyn** : dans la bibliographie de la thèse de Robin (gag uniquement).
 - **Clin d'œil** : Emma (photo dans le hangar et intervention radio).
-- **Suite** : chapitre 5, le Désert des Memes Bannis et Florian.
+- **Suite** : chapitre 5, les Enfers du Classé et Florian.
+
+---
+
+## CHAPITRE 5 : Les Enfers du Classé
+
+> **Contexte** : le salon **#classé** est devenu les **Enfers**, un monde souterrain inspiré des enfers grecs, où le Modérateur envoie tous les joueurs qui perdent leurs parties classées. Les étages portent le nom des rangs : Fer tout en bas, puis Bronze, Argent… Florian y est condamné, comme **Sisyphe**, à pousser un rocher géant marqué « **LP** » jusqu'en haut de la pente. Chaque fois qu'il approche du sommet, une défaite le fait redescendre.
+> **Florian** : campagnard en pantacourt, ADC Zeri, gros rageux en jeu, un amour dans la vie. Ses phrases : « C'est moi le meilleur », « J'ai juste pas de chance », « C'est pas ma faute ».
+> **Moments clés** : la descente, Florian et son rocher, l'énigme du rocher (blocs à pousser), le boss.
+> **Équipe** : Jordan, José, Kevin, Bidou, Robin (réserve), puis Florian.
+
+### SCÈNE 5-1 : La descente
+
+[DÉCOR] Au bout d'un chemin de la carte, une immense porte de pierre noire. Au-dessus, gravé : « **#classé — Vous qui entrez ici, abandonnez tout espoir de LP.** » Derrière, un escalier qui descend dans une lumière rouge.
+[MUSIQUE] Thème des **Enfers** : chœurs lugubres, ponctués du petit *ding* de fin de partie classée.
+
+ROBIN : Les Enfers du Classé. Les sbires disent que personne n'en est jamais remonté.
+KEVIN : Statistiquement, c'est faux. Il y a toujours quelqu'un qui remonte. C'est le principe d'un classement.
+BIDOU : *(inspire)* Il fait chaud, non ?
+JORDAN : C'est les Enfers, Bidou.
+BIDOU : Je sais. Mais il fait CHAUD.
+
+[DÉCOR] Une caverne immense. Des rivières de lave. Des panneaux qui indiquent les étages : « **FER IV** », « **FER III** »… Des âmes damnées errent, le regard vide, en marmonnant « ff 15 », « report jungle », « c'était gagné ».
+[ÉVÉNEMENT] À l'entrée, un **chien à trois têtes** couché en travers du chemin : le **Cerbère du Classé**. Ses trois têtes portent trois casquettes : TOP, MID, JUNGLE.
+TÊTE TOP : Grr. Pourquoi vous êtes là ?
+TÊTE MID : Grr. C'est la faute du jungler.
+TÊTE JUNGLE : Grr. C'est PAS la faute du jungler.
+[ÉVÉNEMENT] Les trois têtes se mettent à se disputer entre elles, et oublient complètement l'équipe.
+JORDAN : … on passe ?
+KEVIN : On passe.
+
+> **Ennemis de la zone** : **Âmes Toxiques** (mono, debuff attaque : « t'es nul »), **Inters** (gros dégâts mono, mais défense très faible), **AFK Errants** (ne font rien pendant 2 tours, puis frappent fort), **Flammes du Chat** (zone, statut *Brûlure*).
+
+### SCÈNE 5-2 : Florian et son rocher
+
+[DÉCOR] Une pente gigantesque qui monte vers une lueur lointaine. Le sol est découpé en bandes : Fer, Bronze, Argent… Au milieu, un **rocher énorme** gravé « **LP** », et derrière, en train de le pousser de toutes ses forces : **Florian**, en pantacourt, chemise à carreaux, bottes de campagne, une casquette de tracteur sur la tête.
+FLORIAN : *(en poussant)* Allez… allez… Bronze II… encore un peu… je suis meilleur que ça… je suis MEILLEUR QUE ÇA…
+[ÉVÉNEMENT] Le rocher atteint presque la bande « ARGENT ». Une grosse voix tombe du plafond :
+> **DÉFAITE.** −25 LP.
+[ÉVÉNEMENT] Le rocher repart en arrière, roule sur Florian, et redescend toute la pente jusqu'en bas. *Boum.*
+FLORIAN : *(sous le rocher, étouffé)* … C'ÉTAIT PAS MA FAUTE. C'ÉTAIT LE JUNGLER. Y AVAIT MÊME PAS DE JUNGLER, ET C'ÉTAIT QUAND MÊME SA FAUTE.
+
+JORDAN : FLORIAN !
+FLORIAN : *(se dégage, plein de poussière, et se retourne. Toute la rage disparaît d'un coup.)* … les gars ? *(Il court vers eux et les serre tous dans ses bras.)* Les gars, je vous aime. Je vous aime trop. Ça fait trois jours. Trois jours que je pousse ce caillou.
+ROBIN : C'est Sisyphe, en fait.
+FLORIAN : C'est qui, lui ? Il est quel rang ?
+KEVIN : C'est un personnage de la mythologie grecque. Il pousse un rocher pour l'éternité.
+FLORIAN : *(très sérieux)* Et il a jamais réussi ?
+KEVIN : Non.
+FLORIAN : Il devait avoir un mauvais jungler.
+
+JOSÉ : Pourquoi tu t'arrêtes pas, tout simplement ?
+FLORIAN : M'arrêter ? *(Il désigne le haut de la pente.)* José. Je suis meilleur que Bronze. Tout le monde le sait. C'est juste que j'ai pas de chance. Mes équipes sont maudites. Je suis le meilleur joueur des Enfers, et je suis coincé en bas.
+BIDOU : *(inspire)* T'as essayé… de pas tilter ?
+FLORIAN : *(un temps)* … je tilte pas. *(Il donne un coup de pied dans un caillou.)* JE TILTE PAS. *(Le caillou rebondit et lui retombe sur le pied.)* … ok. Un peu.
+
+[ÉVÉNEMENT] *Tentative de drague de José (chapitre 5)*. Une **Âme Damnée** aux cheveux noirs est assise sur un rocher, au bord de la lave. Jingle Pierre, version orgue des enfers.
+JOSÉ : *(ajuste son foulard malgré la chaleur)* Mademoiselle. Archéologue. Stylé. On pourrait remonter ensemble, vous et moi.
+ÂME DAMNÉE : T'es quel rang ?
+JOSÉ : Je joue pas à LoL.
+ÂME DAMNÉE : *(se lève)* Alors t'as rien à faire en enfer. *(Elle disparaît dans un nuage de soufre.)*
+JOSÉ : … c'est la première fois qu'on me rejette pour ne PAS être en enfer.
+[FLAG] `rateaux_jose += 1`
+
+### SCÈNE 5-3 : L'énigme du Rocher (blocs à pousser)
+
+FLORIAN : Le seul moyen de sortir, c'est d'arriver en haut. La porte de la **Promotion**. Mais elle s'ouvre que si on pose le rocher sur les trois dalles de victoire. Et j'y arrive jamais tout seul.
+JORDAN : Alors pousse pas tout seul.
+FLORIAN : *(le regarde)* … c'est pas le genre de la maison.
+ROBIN : C'est le principe d'une équipe, Florian.
+FLORIAN : *(un temps, puis il soupire)* Ok. Mais si ça rate, c'est la faute de Kevin.
+KEVIN : Pourquoi moi ?!
+FLORIAN : T'aimes pas LoL. Ça porte malheur.
+KEVIN : J'ai rien contre LoL, je veux juste pas y jouer !
+
+> **Énigme de blocs à pousser** (classique RPG Maker) : la pente est une grille. Le rocher LP se pousse case par case dans la direction où on marche. Il faut l'amener successivement sur **trois dalles « VICTOIRE »** (la série de promotion). S'il touche une dalle rouge « DÉFAITE », il redescend tout en bas et l'énigme recommence (avec la voix : « DÉFAITE. −25 LP. »).
+> Entre la 2ᵉ et la 3ᵉ dalle, un **combat obligatoire** : 3 Âmes Toxiques qui « flame » Florian. Après le combat, il est encore plus déterminé.
+
+[ÉVÉNEMENT] *(Après la 2ᵉ dalle.)* Le rocher est presque en haut. Florian s'arrête, essoufflé.
+FLORIAN : C'est toujours là que ça rate. Toujours au même endroit.
+BIDOU : *(inspire)* Moi aussi… je rate toujours… au même endroit. *(Inspire.)* Le cri final. Mais avec les autres, j'y suis arrivé.
+FLORIAN : *(le regarde)* … t'as raison, mon Bidou. *(Il pose ses mains sur le rocher, à côté des autres.)* Allez. Tous ensemble.
+
+[ÉVÉNEMENT] Le rocher atteint la 3ᵉ dalle. Une fanfare retentit.
+> **PROMOTION RÉUSSIE.** Argent IV.
+FLORIAN : *(à genoux, les bras en l'air)* ARGENT ! ARGENT !! *(Il se relève et serre tout le monde.)* Je vous l'avais dit. C'est moi le meilleur.
+JOSÉ : On a poussé avec toi.
+FLORIAN : Oui, mais c'est moi qui avais l'idée de pousser.
+[ÉVÉNEMENT] **Florian rejoint l'équipe.**
+
+[ÉVÉNEMENT] La porte de la Promotion s'ouvre… sur une salle de tribunal immense. Au fond, sur un trône de pierre, une silhouette géante tient une balance dorée.
+
+### SCÈNE 5-4 : Boss : le Juge du Matchmaking
+
+[DÉCOR] Un démon géant en toge noire, avec un masque blanc sans visage. Sa balance dorée a deux plateaux : « TA FAUTE » et « PAS TA FAUTE ». Le plateau « TA FAUTE » est cloué en bas.
+JUGE DU MATCHMAKING : FLORIAN. TU AS ÉTÉ PROMU SANS AUTORISATION. LE MATCHMAKING A DÉCIDÉ : TU APPARTIENS AU BRONZE.
+FLORIAN : Le matchmaking, il m'a toujours mis avec des inters.
+JUGE DU MATCHMAKING : LE MATCHMAKING EST JUSTE. LE MATCHMAKING NE SE TROMPE JAMAIS. C'EST TOUJOURS TA FAUTE.
+FLORIAN : *(se fige, les yeux pleins de flammes)* … qu'est-ce que t'as dit ?
+
+> **Équipe** : Florian est obligatoirement dans l'équipe pour ce combat. Le joueur choisit les 3 autres.
+> **Compétences de Florian** (ADC, Zeri) : *Rafale Électrique* (mono), *Tir de Tracteur* (zone), *Rage de Tilt* (buff attaque sur soi : « ET TOI LE ZED… »), *Câlin* (soin mono, parce que c'est un amour).
+
+[COMBAT] **Le Juge du Matchmaking** (2 phases, avec interventions)
+
+- **Phase 1**
+  - *Verdict* : mono, gros dégâts.
+  - *MMR Caché* : debuff défense sur toute l'équipe.
+  - *Mauvaise Équipe* : statut *Confusion* sur un allié (« Ton équipe te lâche »).
+
+- **Intervention 1 (au tour 3) : le chat toxique**
+  [ÉVÉNEMENT] Des fantômes de coéquipiers apparaissent autour du terrain et écrivent dans le chat, en bulles flottantes :
+  > « ff 15 » · « report Zeri » · « adc diff » · « uninstall »
+  FLORIAN : *(tremble de rage)* ADC DIFF ? ADC DIFF ?!
+  [ÉVÉNEMENT] Florian reçoit automatiquement le statut *Tilt* : **buff attaque**, mais **debuff défense**.
+  [ÉVÉNEMENT] Puis, une à une, les bulles de l'équipe apparaissent par-dessus le chat toxique :
+  JORDAN : « gg Florian, t'es chaud »
+  ROBIN : « zingis Florian »
+  BIDOU : « … *(inspire)* … bien joué »
+  JOSÉ : « t'as un beau pantacourt »
+  KEVIN : « je comprends rien à ce jeu mais t'es fort »
+  [ÉVÉNEMENT] Les fantômes toxiques se dissipent. Le debuff défense de Florian disparaît, le buff attaque reste.
+  FLORIAN : *(ému, en tirant)* … les gars. Je vous aime. *(Il tire encore.)* JE VOUS AIME.
+
+- **Phase 2 (sous 50 % de PV)**
+  - Le Juge gagne *Série de Défaites* : zone, gros dégâts.
+  - *Dodge* : il esquive une attaque et se soigne de 10 %.
+
+- **Intervention 2 (au début de la phase 2) : le tracteur**
+  [SFX] Un bruit de moteur diesel. *Teuf-teuf-teuf.*
+  [ÉVÉNEMENT] Un **vieux tracteur rouge** défonce le mur du tribunal. Personne au volant, juste un poste de radio qui passe de l'accordéon.
+  FLORIAN : *(les larmes aux yeux)* … Michel ?
+  JORDAN : Ton tracteur s'appelle Michel ?
+  FLORIAN : Il m'a retrouvé. Même en enfer. *(Il saute au volant.)*
+  [ÉVÉNEMENT] Le tracteur roule sur la balance du Juge et la casse. Le Juge perd son *MMR Caché* et reçoit un **debuff défense** pour le reste du combat.
+  JUGE DU MATCHMAKING : MA BALANCE ! SANS ELLE, JE NE PEUX PLUS DÉCIDER DE QUI C'EST LA FAUTE !
+  FLORIAN : Ben voilà. Maintenant, c'est la faute de personne.
+  ❓ *Le nom « Michel » est un placeholder : Florian a peut-être un vrai tracteur, ou un nom à mettre.*
+
+- **Fin du combat**
+  [ÉVÉNEMENT] Cinématique : Florian, debout sur le tracteur, tire une dernière *Rafale Électrique* façon ult de Zeri, qui traverse le masque du Juge. Le Juge se fissure et disparaît dans une gerbe d'étincelles.
+  JUGE DU MATCHMAKING : *(en disparaissant)* … ce n'était… pas… ma faute…
+  FLORIAN : *(très calme)* Ah. Maintenant tu comprends.
+
+### SCÈNE 5-5 : La remontée
+
+[DÉCOR] Un escalier de lumière s'ouvre au fond du tribunal et remonte vers la surface. Les âmes damnées des Enfers lèvent la tête : certaines commencent à monter, elles aussi.
+[ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (5/7)**.
+[ÉVÉNEMENT] Objet obtenu : **Pantacourt Légendaire**, une armure pour Florian. *Description : « S'arrête exactement au genou. Résistance au feu +20. Résistance au jugement des autres +100. »*
+JOSÉ : *(regarde le pantacourt)* … il est beau, en vrai.
+FLORIAN : Merci. *(Un temps.)* Tu veux le même ?
+JOSÉ : *(très vite)* Non.
+
+[ÉVÉNEMENT] *(Gag, optionnel)* Au pied de l'escalier, un grand tableau de pierre : le classement des Enfers. Tout en bas de la liste : « **Ceyn** — Fer IV — 0 LP ».
+FLORIAN : Ceyn.
+ROBIN : Ceyn.
+JORDAN : Ceyn.
+KEVIN : Ceyn.
+BIDOU : *(inspire)* Ceyn.
+JOSÉ : Ceyn.
+FLORIAN : *(regarde son propre rang, Argent IV, puis le tableau)* … bon. Je me sens mieux.
+
+FLORIAN : Bon. Les gars. Pour être honnête… *(Il hésite, se gratte la nuque.)* Les défaites, là… peut-être que, parfois, c'était un tout petit peu ma faute.
+*(Tout le monde se fige.)*
+KEVIN : Il a dit quoi ?
+ROBIN : Je crois qu'il a dit…
+FLORIAN : Non, je rigole. C'était le jungler.
+JORDAN : *(soulagé)* Ah, ouf. J'ai cru que t'étais possédé.
+
+BIDOU : Et maintenant ? *(Inspire.)* Il reste qui ?
+JORDAN : Yanis. Et Alex.
+ROBIN : Les sbires parlent d'un **Marais**, où le Modérateur jette tous les utilisateurs AFK.
+JOSÉ : Un endroit où tout le monde est inactif et où rien ne bouge ?
+TOUS : … Yanis.
+
+[ÉVÉNEMENT] Sur la carte du monde, un message du Modérateur Fou défile dans le ciel :
+[DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
+> @everyone Un utilisateur a été promu Argent IV sans autorisation. Les promotions sont suspendues jusqu'à nouvel ordre. Rappel : le **Marais d'AFK** est une zone de repos obligatoire. Personne n'en sort.
+> — *Approuvé par Camil (1,62 m)*
+FLORIAN : *(fier)* Ils parlent de moi.
+
+**FIN DU CHAPITRE 5**
+
+---
+
+### Récapitulatif chapitre 5 (pour l'intégration)
+- **Recrue** : Florian (combattant, ADC Zeri, campagnard en pantacourt). 6 personnages, 4 en combat.
+- **Zone** : les Enfers du Classé (étages par rang, Cerbère à trois têtes TOP / MID / JUNGLE).
+- **Énigme** : le Rocher LP (blocs à pousser sur trois dalles « VICTOIRE », dalles « DÉFAITE » qui font recommencer).
+- **Objets clés** : Fragment du Premier Message (5/7), Pantacourt Légendaire.
+- **Flags** : `rateaux_jose`.
+- **Boss** : le Juge du Matchmaking (2 phases).
+  - **Intervention 1** : le chat toxique fait tilter Florian, puis les messages de soutien de l'équipe le calment.
+  - **Intervention 2** : son tracteur « Michel » ❓ défonce le mur et casse la balance du Juge.
+- **Ceyn** : dernier du classement des Enfers (gag uniquement).
+- **Suite** : chapitre 6, le Marais d'AFK et Yanis.

@@ -12,7 +12,7 @@ Chaque salon est devenu un royaume. Le **Modérateur Fou**, un bot devenu tyran,
 | #rocket-league | **Le Stade Orbital** | Kevin | Arène flottante dans l'espace, ballon géant |
 | #vocal-1 | **Les Cimes Sans Air** | Bidou | Montagne où le Modérateur a coupé le son *et* l'oxygène |
 | #annonces | **La Base d'Annonces** | Robin | Base aérienne où seuls les modos peuvent parler. Robin y est aviateur, à contrecœur |
-| #memes | **Le Désert des Memes Bannis** | Florian | Désert de memes morts. Florian y vit en campagnard avec son tracteur |
+| #classé | **Les Enfers du Classé** | Florian | Enfers grecs par rangs (Fer, Bronze…). Florian y pousse un rocher LP comme Sisyphe |
 | #afk | **Le Marais d'AFK** | Yanis | Tout y est au ralenti. Yanis est le seul à s'y sentir chez lui |
 | (hors carte) | **Les Terres Lointaines (ping 400)** | Alex | Zone hors serveur. Alex « ne veut pas nous voir » |
 | #salle-des-mods | **La Tour des Modérateurs** | — | Donjon final |
@@ -49,10 +49,10 @@ Kevin revit en boucle la demi-finale des **Worlds RLCS de Düsseldorf (13 août 
 - Boss : l'Adjudant @everyone. Interventions : les sbires invoqués font grève, puis Emma envoie un panier repas par radio.
 - Le système de réserve s'active (5 personnages).
 
-### Chapitre 5 : Le Désert des Memes Bannis (Florian)
-Florian, en pantacourt sur son tracteur, rage contre tout ce qui bouge. Mais il recueille les memes orphelins et les nourrit.
-- Quête d'escorte : ramener un convoi de memes vers #général.
-- Zeri en guest (référence).
+### Chapitre 5 : Les Enfers du Classé (Florian) : rédigé, voir draft.md
+Florian, condamné comme Sisyphe, pousse un rocher « LP » qui redescend à chaque défaite (« C'est pas ma faute, c'est le jungler »).
+- Énigme : blocs à pousser (série de promotion).
+- Boss : le Juge du Matchmaking. Interventions : le chat toxique, puis les messages de soutien de l'équipe ; ensuite son tracteur casse la balance du Juge.
 
 ### Chapitre 6 : Le Marais d'AFK (Yanis)
 Tout est lent dans le marais : les dialogues s'affichent lettre par lettre, très lentement (gag de gameplay). Yanis s'y est installé pour manger un sandwich, commencé il y a trois jours.
