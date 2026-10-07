@@ -17,7 +17,7 @@
 ## Règles de game design (à respecter partout)
 - **RPG simple, au tour par tour**, style RPG Maker classique.
 - Les combats n'utilisent que des actions standards : attaque normale, compétences (dégâts mono-cible, dégâts de zone, soin, buff, debuff, statut), objets, fuite.
-- Le loufoque est dans **l'habillage**, pas dans la mécanique : une compétence reste une « boule de feu », mais elle s'appelle *Relique Puante* ou *Aerial*.
+- Le loufoque est dans **l'habillage**, pas dans la mécanique : une compétence reste une « boule de feu », mais elle s'appelle *Riff Saturé* ou *Aerial*.
 - **Boss** : attaques, statuts, invocations d'adds, changement de phase sous X % de PV, événements scriptés de dialogue. **Pas** de mécaniques spéciales (pousser un ballon, bloquer des tirs, timing, etc.).
 - **Énigmes variées** d'un chapitre à l'autre : quêtes à objets, dalles (glace, interrupteurs), quiz de PNJ, portes à mot de passe, dialogues à choix. Pas de puzzles de réflexe ou de boucle.
 - **Pas d'interface Discord complexe** : pas de statuts (En ligne, Absent, Ne pas déranger…) ni de listes de membres à l'écran. Discord sert de décor et de messages dans le ciel ou dans des boîtes de dialogue.
