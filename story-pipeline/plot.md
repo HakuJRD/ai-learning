@@ -35,10 +35,9 @@ Jordan découvre le monde. José fouille les ruines des vieux messages, persuad�
 - Mini-boss : le **Gardien des Épinglés**.
 
 ### Chapitre 2 : Le Stade Orbital (Kevin) : rédigé, voir draft.md
-Kevin a été condamné à rejouer en boucle la finale des **Worlds de Rocket League** perdue contre **Vitality**, le rival historique. Boss : la Reine de la Ruche.
-- Pour le libérer, on gagne le match, ou on l'aide à accepter la défaite.
-- Gag : il calcule des trajectoires parfaites puis dit « ratio » sans raison.
-- Le stade est entouré de bannières LoL, que Kevin trouve insupportables.
+Kevin revit en boucle la demi-finale des **Worlds RLCS de Düsseldorf (13 août 2023)**, perdue 4-2 par la KC contre **Vitality**. C'est le même week-end que la naissance de la Red Room.
+- Quête à objets « Le Kop Rouge » : posters, écharpe, billet. Le Kop chante et l'équipe accède au terrain.
+- Boss : la Reine de la Ruche.
 
 ### Chapitre 3 : Les Cimes Sans Air (Bidou)
 Le Modérateur a coupé l'air du salon vocal. Bidou essaie de chanter la ballade qui rouvrira le vocal, mais il n'a jamais assez de souffle pour la finir.

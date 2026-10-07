@@ -255,15 +255,15 @@ JORDAN : Je te regarde. Ton chapeau est à l'envers.
 JOSÉ : *(le remet droit, très vite)* C'était un choix.
 
 > **Tutoriel combat** :
-> - **Jordan** : *Tir de l'Ancien* (longue portée), *Brume Ancestrale* (soin de groupe), *Douleurs Lombaires* (passif, 5 % de chance de rater son tour, « Aïe »).
-> - **José** : *Sprint Néon* (agit toujours en premier), *Je suis un mec cool* (immunisé à la peur), *Tombé de pantalon parfait* (buff de charisme ; inefficace contre les ennemies, qui ont l'air de s'en ficher).
-> - Objet : *Relique Puante* (poison de zone).
+> - **Jordan** : *Tir de l'Ancien* (mono), *Brume Ancestrale* (soin de groupe), *Souvenirs du Crétacé* (debuff défense).
+> - **José** : *Coup de Pinceau* (mono), *Sprint Néon* (mono rapide), *Tombé de Pantalon Parfait* (buff défense sur soi).
+> - Objet : *Relique Puante* (dégâts de zone et poison).
 >
 > **Ennemis de la zone** :
 > - **Spam-bots** : « CLIQUEZ ICI POUR GAGNER », attaques faibles mais nombreuses.
-> - **Notifications Fantômes** : attaque « Vous avez 99+ mentions », statut *Distrait*.
-> - **Réactions Abandonnées** : des 👍 errants. Ils fuient si on leur répond « ok ».
-> - **Sbires du Modérateur** : petits marteaux 🔨 sur pattes. Leur attaque *Avertissement* fait passer un allié en *Muet* (plus de compétences).
+> - **Notifications Fantômes** : attaque « Vous avez 99+ mentions », statut *Confusion*.
+> - **Réactions Abandonnées** : des 👍 errants, faibles, ils fuient souvent le combat.
+> - **Sbires du Modérateur** : petits marteaux 🔨 sur pattes. Leur attaque *Avertissement* inflige *Muet* (plus de compétences).
 
 #### 1-5-a : La Salle des Strates
 [DÉCOR] Un long couloir où les murs sont des messages des années passées, comme des fresques.
@@ -273,21 +273,21 @@ JOSÉ : *(le remet droit, très vite)* C'était un choix.
 - « Europa Park : RDV 7 h, et Yanis tu pars à 5 h stp »
   JORDAN : Il est arrivé à 9 h.
   JOSÉ : C'était un exploit, pour lui.
-- « Worlds Rocket League — on y croit les gars » *(La fresque est fissurée. Une petite larme de pierre coule.)*
-  JOSÉ : On évite d'en parler devant Kevin. Il est encore dans le deuil.
+- « Worlds RLCS Düsseldorf — demi-finale KC vs Vitality — on y croit les gars » *(La fresque est fissurée. Une petite larme de pierre coule.)*
+  JOSÉ : 4-2. On évite d'en parler devant Kevin. Il est encore dans le deuil.
 - ❓ *Placeholder : vrais messages épinglés du Discord, à fournir par Jordan.*
 
-#### 1-5-b : Énigme : le Couloir des Notifications
-> Puzzle : des dalles de notification s'allument. En marcher sur une déclenche un *ding* et fait apparaître un ennemi. Le joueur doit passer par les dalles grises, celles des notifications **désactivées**.
+#### 1-5-b : Les Trois Notifications Muettes
+> Quête à objets : la porte suivante est bloquée par trois cloches de notification qui sonnent sans arrêt. Il faut trouver trois **Cloches Barrées 🔕** dans les salles du donjon (deux dans des coffres, une portée par un Sbire du Modérateur en combat obligatoire) et les poser sur les trois socles.
 CLYDE : Astuce de vieux bot : la seule notification qui ne fait jamais mal, c'est celle qu'on a désactivée.
 JORDAN : C'est la phrase la plus sage que j'aie entendue de l'année.
 
-[ÉVÉNEMENT] *Trace de la Bête Blanche n° 2* : au milieu du puzzle, une dalle verte qui fume. Si le joueur marche dessus : -10 PV à toute l'équipe, statut *Nausée* pendant trois combats.
+[ÉVÉNEMENT] *Trace de la Bête Blanche n° 2* : dans une des salles, un coffre qui fume en vert. L'ouvrir donne **Relique Puante ×2**, et un message : « Vous avez trouvé un trésor. Malheureusement. »
 JOSÉ : Il a fait ÇA dans un site classé ?!
 
 #### 1-5-c : La Porte des Fondateurs
 [DÉCOR] Une grande porte rouge. Au-dessus, une inscription : « *Seuls ceux qui savent d'où vient le nom peuvent entrer.* »
-JOSÉ : C'est facile. *(Il pose la main sur la porte. Sa voix se fait plus douce.)* Düsseldorf. Le premier événement Rocket League. On était dans la même chambre, les fondateurs. Moi, Kevin, Robin, Bidou… La chambre avait une lumière bizarre. Rouge. Toute la nuit, impossible de l'éteindre. Le lendemain, quelqu'un a dit « on est la Red Room », et c'est resté.
+JOSÉ : C'est facile. *(Il pose la main sur la porte. Sa voix se fait plus douce.)* Düsseldorf. Les Worlds de Rocket League, 2023. Notre premier événement. On était dans la même chambre, les fondateurs. Moi, Kevin, Robin, Bidou… La chambre avait une lumière bizarre. Rouge. Toute la nuit, impossible de l'éteindre. Le lendemain, quelqu'un a dit « on est la Red Room », et c'est resté.
 JORDAN : Vous étiez quatre ?
 JOSÉ : Ouais, quatre. *(Pause.)* Enfin… il y avait cinq lits. Je sais plus pourquoi. Peut-être qu'il y avait un lit en trop.
 [ÉVÉNEMENT] *(Pas d'insistance. Le joueur tape le mot de passe.)*
@@ -316,18 +316,19 @@ JORDAN : Et personne touche à mon chat. Sauf moi. Pour nettoyer la litière.
 
 [COMBAT] **Gardien des Épinglés** (boss tutoriel, 3 phases)
 - **Phase 1 : Archivage**
-  - *Épinglage* : immobilise un allié un tour.
-  - *Rappel à l'ordre* : inflige *Muet*.
-  - Faiblesse : *Fouille des messages épinglés* de José, qui « désépingle » le boss et lui retire son armure.
+  - *Coup d'Épingle* : mono.
+  - *Épinglage* : statut *Paralysie* un tour sur un allié.
+  - *Rappel à l'ordre* : statut *Muet* sur un allié.
+  - Faiblesse : la *Relique Puante* fait double effet sur lui.
 - **Phase 2 (sous 60 % de PV) : Désinvitation**
-  - Le Gardien lance *Retrait d'Invitation* : José est expulsé du combat pendant deux tours.
+  - Le Gardien lance *Retrait d'Invitation* : statut *Banni* sur José (il ne peut pas agir pendant deux tours).
   - Réplique, GARDIEN : « VOUS N'ÊTES PLUS INVITÉ. »
-  - JOSÉ *(revient au bout de deux tours, furieux ; bonus d'attaque permanent pour le combat)* : « Personne. Ne. Me. Désinvite. *(Il regarde Jordan.)* Plus jamais. »
+  - JOSÉ *(à la fin du statut, furieux ; buff attaque pour le reste du combat)* : « Personne. Ne. Me. Désinvite. *(Il regarde Jordan.)* Plus jamais. »
   - JORDAN : « Je t'ai JAMAIS désinvité ! »
 - **Phase 3 (sous 25 % de PV) : Intervention de Snow**
-  - Le Gardien vise la vitrine pour effacer le message.
-  - Événement automatique : Snow saute de la vitrine, se poste devant le Gardien, le fixe et… dépose une **relique fraîche** sur son socle.
-  - GARDIEN : « ODEUR… NON… CONFORME… » · Le boss subit *Nausée* (défense divisée par deux).
+  - Le Gardien gagne *Suppression* : grosse attaque de zone.
+  - Événement scripté au début de la phase : Snow saute de la vitrine, se poste devant le Gardien, le fixe et… dépose une **relique fraîche** sur son socle.
+  - GARDIEN : « ODEUR… NON… CONFORME… » · Le boss reçoit un debuff défense pour le reste du combat.
   - Le joueur finit le combat.
 
 ### SCÈNE 1-7 : Le premier message
@@ -402,18 +403,19 @@ JORDAN : Ceyn.
 
 ## CHAPITRE 2 : Le Stade Orbital
 
-> **Contexte** : le Modérateur Fou a enfermé Kevin dans le salon #rocket-league, transformé en stade flottant dans l'espace. Kevin y revit en boucle la finale des Worlds perdue contre **Vitality**, l'ennemi historique. Chaque fois que le but décisif est encaissé, la boucle recommence.
-> ❓ *Jordan : c'était bien les Worlds de Lyon (2025) ? Si oui, on peut relier le stade au voyage à Lyon. Le score ou un moment précis du match aiderait aussi.*
+> **Contexte** : le Modérateur Fou a enfermé Kevin dans le salon #rocket-league, transformé en stade flottant dans l'espace. Kevin y revit en boucle la **demi-finale des Worlds RLCS de Düsseldorf (13 août 2023)**, perdue 4-2 par la Karmine Corp contre **Vitality**, l'ennemi historique. C'était le même week-end que la naissance de la Red Room. Kevin n'était pas sur le terrain ce jour-là, il était en tribune ; mais le Modérateur l'a mis à la place des joueurs pour que ça fasse encore plus mal.
+>
+> **Structure** : arrivée, puis exploration et quête à objets en trois parties, puis Kevin libéré, puis boss.
 
 ### SCÈNE 2-1 : Décollage
 
 [DÉCOR] À la sortie de Généralia, un **portail en forme de but de Rocket League**. Au-dessus, un néon : « #rocket-league — 1 utilisateur (en boucle) ».
-CLYDE : Le salon de Kevin. Attention, il n'y a plus de gravité normale là-haut. Le Modérateur a tout réglé sur « Lune ».
+CLYDE : Le salon de Kevin. Attention, la gravité est bizarre là-haut. Le Modérateur a tout réglé sur « Lune ».
 JORDAN : Kevin doit être aux anges.
 CLYDE : Il est en boucle depuis… *(il calcule)* … quatre cent douze matchs.
 JOSÉ : Ah. Donc il est pas aux anges.
 
-[ÉVÉNEMENT] L'équipe traverse le portail. Le saut se fait en voiture : Jordan au volant d'un *Octane* rouge, José à côté, Snow sur le tableau de bord.
+[ÉVÉNEMENT] L'équipe traverse le portail en voiture : Jordan au volant d'un *Octane* rouge, José à côté, Snow sur le tableau de bord.
 JOSÉ : Pourquoi c'est toi qui conduis ?
 JORDAN : Je suis le seul qui a le permis et une voiture, José.
 JOSÉ : Même dans un monde imaginaire ?
@@ -422,39 +424,87 @@ JORDAN : *Surtout* dans un monde imaginaire.
 
 ### SCÈNE 2-2 : Le Stade Orbital
 
-[DÉCOR] Une arène de Rocket League **flottant dans l'espace**, posée sur un astéroïde. On voit la Terre au loin, et un satellite qui passe. Les tribunes sont remplies de **spectateurs jaunes et noirs** aux antennes d'abeille, les **Supporters de la Ruche**. De l'autre côté, une seule tribune rouge et vide, sauf un petit drapeau « KC » qui flotte tout seul.
-[MUSIQUE] Thème du **Stade Orbital** : électro épique, version synthwave du thème de menu de Rocket League. À chaque reset de la boucle, la musique saute comme un disque rayé.
+[DÉCOR] Un stade de Rocket League **posé sur un astéroïde**, au milieu des étoiles. On voit la Terre au loin, et un satellite passe. Une banderole géante : « **WORLDS — DÜSSELDORF — DEMI-FINALE** ». Les tribunes sont remplies de **Supporters de la Ruche**, des spectateurs jaunes et noirs aux antennes d'abeille. En face, la tribune rouge, le **Kop Rouge**, est pleine de supporters KC **mutés** : bouche barrée d'un 🔇, ils sont immobiles et tristes.
+[MUSIQUE] Thème du **Stade Orbital** : électro épique, version synthwave du menu de Rocket League. À chaque fin de boucle, la musique saute comme un disque rayé.
 
-[ÉVÉNEMENT] Sur le terrain, une voiture bleue fait des acrobaties parfaites : aerials, flip resets, ceiling shots. Au volant, Kevin, casque de cosmonaute sur la tête.
-KEVIN : *(dans les haut-parleurs du stade, il commente son propre match)* … Kevin récupère la balle, angle d'approche 37,4 degrés, vitesse optimale, trajectoire parfaite, c'est mathématiquement impossible de rater…
-[SFX] *BUZZER.* Un but jaune géant s'affiche : « **VITALITY MARQUE** ». La foule d'abeilles bourdonne de joie.
+[ÉVÉNEMENT] *(Cinématique, sans contrôle du joueur.)* Sur le terrain, une voiture bleue fait des acrobaties. Au volant, Kevin, casque de cosmonaute sur la tête. Le tableau d'affichage indique : « **KC 2 – 3 VITALITY · Match 6** ».
+KEVIN : *(dans les haut-parleurs du stade, il commente son propre match)* … et Kevin récupère la balle, angle d'approche 37,4 degrés, vitesse optimale, c'est mathématiquement impossible de rater…
+[SFX] *BUZZER.* « **VITALITY MARQUE — VITALITY GAGNE LA SÉRIE 4-2** ». Les abeilles bourdonnent de joie.
 KEVIN : … c'était mathématiquement impossible de rater.
-[ÉVÉNEMENT] Un effet de cassette qu'on rembobine. Tout recommence : la balle revient au centre, le chrono à 5:00.
-KEVIN : *(même intonation, mot pour mot)* Kevin récupère la balle, angle d'approche 37,4 degrés…
+[ÉVÉNEMENT] Effet de cassette qu'on rembobine. Le tableau revient au début du match 6.
+KEVIN : *(même intonation, mot pour mot)* … et Kevin récupère la balle, angle d'approche 37,4 degrés…
 
 JORDAN : Il est bloqué.
 CLYDE : Quatre cent treize.
+JOSÉ : Mais… Kevin, il jouait même pas ce match. Il était en tribune, avec nous. Il pleurait.
+CLYDE : Le Modérateur l'a mis sur le terrain. C'est plus cruel comme ça.
 JOSÉ : Il fait le même commentaire à chaque fois ?
 CLYDE : Mot pour mot. Sauf la fois 207. Il a dit « skibidi ». On sait pas pourquoi.
 
-### SCÈNE 2-3 : Les tribunes (exploration)
+[ÉVÉNEMENT] L'équipe tente d'entrer sur le terrain. Une barrière jaune bloque l'accès.
+[DISCORD] 🔨 **Modérateur Fou** (BOT) : *Accès au terrain refusé. Motif : ambiance insuffisante. Pour entrer, le stade doit être « en feu ». Bonne chance avec des supporters mutés. 🙂*
+CLYDE : Il faut réveiller le stade. Si le Kop Rouge chante, la barrière tombe.
+JORDAN : Alors on va le réveiller, ce stade.
 
-> Zone ouverte. Le joueur doit comprendre comment briser la boucle. Trois indices sont à récupérer dans les tribunes.
+> **Quête : « Le Kop Rouge »** (quête à objets, trois parties, dans l'ordre qu'on veut)
+> 1. **Les Posters** : ramasser 5 **Posters KC** éparpillés dans le stade et les donner aux supporters mutés.
+> 2. **L'Écharpe** : récupérer l'**Écharpe de Kevin** au vestiaire.
+> 3. **Le Billet** : récupérer le **Billet Düsseldorf 2023** auprès d'une abeille marchande.
+> Quand les trois sont rendus, le Kop Rouge chante et la barrière tombe.
 
-**A. Le Kop Rouge (la tribune vide)**
-[ÉVÉNEMENT] Le petit drapeau KC flotte seul. En s'en approchant, on entend des chants lointains, très faibles : « *KC… KC…* ».
-CLYDE : Les supporters de Kevin étaient là, avant. Le Modérateur les a mutés un par un.
-JORDAN : Alors on va chanter, nous.
-[CHOIX]
-1) Chanter « KC ! KC ! »
-2) Rester digne, on a 29 ans.
-*Si 1 :* JORDAN et JOSÉ : « KC ! KC ! KC ! » · [SFX] Le stade tremble légèrement. Sur le terrain, Kevin tourne la tête une demi-seconde, puis reprend sa boucle.
-[FLAG] `indice_chant = true`
-*Si 2 :* JORDAN : « Non. J'ai une réputation. » · JOSÉ : « Laquelle ? Le vieux ? » · *(Retour au choix.)*
+### SCÈNE 2-3 : Les Posters
 
-**B. La Cabine des Commentateurs**
-[DÉCOR] Un studio vitré au-dessus du terrain. Dedans, un robot-commentateur en costume jaune et une **Commentatrice** en tailleur.
-[ÉVÉNEMENT] *Tentative de drague de José (chapitre 2).* Jingle Pierre.
+[ÉVÉNEMENT] Les 5 posters sont cachés sur la carte du stade : un sous les gradins, un dans la buvette, un sur le toit du kiosque à hot-dogs, un dans les mains d'un Sbire du Modérateur (combat), un sous… Snow, qui dort dessus.
+*(Poster 5, sous Snow.)*
+JORDAN : Snow, bouge.
+SNOW : *(ne bouge pas)*
+JOSÉ : Il a un problème avec l'autorité, ton chat.
+JORDAN : Il a un problème avec tout.
+[ÉVÉNEMENT] Le joueur doit acheter **Croquettes Spatiales** à la buvette (prix Jordan) et les poser à côté de Snow. Snow se lève, mange et laisse le poster… et une **Relique Puante** en échange.
+JOSÉ : Il paie en nature. C'est un business.
+
+[ÉVÉNEMENT] Chaque poster donné à un supporter muté lui rend la voix. Exemples de répliques :
+- SUPPORTER 1 : « … KC ? KC ! J'avais oublié comment on disait ! »
+- SUPPORTER 2 : « Merci, mon gars. T'es qui ? » / JORDAN : « Un ancien. » / SUPPORTER 2 : « Ça se voit. »
+- SUPPORTER 3 : « Je l'avais, ce poster, dans ma chambre ! Il est encore là d'ailleurs, à côté de celui de Kameto. »
+- SUPPORTER 4 : « Faut qu'on chante, mais on n'est pas assez. On a besoin de lui. » *(Il montre Kevin sur le terrain.)*
+- SUPPORTER 5 : « T'as pas une voiture, toi ? Tu peux me ramener après ? » / JORDAN : « … non. »
+
+### SCÈNE 2-4 : Le Vestiaire
+
+[DÉCOR] Un vestiaire désert. Un casier au nom de Kevin. Dedans : un diplôme d'ingénieur encadré, un poster de fusée, une maquette de satellite… et un post-it « *si on perd je pars sur Mars* ».
+[ÉVÉNEMENT] Objet obtenu : **Écharpe de Kevin**. *Description : « Bleu KC. Elle sent encore les larmes de 2023. Et un peu le kebab. »*
+[ÉVÉNEMENT] Au fond du casier, une photo de la Red Room en tribune à Düsseldorf. Tout le monde porte une écharpe, et Kevin est au centre, bras levés.
+JOSÉ : C'était juste avant la demi-finale. On y croyait tellement.
+JORDAN : C'est le week-end où vous êtes devenus la Red Room, non ?
+JOSÉ : Ouais. On a perdu le match, et on a gagné un groupe. *(Un temps.)* C'est un bon échange, en vrai.
+[ÉVÉNEMENT] *(Graine discrète.)* Au dos de la photo, un petit tampon : « *Photo : Ceyn* ».
+[ÉVÉNEMENT] Mécanique « Ceyn. » :
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+CLYDE : *(il ne connaît pas le gag, mais il le fait quand même, par politesse)* … Ceyn ?
+[ÉVÉNEMENT] *(Ils rangent la photo et reprennent comme si de rien n'était.)*
+[ÉVÉNEMENT] Objet obtenu : **Photo de Düsseldorf** (objet clé).
+
+[ÉVÉNEMENT] *(Combat obligatoire à la sortie du vestiaire : 3 Sbires du Modérateur et 1 Abeille Videur.)*
+ABEILLE VIDEUR : Bzz. Vestiaire réservé aux vainqueurs.
+JOSÉ : Alors t'as rien à faire là non plus, t'es un videur.
+
+### SCÈNE 2-5 : Le Billet
+
+[DÉCOR] Une buvette tenue par une **Abeille Marchande** en tablier jaune.
+ABEILLE MARCHANDE : Bzz. Bienvenue. Hot-dog en apesanteur, 12 €. *(Elle voit Jordan.)* Pour vous, 18 €. Vous avez une voiture.
+JORDAN : Comment vous savez ça ?!
+ABEILLE MARCHANDE : C'est écrit sur votre profil, monsieur. En gros.
+
+[ÉVÉNEMENT] Le **Billet Düsseldorf 2023** est épinglé derrière le comptoir, comme un trophée.
+ABEILLE MARCHANDE : Ça ? C'est un souvenir. Un supporter KC l'a laissé tomber en partant. Il pleurait trop pour le ramasser.
+JOSÉ : C'était Kevin.
+ABEILLE MARCHANDE : Je vous le donne… contre un **Miel Royal**. La Reine nous en prive, depuis qu'elle a gagné 413 fois. Elle garde tout pour elle.
+
+> Le **Miel Royal** se trouve dans la **Ruche des Gradins**, un petit donjon de trois salles sous la tribune jaune. Ennemis : **Abeilles Ouvrières** (mono, faibles), **Frelons Ultras** (mono, statut *Poison*), **Chambreurs Jaunes** (debuff attaque : « T'as perdu en 2023 ! »). Le Miel Royal est dans un coffre au fond.
+
+[ÉVÉNEMENT] *Tentative de drague de José (chapitre 2)*, dans la Ruche des Gradins. Une **Commentatrice** en tailleur révise ses fiches dans un coin. Jingle Pierre.
 JOSÉ : *(ajuste son foulard)* Mademoiselle. Archéologue. Stylé. J'ai un rapport assez fort avec la balle, moi aussi.
 COMMENTATRICE : *(sourit)* Oh, c'est mignon. Vous êtes supporter de qui ?
 JOSÉ : Karmine, évidemment.
@@ -466,144 +516,113 @@ JOSÉ : Désolé. J'ai des principes.
 JORDAN : C'est la première fois que c'est toi qui refuses.
 JOSÉ : Il y a des choses plus importantes que l'amour, Jordan. Il y a la rivalité.
 
-[ÉVÉNEMENT] Sur le pupitre de la cabine, un écran affiche les **statistiques de Kevin** sur les 413 boucles.
-> Tirs : 4 130 · Arrêts : 8 260 · Buts : 0 · Buts encaissés en fin de match : 413 · Phrase la plus prononcée : « angle d'approche » (413) · Deuxième phrase : « skibidi » (1)
-CLYDE : La boucle est bloquée sur le moment du but. Tant qu'il le revit à l'identique, ça recommence. Il faut qu'il se passe quelque chose de **différent**.
-[FLAG] `indice_stats = true`
+[ÉVÉNEMENT] Retour à la buvette avec le Miel Royal.
+ABEILLE MARCHANDE : Bzz ! Marché conclu. Tenez. *(Elle tend le billet, puis hésite.)* Entre nous… on commence à s'ennuyer, à gagner tout le temps. 413 fois le même match. On aimerait bien voir autre chose.
+[ÉVÉNEMENT] Objet obtenu : **Billet Düsseldorf 2023**.
 
-**C. Le Vestiaire**
-[DÉCOR] Un casier au nom de Kevin. Dedans : un diplôme d'ingénieur encadré, un poster de fusée, une maquette de satellite… et un post-it « *si on perd je pars sur Mars* ».
-[ÉVÉNEMENT] Au fond du casier, une photo de la Red Room au complet devant un stade, tous en maillot. Kevin est au centre, bras levés.
-JOSÉ : C'était avant la finale. Il y croyait tellement.
-JORDAN : On y croyait tous.
-[ÉVÉNEMENT] *(Graine discrète.)* Au dos de la photo, un petit tampon : « *Photo : Ceyn* ».
-[ÉVÉNEMENT] Mécanique « Ceyn. » :
-JORDAN : Ceyn.
-JOSÉ : Ceyn.
-CLYDE : *(il ne connaît pas le gag, mais il le fait quand même, par politesse)* … Ceyn ?
-[ÉVÉNEMENT] *(Ils rangent la photo et reprennent comme si de rien n'était.)*
-[FLAG] `indice_vestiaire = true`
+### SCÈNE 2-6 : Le Kop Rouge chante
 
-**PNJ optionnels**
-- **Une Abeille Supportrice** : « Bzz. Ça fait 413 fois qu'on gagne. Honnêtement, on commence à s'ennuyer. On peut pas gagner contre quelqu'un d'autre ? »
-- **Un vendeur de hot-dogs spatial** : « Hot-dog en apesanteur, 12 €. » *(À Jordan :)* « Pour vous, 18 €. Vous avez une voiture. »
-- **Une bannière LoL abandonnée** (« LEC — Summer Split ») : si le joueur l'examine, Kevin hurle depuis le terrain, sans sortir de sa boucle : « ENLEVEZ ÇA DE MON STADE. »
+[ÉVÉNEMENT] Les trois objets sont rendus au chef du Kop Rouge, un supporter massif avec un tambour.
+CHEF DU KOP : Les posters. L'écharpe. Le billet. *(Il serre l'écharpe contre lui.)* Ok. On est prêts. Mais c'est vous qui lancez.
+[CHOIX]
+1) Lancer « KC ! KC ! KC ! »
+2) Rester digne, on a 29 ans.
+*Si 2 :* JORDAN : « Non. J'ai une réputation. » · JOSÉ : « Laquelle ? Le vieux ? » · *(Retour au choix.)*
+*Si 1 :*
+JORDAN et JOSÉ : KC ! KC ! KC !
+[SFX] Le tambour suit. Puis tout le Kop Rouge. Le stade tremble.
+[MUSIQUE] Le thème du stade repart, sans saut de disque cette fois.
+[ÉVÉNEMENT] La barrière jaune vole en éclats. Sur le terrain, Kevin s'arrête au milieu de son commentaire et lève la tête vers la tribune.
 
-### SCÈNE 2-4 : Entrer dans la boucle
+### SCÈNE 2-7 : Kevin
 
-[ÉVÉNEMENT] Quand les trois indices sont trouvés, Clyde ouvre un accès au terrain.
-CLYDE : Si vous entrez sur le terrain, vous entrez dans la boucle. Vous allez revivre la même minute avec lui. À vous de la changer.
-JORDAN : Et si on n'y arrive pas ?
-CLYDE : Vous serez commentateurs pour l'éternité.
-JOSÉ : Ça va, il y a pire comme métier.
-
-[ÉVÉNEMENT] L'équipe descend sur le terrain. La boucle les absorbe : effet de rembobinage, chrono à **1:00**.
-KEVIN : *(sans les regarder)* Kevin récupère la balle, angle d'approche 37,4 degrés…
+[ÉVÉNEMENT] L'équipe descend sur le terrain. La boucle se fige : la balle reste suspendue en l'air, juste avant le but décisif.
+KEVIN : *(sans les regarder)* … angle d'approche 37,4 degrés…
 JORDAN : KEVIN !
-KEVIN : *(se fige, les regarde enfin)* … Jordan ? José ? *(Un temps.)* Vous êtes pas censés être là. Dans ma simulation, vous êtes dans les tribunes, et vous pleurez.
+KEVIN : *(se fige, les regarde enfin)* … Jordan ? José ? *(Un temps.)* Vous êtes pas censés être là. Dans ma simulation, vous êtes dans les tribunes et vous pleurez.
 JOSÉ : On pleurait pas.
 KEVIN : José, j'ai 413 enregistrements de toi en train de pleurer.
 
-> **Mécanique de boucle (puzzle)** : le joueur dispose d'une minute de match par essai. Il doit faire **trois choses différentes** pendant la boucle, une par indice trouvé. Chaque essai raté rembobine la minute, avec une réplique différente de Kevin, de plus en plus brainrot.
->
-> 1. **Le chant** (`indice_chant`) : faire chanter le Kop Rouge. Les supporters mutés se remettent à chanter : « KC ! KC ! ».
-> 2. **Les stats** (`indice_stats`) : utiliser *Souvenirs du Crétacé* de Jordan sur le gardien jaune pour révéler sa faiblesse (« Il défend toujours à gauche. Je l'ai vu en 1998. »).
-> 3. **La photo** (`indice_vestiaire`) : montrer la photo d'équipe à Kevin.
->
-> **Bonus caché** : poser Snow sur la balle. Snow refuse de bouger, le ballon ne peut plus avancer, et l'arbitre siffle « **ballon bloqué par un chat** ». Kevin : « Ça, c'est pas dans mes calculs. »
-
-**Répliques de Kevin à chaque échec** (dans l'ordre) :
-1. « Statistiquement, on perd. J'ai simulé 14 millions de futurs. On perd dans tous. »
-2. « Sauf un. Dans un futur, le ballon est un sigma. Mais c'est pas réaliste. »
-3. « La gravité de cet astéroïde est de 0,16 g, la balle part à 98 km/h… c'est cooked. Skibidi cooked. Rizz-less. »
-4. « J'ai un doctorat. Enfin presque. Et je suis en train de dire "skibidi" dans l'espace. Mes parents seraient tellement fiers. »
-5. « Vous savez qu'Elon pourrait m'embaucher, hein ? Il cherche des ingénieurs. Il cherche pas des gens qui perdent contre Vitality. »
-
-### SCÈNE 2-5 : La photo
-
-[ÉVÉNEMENT] Une fois les trois actions réalisées, la boucle se fige au moment exact du but. La balle reste suspendue devant la cage de Kevin.
+[ÉVÉNEMENT] Jordan lui tend la **Photo de Düsseldorf**.
 KEVIN : *(regarde la photo)* … on y croyait vraiment, hein.
 JORDAN : Ouais.
-KEVIN : J'ai calculé tout ce qui pouvait se passer pendant ce match. Les angles, les rebonds, le boost. Mais j'avais pas calculé que ça ferait aussi mal de perdre contre *eux*.
-JOSÉ : Personne calcule ça. C'est pour ça qu'on est supporters et pas ingénieurs.
-KEVIN : Je suis les deux.
-JOSÉ : Ben c'est pour ça que t'as deux fois plus mal.
-*(Un temps.)*
-KEVIN : *(sourit enfin)* Ok. Ok. On la rejoue. Pas pour changer le passé. Juste pour… le kiffer.
-JORDAN : Et pour leur mettre une raclée.
-KEVIN : *(rabat sa visière)* Ça aussi, c'est dans mes calculs.
+KEVIN : Le pire, c'est que je jouais même pas. J'étais en tribune avec vous. Mais je l'ai recalculé tellement de fois que je sais plus ce que j'aurais dû faire. Les angles, les rebonds, le boost… J'ai simulé 14 millions de futurs. On perd dans tous. *(Un temps.)* Sauf un, où la balle est un sigma. Mais c'est pas réaliste.
+JOSÉ : Mec, t'étais pas joueur. Tu pouvais rien faire.
+KEVIN : C'est justement ça qui me rend fou.
+JORDAN : Ce week-end-là, on a perdu un match. Mais la Red Room est née. Regarde la photo.
+KEVIN : *(regarde encore. Il sourit enfin.)* … ouais. On a perdu le match. On a gagné une chambre avec une lumière rouge qui s'éteignait pas.
+JOSÉ : Et des amis.
+KEVIN : Et des amis. *(Il remet son casque.)* Bon. On le rejoue, ce match ? Pas pour changer le passé. Juste pour leur mettre une raclée une fois dans ma vie.
+JORDAN : Une fois dans *la* vie. Moi, j'en ai déjà vécu plusieurs.
+KEVIN : C'est vrai que t'as connu les premiers Worlds. Ceux en pierre.
 
-[ÉVÉNEMENT] **Kevin rejoint l'équipe.** La boucle se brise comme une vitre. Le chrono passe en **PROLONGATION**.
-[ÉVÉNEMENT] Les abeilles du stade se rassemblent au centre du terrain et fusionnent dans un bourdonnement assourdissant.
+[ÉVÉNEMENT] **Kevin rejoint l'équipe.** La boucle se brise comme une vitre. Le tableau d'affichage passe en **PROLONGATION**.
+[ÉVÉNEMENT] Les abeilles des tribunes s'envolent, se rassemblent au centre du terrain et fusionnent dans un bourdonnement assourdissant.
 
-### SCÈNE 2-6 : Boss : la Reine de la Ruche
+### SCÈNE 2-8 : Boss : la Reine de la Ruche
 
-[DÉCOR] Une gigantesque **reine abeille jaune et noire**, couronnée, avec des réacteurs de Rocket League à la place des ailes.
+[DÉCOR] Une gigantesque **reine abeille jaune et noire**, couronnée, avec des réacteurs de Rocket League à la place des ailes. Elle porte un maillot floqué « 4-2 ».
 REINE DE LA RUCHE : BZZZ. 413 VICTOIRES. 413. VOUS POUVEZ PAS GAGNER. C'EST ÉCRIT DANS LES STATS.
-KEVIN : Les stats, c'est moi qui les écris.
+KEVIN : Les stats, c'est moi qui les fais.
 REINE DE LA RUCHE : … BZZ ?
 
-> **Équipe imposée pour ce combat** : Jordan, José, Kevin. Snow est en tribune.
+> **Équipe pour ce combat** : Jordan, José, Kevin. Snow et Clyde sont en tribune.
 >
-> **Compétences de Kevin débloquées** :
-> - *Aerial* : attaque aérienne, ignore la défense des ennemis volants.
-> - *Calcul de trajectoire* : le prochain coup est un critique garanti.
-> - *Mode Brainrot* : effet aléatoire parmi « Skibidi » (dégâts ×3), « Ohio » (Kevin s'attaque lui-même) et « Rizz » (charme l'ennemi un tour).
-> - *Décollage* : fuite de combat garantie (désactivée contre les boss : « Même moi je peux pas fuir ça »).
+> **Compétences de Kevin** : *Aerial* (mono, gros dégâts), *Démolition* (zone), *Calcul de Trajectoire* (buff précision et critique sur un allié), *Boost* (buff vitesse de l'équipe).
 
-[COMBAT] **La Reine de la Ruche** (3 phases)
-- **Mécanique centrale : le ballon.** Un ballon géant rebondit dans l'arène. Chaque tour, il se rapproche du but de l'équipe (jauge de 0 à 5). À 5, c'est un « but encaissé » : dégâts massifs à toute l'équipe. Les attaques physiques et *Aerial* repoussent le ballon vers le but adverse ; un **but marqué** étourdit la Reine un tour.
-- **Phase 1 : Coup d'envoi**
-  - *Essaim* : invoque deux **Abeilles Supportrices** qui soignent la Reine.
-  - *Piqûre jaune* : poison sur un allié.
-  - Réplique, REINE : « BZZ. VOUS AVEZ DÉJÀ PERDU UNE FOIS. VOUS ÊTES HABITUÉS. »
-- **Phase 2 (sous 60 %) : Prolongation**
-  - La Reine utilise *Rembobinage* : elle tente de relancer la boucle et soigne 20 % de ses PV.
-  - Le chant « KC ! KC ! » du Kop Rouge **annule le Rembobinage** si `indice_chant = true`. Sinon, il faut le contrer avec une *Relique Puante* (« Les abeilles détestent ça. Tout le monde déteste ça. »).
-  - Réplique, KEVIN : « Pas cette fois. Je ferme la boucle. Comme une fonction récursive bien écrite. »
-- **Phase 3 (sous 25 %) : But en or**
-  - La Reine se met en **défense totale** devant son but. Seul un *Calcul de trajectoire* suivi d'un *Aerial* peut marquer.
-  - Si le joueur tente autre chose : KEVIN : « Non non non, angle d'approche, Jordan ! 37,4 degrés ! »
-  - Quand le but est marqué : cinématique. Le ballon traverse la Reine, qui explose en confettis jaunes. Le stade s'illumine en rouge.
+[COMBAT] **La Reine de la Ruche** (2 phases)
+- **Phase 1 : Match 6**
+  - *Dard Jaune* : mono.
+  - *Essaim* : zone, faibles dégâts.
+  - *Chambrage* : debuff attaque sur un allié (« BZZ, 2023 ! »).
+  - Tous les 3 tours, elle invoque **2 Abeilles Supportrices** (adds faibles qui la soignent un peu à chaque tour).
+  - Faiblesse : *Aerial* (dégâts ×1,5, « elle vole, c'est de la physique »).
+- **Phase 2 (sous 50 % de PV) : Prolongation**
+  - Événement scripté : le Kop Rouge chante « KC ! KC ! », et toute l'équipe reçoit un buff attaque pour le reste du combat.
+  - REINE : « BZZ… CE BRUIT… ARRÊTEZ CE BRUIT… »
+  - Elle gagne *Miel Royal* (soin de 15 % de ses PV, une seule fois) et *Pluie de Dards* (zone + statut *Poison*).
+  - Réplique de Kevin au premier *Aerial* de la phase : « Angle d'approche : 37,4 degrés. Cette fois, ça rentre. »
+- **Fin du combat** : cinématique. Kevin fait un dernier *Aerial* et traverse la Reine, qui explose en confettis jaunes. Le stade s'illumine en rouge.
 
-### SCÈNE 2-7 : Après le match
+### SCÈNE 2-9 : Après le match
 
 [ÉVÉNEMENT] Le tableau d'affichage clignote : « **RED ROOM 1 – 0 VITALITY** ». Puis, juste en dessous, en petit : « *(Ce résultat n'a aucune valeur officielle.)* »
-KEVIN : *(fixe l'écran)* Ça change rien à la vraie finale.
+KEVIN : *(fixe l'écran)* Ça change rien à la vraie demi-finale.
 JORDAN : Non.
 KEVIN : *(sourit jusqu'aux oreilles)* Mais putain, ça fait du bien.
 JOSÉ : Mec, t'as les yeux qui brillent.
 KEVIN : C'est la poussière cosmique. *(Un temps.)* Et l'émotion. Mais surtout la poussière cosmique.
 
-[ÉVÉNEMENT] Le Kop Rouge se remplit : les supporters mutés retrouvent la voix et chantent. Snow est au premier rang, il ne chante pas.
+[ÉVÉNEMENT] Le Kop Rouge chante. Snow est au premier rang, il ne chante pas.
 [ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (2/7)**. Il tombe du ciel au centre du terrain.
-[ÉVÉNEMENT] Objet obtenu : **Maillot de Finale**, une armure pour Kevin. *Description : « Encore un peu humide de larmes. Défense +15. »*
+[ÉVÉNEMENT] Objet obtenu : **Maillot de la Demi-Finale**, une armure pour Kevin. *Description : « Encore un peu humide de larmes. Défense +15. »*
 
 KEVIN : Bon. Vous m'expliquez ce qui se passe ? Pourquoi on est dans Discord, pourquoi j'étais en boucle, et pourquoi y a un chat dans l'espace ?
-JORDAN : C'est le Modérateur Fou. Et apparemment, Camil est derrière.
-KEVIN : Camil ? *(Il réfléchit.)* Statistiquement, ça tient. Il a jamais supporté qu'on fasse des trucs sans lui.
-JOSÉ : Il a fait une statue de lui. Minuscule. Sur un socle immense.
-KEVIN : *(très sérieux)* Il compense. C'est de la physique de base. Plus la masse est petite, plus le socle doit être grand pour garder le même… ego.
-JOSÉ : C'est vrai, ça ?
-KEVIN : Non. Mais ça sonnait bien.
+JORDAN : Le serveur a été corrompu. Un bot, le Modérateur Fou, a tout pris en main. On doit retrouver tout le monde.
+KEVIN : Ok. Donc c'est un problème d'infrastructure. *(Il réfléchit.)* J'adore les problèmes d'infrastructure. C'est comme une fusée, mais avec des gens.
+JOSÉ : Et le chat ?
+KEVIN : Le chat, c'est un problème qu'aucune science ne peut résoudre.
 
 [ÉVÉNEMENT] Kevin regarde la Terre au loin.
 KEVIN : Vous savez quoi ? Quand on sortira d'ici, je postule chez SpaceX. Pour de vrai.
 JORDAN : Tu dis ça depuis trois ans.
-KEVIN : Oui. Mais là, j'ai battu une reine abeille dans l'espace. J'ai de l'expérience terrain.
+KEVIN : Oui. Mais là, j'ai battu une reine abeille dans l'espace. J'ai de l'expérience terrain. *(Un temps.)* Ça, c'est du CV maxxing.
 
-### SCÈNE 2-8 : Sortie du stade
+### SCÈNE 2-10 : Sortie du stade
 
-[ÉVÉNEMENT] Retour vers le portail. Une bannière LoL est restée accrochée au-dessus de la sortie.
-KEVIN : Non. Je passe pas sous ça.
-JORDAN : Kevin, c'est une bannière.
-KEVIN : C'est une bannière **LoL**. C'est pire.
-[ÉVÉNEMENT] *(Le joueur doit faire le tour du stade pour sortir. Trente secondes de détour. Kevin est satisfait.)*
+[ÉVÉNEMENT] Retour vers le portail. Sur le chemin, un stand avec une banderole : « **VENEZ ESSAYER LEAGUE OF LEGENDS ! INSTALLATION EN 2 MINUTES !** », avec un PC allumé et un vendeur souriant.
+VENDEUR : Monsieur ! Vous avez une tête de jungler !
+KEVIN : Non.
+VENDEUR : Juste une partie !
+KEVIN : J'ai rien contre le jeu. Je veux juste pas y jouer. C'est différent.
+JORDAN : Kevin, c'est juste un stand, tu passes devant.
+KEVIN : Si je passe devant, il va m'installer le jeu. Ils font toujours ça.
+[ÉVÉNEMENT] *(Kevin fait faire à toute l'équipe un petit détour derrière les gradins. Dix secondes. Il est satisfait.)*
 
 [ÉVÉNEMENT] Sur la carte du monde, un nouveau message du Modérateur Fou défile dans le ciel :
 [DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
 > @everyone Un utilisateur a quitté la boucle sans autorisation. Une enquête est ouverte. Rappel : le salon **#vocal-1** est fermé jusqu'à nouvel ordre. Toute respiration y est interdite.
-> — *Approuvé par Camil (1,62 m avec talonnettes)*
+> — *Approuvé par Camil (1,62 m)*
 
 KEVIN : Toute respiration est interdite ? Mais Bidou…
 JOSÉ : Bidou respire déjà à moitié en temps normal.
@@ -615,8 +634,10 @@ JORDAN : Alors on n'a pas de temps à perdre.
 
 ### Récapitulatif chapitre 2 (pour l'intégration)
 - **Recrue** : Kevin (combattant).
-- **Objets clés** : Fragment du Premier Message (2/7), Maillot de Finale.
-- **Flags** : `indice_chant`, `indice_stats`, `indice_vestiaire`, `rateaux_jose` (variante « refus par principe »).
-- **Mécaniques nouvelles** : puzzle de boucle temporelle (une minute par essai), ballon et jauge de but en combat.
-- **Graines du twist** : le tampon « Photo : Ceyn » au dos de la photo d'équipe (photographe = ses photos de mode).
-- **Suite naturelle** : chapitre 3, #vocal-1 et Bidou.
+- **Quête principale** : « Le Kop Rouge » : 5 Posters KC, Écharpe de Kevin, Billet Düsseldorf 2023 (contre un Miel Royal trouvé dans la Ruche des Gradins).
+- **Objets clés** : Photo de Düsseldorf, Fragment du Premier Message (2/7), Maillot de la Demi-Finale.
+- **Flags** : `rateaux_jose` (variante « refus par principe »).
+- **Mini-donjon** : la Ruche des Gradins (3 salles).
+- **Boss** : la Reine de la Ruche (2 phases, attaques, invocations et soin standards).
+- **Graines du twist** : le tampon « Photo : Ceyn » au dos de la photo de Düsseldorf.
+- **Suite** : chapitre 3, #vocal-1 et Bidou.

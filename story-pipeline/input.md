@@ -14,6 +14,14 @@
 ## Pitch retenu
 **Pitch B, « Le Serveur Maudit »** : le Discord de la Red Room est corrompu et Jordan est aspiré dedans (voir plot.md).
 
+## Règles de game design (à respecter partout)
+- **RPG simple, au tour par tour**, style RPG Maker classique.
+- Les combats n'utilisent que des actions standards : attaque normale, compétences (dégâts mono-cible, dégâts de zone, soin, buff, debuff, statut), objets, fuite.
+- Le loufoque est dans **l'habillage**, pas dans la mécanique : une compétence reste une « boule de feu », mais elle s'appelle *Relique Puante* ou *Aerial*.
+- **Boss** : attaques, statuts, invocations d'adds, changement de phase sous X % de PV, événements scriptés de dialogue. **Pas** de mécaniques spéciales (pousser un ballon, bloquer des tirs, timing, etc.).
+- **Énigmes** : surtout des quêtes à objets (ramasser des choses sur la carte, les rapporter à des PNJ), des portes à mot de passe et des dialogues. Pas de puzzles de réflexe ou de boucle.
+- Les traits de caractère (brainrot de Kevin, rage de Florian…) passent par les **dialogues**, pas par des effets aléatoires en combat.
+
 ## Équipe
 - Combat à **4 personnages**, les autres en réserve (détail gameplay à définir plus tard).
 
