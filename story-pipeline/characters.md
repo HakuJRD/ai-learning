@@ -99,7 +99,9 @@
 ## Yanis : le Faon Lent
 - Jungler, joue **Lilia**.
 - Running gag : il est **lent** en tout, il mange lentement. C'est la stat de vitesse la plus basse du jeu : il joue presque toujours en dernier.
-- Sourire d'enfer, dents ultra blanches, sourire communicatif.
+- Sourire d'enfer, dents ultra blanches, sourire communicatif. En retard ou pas, il sourit toujours : « Salut les mecs. »
+- Toujours ses **AirPods** dans les oreilles : il prend tout son temps pour les retirer avant de parler.
+- Dans le jeu, ses bulles de dialogue s'affichent **lettre par lettre, très lentement**.
 - **Compétences** :
   - *Coup de Fleur* : Mono.
   - *Sieste de Lilia* : Statut « Sommeil » sur tous les ennemis (chance).

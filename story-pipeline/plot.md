@@ -54,9 +54,10 @@ Florian, condamné comme Sisyphe, pousse un rocher « LP » qui redescend à cha
 - Énigme : blocs à pousser (série de promotion).
 - Boss : le Juge du Matchmaking. Interventions : le chat toxique, puis les messages de soutien de l'équipe ; ensuite son tracteur casse la balance du Juge.
 
-### Chapitre 6 : Le Marais d'AFK (Yanis)
-Tout est lent dans le marais : les dialogues s'affichent lettre par lettre, très lentement (gag de gameplay). Yanis s'y est installé pour manger un sandwich, commencé il y a trois jours.
-- Le Marais est envahi de **brouillard de Mute**. Le sourire de Yanis est la seule lumière capable de le dissiper.
+### Chapitre 6 : Le Marais d'AFK (Yanis) : rédigé, voir draft.md
+Le marais endort tout le monde, sauf Yanis, trop lent pour que ça change quoi que ce soit. Il finit le sandwich du prologue.
+- Énigme : labyrinthe dans le brouillard, en suivant ses miettes.
+- Boss : le Sablier d'Inactivité. Interventions : le rituel des AirPods et son sourire aveuglant, puis le message d'Alex qui arrive avec trois jours de retard et un colis de café.
 
 ### Chapitre 7 : Les Terres Lointaines (Alex)
 Alex est hors du serveur, à un ping de 400. Toute la Red Room fait le trajet, façon road trip.

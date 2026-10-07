@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.7 : Prologue + Chapitres 1 à 5
+### Script v0.8 : Prologue + Chapitres 1 à 6
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -1268,3 +1268,193 @@ FLORIAN : *(fier)* Ils parlent de moi.
   - **Intervention 2** : son tracteur « Michel » ❓ défonce le mur et casse la balance du Juge.
 - **Ceyn** : dernier du classement des Enfers (gag uniquement).
 - **Suite** : chapitre 6, le Marais d'AFK et Yanis.
+
+---
+
+## CHAPITRE 6 : Le Marais d'AFK
+
+> **Contexte** : le salon **#afk** est devenu un marais brumeux où le Modérateur jette tous les utilisateurs « inactifs ». Une **Brume d'Inactivité** endort quiconque y reste trop longtemps. Tout le monde dort… sauf Yanis. Lui, il est tellement lent naturellement que la brume ne fait aucune différence. Il est assis au milieu du marais, en train de finir son sandwich, celui du prologue.
+> **Yanis** : jungler (Lilia), d'une lenteur légendaire, surtout quand il mange. Il a toujours ses **AirPods** dans les oreilles, qu'il retire très lentement avant de parler, puis il sort son **grand sourire** : « Salut les mecs. » En retard ou pas, il sourit toujours.
+> **Mise en scène** : toutes les bulles de Yanis s'affichent **lettre par lettre, très lentement**. C'est le gag visuel principal du chapitre.
+> **Moments clés** : le marais endormi, les miettes dans le brouillard, Yanis, le boss.
+> **Équipe** : 6 personnages, puis 7 avec Yanis.
+
+### SCÈNE 6-1 : Le marais endormi
+
+[DÉCOR] Un marais vert-de-gris, couvert de brume. Des saules pleureurs, des nénuphars, des lucioles. Partout, des **utilisateurs endormis** : sur des lits de camp, dans des hamacs, la tête sur un clavier flottant. Au-dessus de chacun, un petit « 💤 AFK ». Un panneau : « **#afk — Zone de repos obligatoire. Tout utilisateur inactif depuis plus de 5 minutes sera kické.** »
+[MUSIQUE] Thème du **Marais** : une berceuse lo-fi, très lente, avec des bâillements dans les percussions.
+
+KEVIN : La brume a des propriétés soporifiques. *(Il bâille.)* Fascinant. *(Il bâille encore.)* Très… fascinant.
+BIDOU : *(inspire, bâille en même temps, s'étouffe)* … faut pas bâiller et respirer en même temps. *(Inspire.)* Je viens de l'apprendre.
+FLORIAN : Je vais pas dormir. Je dors jamais. *(Il s'assoit sur une souche.)* Je me pose juste deux secondes.
+ROBIN : Florian.
+FLORIAN : *(déjà endormi)* … c'était le jungler… zzz…
+[ÉVÉNEMENT] Robin réveille Florian avec une tape sur l'épaule.
+JORDAN : Restez actifs. Si on s'endort ici, on se fait kicker.
+JOSÉ : Et Yanis ? Il est là depuis trois jours. Il doit dormir depuis longtemps.
+CLYDE : Mes capteurs détectent un utilisateur actif au centre du marais. Un seul. Il bouge… *(il plisse ses capteurs)* … très lentement. Mais il bouge.
+TOUS : … Yanis.
+
+> **Ennemis de la zone** : **Moustiques Insomniaques** (mono, rapides), **Dormeurs Somnambules** (zone, statut *Sommeil*), **Notifs « Êtes-vous toujours là ? »** (debuff vitesse).
+
+### SCÈNE 6-2 : Les miettes dans le brouillard (labyrinthe)
+
+[DÉCOR] Le cœur du marais est noyé dans une brume si épaisse qu'on ne voit pas à deux cases. Des chemins de planches partent dans tous les sens.
+CLYDE : Impossible de s'orienter là-dedans.
+JOSÉ : *(s'accroupit, ramasse quelque chose sur une planche)* Attendez. *(Il l'examine comme un archéologue.)* Une miette. De pain de mie. Fraîche… enfin, trois jours.
+ROBIN : Yanis mange tellement lentement qu'il sème des miettes partout.
+JOSÉ : C'est une piste. Comme dans Le Petit Poucet. Sauf que le Petit Poucet, lui, il le faisait exprès.
+
+> **Labyrinthe** : un dédale de planches dans le brouillard. Le joueur suit les **miettes de sandwich** posées sur les bons chemins. Les mauvais chemins mènent à des culs-de-sac avec un combat contre des Dormeurs Somnambules.
+> Indices dans les miettes, au fil du chemin : une miette de pain, un bout de salade, une rondelle de tomate, un morceau de jambon… et enfin un **AirPod** tombé dans la boue, *(non, fausse alerte : c'est un chewing-gum blanc)*.
+
+[ÉVÉNEMENT] *Tentative de drague de José (chapitre 6)*. Sur un ponton, une **Fée des Lucioles** à la lumière douce. Jingle Pierre, version berceuse.
+JOSÉ : *(ajuste son foulard, en luttant contre le sommeil)* Mademoiselle. Archéologue. Stylé. Et… *(bâille)* … très éveillé.
+FÉE DES LUCIOLES : *(elle regarde derrière lui, au loin, et s'illumine)* Oh… qui c'est, là-bas ?
+[ÉVÉNEMENT] Au loin, à travers la brume, on devine une lueur blanche éclatante : un **sourire**.
+FÉE DES LUCIOLES : Ce sourire… *(Elle s'envole vers la lueur sans un regard pour José.)*
+JOSÉ : … je me fais voler par un sourire. Je me fais voler par Yanis, et il a même pas encore dit un mot.
+[FLAG] `rateaux_jose += 1`
+
+[ÉVÉNEMENT] *(Gag, optionnel)* Sur un saule, un nom gravé dans l'écorce : **Ceyn**.
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+KEVIN : Ceyn.
+BIDOU : *(inspire)* Ceyn.
+ROBIN : Ceyn.
+FLORIAN : *(à moitié endormi)* … Ceyn… zzz.
+*(Ils reprennent la piste des miettes.)*
+
+### SCÈNE 6-3 : Yanis
+
+[DÉCOR] Une petite clairière au centre du marais. La brume s'écarte en cercle autour d'un banc. Assis dessus, **Yanis** : sweat confortable, AirPods dans les oreilles, en train de manger un sandwich. Il mâche. Lentement. Très lentement.
+[ÉVÉNEMENT] L'équipe arrive en courant.
+JORDAN : YANIS !
+[ÉVÉNEMENT] Yanis ne réagit pas. Il mâche.
+JORDAN : YANIS !!
+[ÉVÉNEMENT] Yanis lève les yeux. Il voit l'équipe. Il lève une main. Il la porte à son oreille droite. Il retire son AirPod droit. Il le regarde. Il le range dans le boîtier. Il ferme le boîtier. *(Clic.)* Il porte la main à son oreille gauche…
+> **Mise en scène** : chaque geste est une étape séparée, avec une courte pause entre chaque. Le joueur ne peut rien faire pendant ce temps. Ça doit durer **un peu trop longtemps**, c'est le gag.
+FLORIAN : *(tape du pied)* Allez… allez…
+KEVIN : *(chuchote)* Il y a une pause de 1,8 seconde entre chaque geste. Je chronomètre depuis des années.
+[ÉVÉNEMENT] … il retire le gauche. Le range. *Clic.* Il pose le boîtier sur le banc. Il relève la tête. Et il sourit.
+[SFX] *Ting !* Un éclat de lumière : ses dents, d'une blancheur aveuglante. La brume recule d'un coup autour de lui. Deux lucioles tombent, éblouies.
+YANIS : *(lettre par lettre)* S… a… l… u… t… les… mecs.
+[ÉVÉNEMENT] Toute l'équipe sourit automatiquement, même Bidou qui boudait encore un peu.
+BIDOU : *(inspire)* … je peux pas lui en vouloir. *(Inspire.)* J'essaie, mais j'y arrive pas.
+JOSÉ : C'est ce sourire. C'est une arme.
+
+JORDAN : Yanis, ça fait trois jours ! Tout le monde dort dans ce marais, on se fait kicker si on reste ici, et toi tu… manges ?
+YANIS : *(lettre par lettre)* Ouais… *(Il regarde son sandwich.)* … c'est… celui… de… l'autre… soir.
+ROBIN : Le même sandwich ? Depuis le prologue ?
+YANIS : *(il sourit)* Je… prends… mon… temps.
+FLORIAN : Et la brume ? Tu dors pas ?
+YANIS : *(un long temps de réflexion)* … quelle… brume ?
+KEVIN : *(fasciné)* Il est tellement lent naturellement que la brume d'inactivité ne fait aucune différence. Son état normal EST l'inactivité. Le Modérateur n'a aucun effet sur lui.
+YANIS : *(sourit)* … merci ?
+
+JORDAN : On doit partir, Yanis. On récupère tout le monde. Tu viens ?
+YANIS : *(regarde le sandwich, puis l'équipe, puis le sandwich)* … ouais. *(Il prend une bouchée. Il mâche.)* … j'arrive.
+[ÉVÉNEMENT] *(Écran noir. Texte : « 4 minutes plus tard ».)*
+YANIS : *(il a fini la bouchée)* … c'est bon.
+[ÉVÉNEMENT] Il range le reste du sandwich dans sa poche, pour plus tard.
+[ÉVÉNEMENT] **Yanis rejoint l'équipe.**
+JOSÉ : Comme à Europa Park. Parti à 5 h, arrivé à 9 h.
+YANIS : *(sourit)* … mais… je… suis… arrivé.
+
+> **Compétences de Yanis** (jungler, Lilia) : *Coup de Fleur* (mono), *Sieste de Lilia* (statut *Sommeil* sur tous les ennemis, chance), *Sourire Éclatant* (soin de groupe et statut *Aveugle* sur un ennemi), *J'arrive…* (mono, dégâts très élevés). Stat de vitesse la plus basse du jeu : il joue presque toujours en dernier.
+
+### SCÈNE 6-4 : Boss : le Sablier d'Inactivité
+
+[SFX] Un *tic-tac* énorme résonne dans tout le marais.
+[ÉVÉNEMENT] Depuis la brume s'élève un **sablier géant** avec des bras, des yeux, et un compte à rebours gravé sur le verre : « **Inactif depuis 4:59** ».
+SABLIER D'INACTIVITÉ : TIC. TAC. UTILISATEUR « YANIS ». INACTIF DEPUIS TROIS JOURS. PROCÉDURE DE KICK ENGAGÉE.
+YANIS : *(lettre par lettre)* … j'étais… pas… inactif. *(Il sort le sandwich de sa poche.)* … je… mangeais.
+SABLIER D'INACTIVITÉ : MANGER À CETTE VITESSE EST CONSIDÉRÉ COMME INACTIF.
+FLORIAN : Il a pas tort, en vrai.
+YANIS : *(se tourne vers Florian, et sourit)*
+FLORIAN : *(fond)* … non, il a tort. Il a complètement tort.
+
+> **Équipe** : Yanis est obligatoirement dans l'équipe pour ce combat. Le joueur choisit les 3 autres.
+
+[COMBAT] **Le Sablier d'Inactivité** (2 phases, avec interventions)
+
+- **Phase 1**
+  - *Sable du Sommeil* : statut *Sommeil* sur un allié.
+  - *Avertissement d'Inactivité* : debuff vitesse sur toute l'équipe (« Êtes-vous toujours là ? »).
+  - *Coup de Sablier* : mono.
+
+- **Intervention 1 (au premier tour de Yanis) : la tentative de kick**
+  [ÉVÉNEMENT] Comme Yanis joue en dernier, le Sablier le cible juste avant son tour.
+  SABLIER : DERNIER AVERTISSEMENT. UTILISATEUR « YANIS », PROUVEZ QUE VOUS ÊTES ACTIF.
+  [ÉVÉNEMENT] Yanis lève une main. La porte à son oreille. Retire un AirPod. Le range. *Clic.* *(L'équipe retient son souffle.)* Il relève la tête… et sourit.
+  [SFX] *Ting !*
+  [ÉVÉNEMENT] Le Sablier est **aveuglé** et reçoit un **debuff précision** pour toute la phase 1.
+  SABLIER : MES YEUX ! C'EST TROP BLANC ! COMMENT ON PEUT AVOIR LES DENTS AUSSI BLANCHES !
+  BIDOU : *(inspire)* On se pose tous la question, depuis des années.
+
+- **Phase 2 (sous 50 % de PV)**
+  - Le Sablier se retourne : le sable remonte, et il gagne *Temps Inversé* (soin de 15 %, une seule fois).
+  - *Kick Imminent* : zone, gros dégâts.
+  - *Sommeil Profond* : statut *Sommeil* sur deux alliés.
+
+- **Intervention 2 (au début de la phase 2) : un message d'Alex**
+  [SFX] *Ding !* Une notification résonne dans tout le marais.
+  [DISCORD] **Alex** : je suis là les gars je vous jure 😅
+  ROBIN : Alex ?!
+  JORDAN : C'est le même message que l'autre soir ! Il arrive avec trois jours de retard !
+  [ÉVÉNEMENT] Un petit colis tombe du ciel, avec une étiquette : « *Livraison longue distance — Expéditeur : Alex — Délai estimé : 3 jours* ». Dedans : **Café Serré d'Alex**. Utilisé automatiquement : retire *Sommeil* à toute l'équipe et donne un **buff vitesse** à toute l'équipe.
+  [ÉVÉNEMENT] Un petit mot dans le colis : « *Désolé c'est loin chez moi. Bisous. Alex.* »
+  KEVIN : Il habite tellement loin que même ses messages ont du lag.
+  FLORIAN : Il veut pas nous voir, mais il nous envoie du café. C'est quoi ce mec.
+  JOSÉ : Un mec trop beau, voilà ce que c'est.
+  *(Annonce du chapitre 7.)*
+
+- **Fin du combat**
+  [ÉVÉNEMENT] Cinématique : Yanis s'avance, très lentement. Le Sablier, paniqué, accélère son compte à rebours : « 0:10… 0:05… 0:01… » Yanis le regarde, sourit, lance *J'arrive…*… et frappe exactement à **0:00**. Le Sablier vole en éclats, et le sable se répand dans le marais comme une pluie dorée.
+  YANIS : *(lettre par lettre)* … j'avais… dit… que… j'arrivais.
+
+### SCÈNE 6-5 : Le réveil du marais
+
+[DÉCOR] La brume se dissipe. Le soleil se lève sur le marais. Un par un, les utilisateurs AFK se réveillent, s'étirent, et regardent autour d'eux.
+DORMEUR : *(bâille)* … j'ai raté quoi ?
+CLYDE : Trois jours, un coup d'État et un chat qui pète.
+[ÉVÉNEMENT] Comme pour illustrer, Snow passe au milieu des dormeurs. *prrrt.*
+TOUS LES DORMEURS : … ah. Ça pue.
+YANIS : *(sourit)* … Snow.
+
+[ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (6/7)**.
+[ÉVÉNEMENT] Objet obtenu : **AirPods de Yanis**, accessoire pour Yanis. *Description : « Immunité au Sommeil. Temps nécessaire pour les retirer : beaucoup trop. »*
+
+[ÉVÉNEMENT] L'équipe au complet, ou presque, se rassemble au bord du marais. Six amis, un chat, un vieux bot.
+JORDAN : Six fragments. Il en manque un.
+ROBIN : Et il manque Alex.
+FLORIAN : Il est où, d'ailleurs ?
+CLYDE : D'après l'adresse d'expédition du colis… *(il calcule)* … hors du serveur. Dans les **Terres Lointaines**. Ping 400.
+KEVIN : 400 de ping. C'est plus un voyage, c'est une expédition spatiale.
+BIDOU : *(inspire)* Il veut vraiment pas nous voir.
+JOSÉ : Ou alors c'est vraiment loin.
+YANIS : *(lettre par lettre)* … on… y… va ?
+JORDAN : *(sourit)* On y va. Road trip de la Red Room. Je conduis.
+TOUS : … évidemment.
+
+[ÉVÉNEMENT] Sur la carte du monde, un message du Modérateur Fou défile dans le ciel :
+[DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
+> @everyone Le Marais d'AFK a été réveillé sans autorisation. Rappel : toute sortie hors du serveur est **strictement interdite**. Les Terres Lointaines n'existent pas. Il n'y a personne là-bas. Surtout pas quelqu'un de trop beau.
+> — *Approuvé par Camil (1,62 m)*
+FLORIAN : Ils sont jaloux d'Alex. Même eux.
+
+**FIN DU CHAPITRE 6**
+
+---
+
+### Récapitulatif chapitre 6 (pour l'intégration)
+- **Recrue** : Yanis (combattant, jungler Lilia, vitesse la plus basse du jeu). 7 personnages, 4 en combat.
+- **Mise en scène** : les bulles de Yanis s'affichent lettre par lettre, très lentement ; le rituel des AirPods ; le sandwich du prologue.
+- **Énigme** : le labyrinthe dans le brouillard, en suivant les miettes du sandwich.
+- **Objets clés** : Fragment du Premier Message (6/7), AirPods de Yanis.
+- **Flags** : `rateaux_jose` (variante : la fée part vers le sourire de Yanis).
+- **Boss** : le Sablier d'Inactivité (2 phases).
+  - **Intervention 1** : la tentative de kick ; Yanis retire un AirPod, sourit et aveugle le boss.
+  - **Intervention 2** : le message d'Alex arrive avec trois jours de retard, avec un colis de café (réveil et buff vitesse).
+- **Ceyn** : gravé dans l'écorce d'un saule (gag uniquement).
+- **Suite** : chapitre 7, les Terres Lointaines et Alex.
