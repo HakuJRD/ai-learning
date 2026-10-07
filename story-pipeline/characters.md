@@ -3,14 +3,25 @@
 > Les traits viennent de Jordan. Les classes et compétences sont des **propositions** à valider.
 
 ## Jordan : le protagoniste
-- Hôte du **QG** (son appart, lieu des soirées Mario Party alcoolisées).
-- C'est lui qui organise les voyages de la Red Room.
+- Joueur de **League of Legends**. C'est le mieux classé du groupe : il « supporte » tout le monde, dans les deux sens du terme. Main **Senna**.
+- Le **« riche »** du groupe : le seul avec une vraie situation, un appart (le **QG**) et une voiture.
+- Le **plus vieux** (29 ans). Running gag : il existe depuis 5 000 ans et a connu les dinosaures.
 - Running gag avec José : « Tu m'as désinvité ! » (Portugal). Jordan jure que non.
-- **Classe proposée** : *L'Hôte*, un leader polyvalent.
-  - *Soirée au QG* : soigne toute l'équipe, mais chance de statut « Gueule de bois » au tour suivant.
-  - *Ping @everyone* : appelle un allié de réserve pour une attaque.
-  - *Organiser un voyage* : téléportation entre zones déjà visitées.
-- ❓ À compléter : ton jeu ou ta main, ton défaut attachant, une phrase culte.
+- **Classe proposée** : *L'Ancien*, un tireur et soigneur à longue portée inspiré de Senna.
+  - *Tir de l'Ancien* : attaque à longue portée.
+  - *Brume Ancestrale* : soin de groupe.
+  - *Carte Bleue* : résout certaines situations en payant, ou paye la tournée.
+  - *Souvenirs du Crétacé* : révèle les faiblesses d'un ennemi (« J'ai déjà vu ça en 1998 »).
+  - *Douleurs Lombaires* : passif, chance de rater son tour en se relevant.
+  - *Soirée au QG* : soin total hors combat, avec risque de statut « Gueule de bois ».
+
+## Snow : le chat de Jordan (compagnon)
+- Adoré de tout le groupe, et tout le monde en a marre : gros chieur, cacas qui puent.
+- Aspiré dans le serveur avec Jordan. À Généralia, c'est **la Bête Blanche**, une légende locale qui laisse derrière elle des « reliques » nauséabondes.
+- **Compagnon non combattant** :
+  - *Relique Puante* : objet de combat, fait fuir ou empoisonne les ennemis.
+  - Il marche sur les claviers et les interrupteurs (puzzles).
+  - Il refuse parfois d'avancer.
 
 ## José : l'Archéologue Stylé
 - Passionné d'archéologie et de mode. Il se répète qu'il est **un mec cool**, et il l'est.
@@ -89,14 +100,22 @@
 
 ## Antagonistes
 
-### Camille : le faux méchant
-- Ancien de la Red Room, avec qui le groupe s'est un peu brouillé.
-- Le joueur pense tout le jeu qu'il est le maître du **Modérateur Fou**.
-- En réalité, c'est un pion : manipulé, ou lui aussi piégé.
+### Camille : le faux cerveau, vrai méchant
+- Ancien de la Red Room, parti en mauvais termes. **Pas de réconciliation.**
+- Dans le jeu : un **ego démesuré**. Il se fait ériger des statues, renomme les places à son nom, s'embrouille avec tout le monde.
+- Il croit diriger le Modérateur Fou ; en fait, il est **manipulé** par Ceyn. Boss à battre, mais pas l'instigateur.
+- Choix d'écriture : sa méchanceté passe par l'ego et les embrouilles, pas par ce qui s'est passé dans la vraie vie.
 
 ### Ceyn : le vrai cerveau
-- La révélation de la fin.
-- ❓ À préciser pour que le twist fasse rire : qui est Ceyn pour le groupe, son caractère, ses tics, ce qui rend drôle le fait que ce soit lui.
+- **Ancien fondateur** de la Red Room.
+- **Running gag central** : à chaque fois que son nom apparaît ou est prononcé, tout le groupe répète simplement « Ceyn. ». Dans le jeu, ça devient une mécanique : chaque fois que « Ceyn » s'affiche, chaque membre présent de l'équipe dit « Ceyn. » dans une bulle.
+- Fait beaucoup de **photos de mode** en ce moment. Dans le jeu : poses, filtres, shootings ; ses attaques sont des flashs et des « séances photo ».
+- **Motif** : reprendre le contrôle du Discord qu'il avait fondé avec les autres.
+- **Graines du twist** :
+  - Le 👀 sous le lien du prologue.
+  - Le « message supprimé » dans le premier message de la Red Room (chapitre 1).
+  - Le « cinquième lit » de la chambre de Düsseldorf.
+  - Ses passages éclair « En ligne ».
 
 ### Le Modérateur Fou
 - Le bot boss, l'arme du méchant. Il veut un serveur « propre et productif » : il ban les memes, mute les vocaux et kick les AFK.

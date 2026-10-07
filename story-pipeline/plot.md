@@ -26,9 +26,10 @@ Le camp entre les chapitres. Il s'agrandit à chaque ami recruté : dialogues de
 
 ### Prologue : « Free RP 100% legit »
 Soirée au QG, le vocal se vide un par un. Jordan reste seul, le lien arrive, il clique et il est aspiré.
-- **Graine du twist** : dans la liste des membres, un certain **Ceyn** est « Inactif » depuis des lustres. Il est pourtant le **seul** à réagir au lien, avec un 👀. Personne n'y prête attention.
+- **Graine du twist** : **Ceyn**, « Inactif » depuis des lustres, est le **seul** à réagir au lien, avec un 👀. Jordan murmure « … Ceyn. » par réflexe : le running gag sert de camouflage à l'indice.
+- Si Jordan refuse de cliquer, c'est **Snow** qui marche sur le clavier et clique. Snow est aspiré avec lui.
 
-### Chapitre 1 : Généralia (José)
+### Chapitre 1 : Généralia (José) : rédigé, voir draft.md
 Jordan découvre le monde. José fouille les ruines des vieux messages, persuadé de faire la découverte archéologique du siècle. Il est en tenue d'explorateur, « mais stylée ».
 - Gag : « Tu m'as désinvité ! »
 - Mini-boss : le **Gardien des Épinglés**.
@@ -67,14 +68,10 @@ Alex est hors du serveur, à un ping de 400. Toute la Red Room fait le trajet, f
 La grande scène chorale, juste avant l'assaut. Tout le monde parle de Camille, persuadé que c'est lui le coupable.
 
 ### Final : la Tour des Modérateurs
-- **Boss 1 : Camille**, sur son trône. Le combat se gagne… et Camille se révèle n'être qu'une **marionnette** : son compte a été piraté, il est lui aussi coincé dans le serveur.
-  - La réconciliation reste optionnelle et légère : le joueur peut choisir.
-- **Révélation** : Ceyn, le membre « Inactif » qui avait mis un 👀 sous le lien au prologue. Il est en réalité **le propriétaire du serveur** (👑), et il ne s'est jamais déconnecté.
+- **Boss 1 : Camille**, sur un trône à son effigie. On le bat. Il hurle que c'est lui le patron… puis les fils de marionnette apparaissent : il n'a jamais rien contrôlé. **Pas de réconciliation** : il est banni du serveur pour de bon, avec le dernier coup de marteau 🔨.
+- **Révélation** : Ceyn, ancien fondateur, le 👀 du prologue, l'auteur du « message supprimé », le cinquième lit de Düsseldorf. Il a gardé le rôle **propriétaire du serveur** (👑) et veut **reprendre le contrôle du Discord qu'il a fondé**. Toute l'équipe dit en chœur : « Ceyn. »
 - **Boss 2 : Ceyn**, qui fusionne avec le Modérateur Fou.
 - **Fin** : Jordan se réveille au QG. Le vocal se remplit. Dernier message dans le salon : Ceyn tape « … », puis « Ceyn est en train d'écrire… », et ne finit jamais son message. Générique.
 
 ## Questions ouvertes
-- **Ceyn** : qui est-il pour le groupe ? Quel est son motif ? En attendant, motif provisoire et loufoque : il en avait marre d'être « Inactif » et voulait qu'on le remarque enfin.
-- **Camille** : quel niveau de méchanceté est acceptable ? En attendant : piégé lui aussi, avec une fin douce-amère et drôle.
-- **Jordan** : ses traits et sa phrase culte.
 - L'ordre des chapitres est-il libre ou imposé ? Un ordre libre ferait comme un open world par salons.
