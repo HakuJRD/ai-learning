@@ -17,10 +17,10 @@
 - **Hors combat** : *Carte Bleue*. Certains PNJ et marchands lui font des prix « spécial voiture » (+30 %).
 
 ## Snow : le chat de Jordan (compagnon non combattant)
-- Adoré de tout le groupe, et tout le monde en a marre : gros chieur, cacas qui puent.
-- Aspiré dans le serveur avec Jordan. À Généralia, c'est **la Bête Blanche**, une légende locale qui laisse derrière elle des « reliques » nauséabondes.
-- Suit l'équipe sur la carte. Intervient dans certaines scènes scriptées.
-- Fournit l'objet **Relique Puante** (objet de combat : Zone + statut Poison).
+- Adoré de tout le groupe, et tout le monde en a marre : gros chieur, qui pue.
+- Aspiré dans le serveur avec Jordan. À Généralia, c'est **la Bête Blanche**, une légende locale qui laisse derrière elle des nuages verts.
+- **Running gag** : Snow **pète**. Petit nuage vert, et tout le monde autour : « Ah, ça pue. »
+- Suit l'équipe sur la carte. Intervient dans certaines scènes et certains combats scriptés (un pet qui affaiblit un boss, par exemple). Il refuse parfois d'avancer.
 
 ## José : l'Archéologue Stylé
 - Passionné d'archéologie et de mode. Il se répète qu'il est **un mec cool**, et il l'est.
@@ -48,15 +48,16 @@
 - Trauma : la demi-finale des **Worlds RLCS 2023 à Düsseldorf**, perdue 4-2 par la Karmine Corp contre Vitality (le même week-end que la naissance de la Red Room).
 - Membre fondateur (chambre de Düsseldorf).
 
-## Bidou : le Barde à Bout de Souffle
-- Joueur de support, il aime les **bardes**.
-- Gros running gag sur ses poumons : il manque toujours d'air. Sa jauge de magie s'appelle le **Souffle** (même fonctionnement que le mana), et ses chansons sont toujours coupées avant le dernier couplet *(dans les animations et les dialogues)*.
-- Rageux et **très susceptible**.
+## Bidou : le Métalleux Cosmique
+- **Métalleux** dans la vie : rock, metal, cheveux longs, veste en cuir.
+- Joue support, et son champion est **Bard** (le personnage de LoL, pas un barde qui chante).
+- Gros running gag sur ses poumons : il manque toujours d'air. Sa jauge de magie s'appelle le **Souffle** (même fonctionnement que le mana). Dans les scènes, il doit faire des pauses pour respirer, surtout au moment de crier.
+- Rageux et **très susceptible** (« C'est bon, j'ai compris. Je boude. »).
 - **Compétences** :
-  - *Ballade (inachevée)* : Soin mono.
-  - *Refrain Essoufflé* : Soin de groupe.
-  - *Note Vexée* : Mono (« C'est bon, j'ai compris. »).
-  - *Bouderie* : Buff attaque sur soi, debuff défense sur soi.
+  - *Riff Saturé* : Mono.
+  - *Headbang* : Zone.
+  - *Carillons* : Soin de groupe (clin d'œil aux carillons de Bard).
+  - *Destin Figé* : Statut « Étourdi » sur tous les ennemis (la ult de Bard).
 - Membre fondateur (chambre de Düsseldorf).
 
 ## Robin : le Soldat Malgré Lui
@@ -110,17 +111,12 @@
 - **Pas d'interaction directe avec Kevin** (ils ne se parlaient déjà pas vraiment).
 - Choix d'écriture : sa méchanceté passe par l'ego et les embrouilles, pas par ce qui s'est passé dans la vraie vie.
 
-### Ceyn : le vrai cerveau
+### Ceyn : le vrai cerveau (secret jusqu'au final)
 - **Ancien fondateur** de la Red Room.
-- **Running gag central** : à chaque fois que son nom apparaît ou est prononcé, tout le groupe répète simplement « Ceyn. ». Dans le jeu : chaque membre présent de l'équipe dit « Ceyn. » dans une bulle, puis on reprend comme si de rien n'était.
-- Fait beaucoup de **photos de mode** en ce moment. Ses attaques de boss sont des flashs et des « séances photo » (statuts Aveugle, Paralysie).
+- **Running gag central** : à chaque fois que son nom apparaît, tout le groupe répète simplement « Ceyn. ». Dans le jeu : chaque membre présent de l'équipe dit « Ceyn. » dans une bulle, puis on reprend comme si de rien n'était.
+- **Règle d'écriture** : le joueur ne doit avoir **aucun indice**. Ceyn n'apparaît que sous forme de nom écrit ici et là (un graffiti, un nom gravé, un mot dans la neige), uniquement pour le gag. On découvre « par hasard » au final que c'est lui le boss.
+- Fait beaucoup de **photos de mode** en ce moment. Ses attaques de boss final seront des flashs et des « séances photo » (statuts Aveugle, Paralysie).
 - **Motif** : reprendre le contrôle du Discord qu'il avait fondé avec les autres.
-- **Graines du twist** :
-  - Le 👀 sous le lien du prologue.
-  - Le cinquième lit de la chambre de Düsseldorf (chapitre 1).
-  - Le « message supprimé » dans le premier message de la Red Room (chapitre 1).
-  - Le tampon « Photo : Ceyn » au dos de la photo d'équipe (chapitre 2).
-  - Ses passages éclair « En ligne ».
 
 ### Le Modérateur Fou
 - Le bot boss, l'arme du méchant. Il veut un serveur « propre et productif » : il ban les memes, mute les vocaux et kick les AFK.

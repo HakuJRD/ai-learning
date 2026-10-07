@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.4 : Prologue + Chapitres 1 à 3
+### Script v0.5 : Prologue + Chapitres 1 à 3
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -13,7 +13,7 @@
 
 ### SCÈNE P-1 : Le QG, 03 h 47
 
-[DÉCOR] Un appart plongé dans le noir. Un écran allumé, une Switch abandonnée sur le plateau de Mario Party, une forêt de canettes. Une odeur suspecte flotte : un petit nuage vert pixelisé monte d'une litière dans le coin.
+[DÉCOR] Un appart plongé dans le noir. Un écran allumé, une Switch abandonnée sur le plateau de Mario Party, une forêt de canettes. Une odeur suspecte flotte.
 [ÉVÉNEMENT] **Snow**, gros chat blanc, est couché *sur* le clavier. Il fixe Jordan sans cligner des yeux.
 [MUSIQUE] Le *bloop* de connexion Discord, en boucle, façon lo-fi.
 [DISCORD] 🔊 **Red Room — vocal** · 7 connectés
@@ -38,13 +38,15 @@ JORDAN : Tu manges quoi ?
 YANIS : … le même sandwich que tout à l'heure.
 
 [SFX] Un *miaou* rauque dans le micro de Jordan.
-KEVIN : C'est Snow ? Dis-lui que je l'aime. Et dis-lui de pas chier pendant qu'on joue, on a senti la dernière fois. À travers Discord. C'est scientifiquement impossible, mais on l'a senti.
+[ÉVÉNEMENT] Snow se lève sur le clavier, se retourne… *prrrt*. Un petit nuage vert pixelisé.
+JORDAN : … ah. Ah, ça pue.
+KEVIN : C'est Snow ? Dis-lui que je l'aime. Et dis-lui d'arrêter de péter pendant qu'on joue, on a senti la dernière fois. À travers Discord. C'est scientifiquement impossible, mais on l'a senti.
 JORDAN : Il fait ce qu'il veut, c'est le vrai propriétaire de l'appart.
 
-[ÉVÉNEMENT] Une icône grisée clignote dans la liste des membres : **Alex 🌙 Absent**.
-JOSÉ : Alex est encore absent. Il veut pas nous voir, c'est officiel.
+JOSÉ : Alex a encore pas répondu de la soirée. Il veut pas nous voir, c'est officiel.
 FLORIAN : Il est trop beau pour nous, voilà le problème.
-[DISCORD] **Alex** : je suis là les gars je vous jure 😅 · *(L'icône repasse immédiatement en « Absent ».)*
+[DISCORD] **Alex** : je suis là les gars je vous jure 😅
+*(Il n'écrira plus rien du reste de la soirée.)*
 
 ### SCÈNE P-2 : Le vocal se vide
 
@@ -70,10 +72,6 @@ JORDAN : *(seul)* 29 ans. Une voiture, un appart, un vrai travail. Et je suis en
 > **Camil** : free RP 100% legit 👉 `redroom.gift/claim` · *(il y a 1 minute)*
 
 JORDAN : … Camil ? Il est encore sur le serveur, lui ? Je croyais qu'on l'avait…
-[ÉVÉNEMENT] Sous le message, une seule réaction apparaît : **👀 1**.
-[ÉVÉNEMENT] *(Optionnel, si le joueur survole la réaction.)* Une infobulle affiche : « **Ceyn** a réagi avec 👀 ». Le profil indique : *Inactif*.
-JORDAN : *(machinalement, comme tout le monde le ferait)* … Ceyn.
-> **Note de mise en scène** : le gag doit servir de camouflage à l'indice. Le joueur rit et passe à autre chose. Pas de musique, pas de zoom.
 
 [CHOIX]
 1) Cliquer sur le lien.
@@ -124,9 +122,9 @@ JORDAN : Snow. Il est où, Snow ?!
 JORDAN : Attends… Snow ! Mon chat ! Il était avec moi !
 
 *(Convergence.)*
-CLYDE : Un chat ? Blanc ? *(Il frissonne.)* Tu parles de **la Bête Blanche** ? Elle est apparue cette nuit. Personne l'a vue en entier. On trouve seulement ce qu'elle laisse derrière elle. Des… reliques.
+CLYDE : Un chat ? Blanc ? *(Il frissonne.)* Tu parles de **la Bête Blanche** ? Elle est apparue cette nuit. Personne l'a vue en entier. On sait seulement qu'elle laisse derrière elle des… nuages.
 JORDAN : Oh non.
-CLYDE : Des reliques qui sentent la fin du monde.
+CLYDE : Des nuages verts qui sentent la fin du monde.
 JORDAN : Oh non non non.
 
 CLYDE : Bref. Tu es dans #général. Enfin, ce qu'il en reste. Depuis que le **Modérateur Fou** a pris le contrôle, plus personne parle ici. Les memes ont été bannis, les vocaux mutés et les AFK… *(il baisse la voix)* … kickés dans le Marais.
@@ -176,7 +174,11 @@ CITOYEN MUTÉ : 😤 ✋ *(Clyde : « Deux fois. »)*
 - **Utilisateur Supprimé** : « Je me souviens plus de qui j'étais. C'est reposant, en vrai. »
 - **Un vieux Bot de Musique** : « Avant on passait de la musique dans les vocaux. Maintenant YouTube m'a… *(grésillement)* … Personne ne se souvient de moi non plus. » *(Clyde et lui se font un câlin de robots retraités.)*
 - **Un Enfant de Généralia** : « Monsieur, c'est vrai que vous avez connu les dinosaures ? » / JORDAN : « … oui. Ils jouaient support. »
-- **Trace de la Bête Blanche n° 1** : une petite empreinte de patte et un nuage vert. Les PNJ autour se bouchent le nez. Clyde : « Elle est passée par là. Il y a au moins deux heures. Et ça sent encore. »
+- **Un mur de graffitis** : au milieu des tags (« GG », « nerf Yasuo », « Florian = pantacourt »), un nom écrit à la bombe : **Ceyn**.
+  JORDAN : Ceyn.
+  CLYDE : *(ne comprend pas, mais le dit quand même)* … Ceyn ?
+  *(Ils repartent comme si de rien n'était.)*
+- **Trace de la Bête Blanche n° 1** : une petite empreinte de patte et un nuage vert qui flotte encore. Les PNJ autour se bouchent le nez. Clyde : « Elle est passée par là. Il y a au moins deux heures. Et ça sent encore. »
 
 ### SCÈNE 1-3 : Le chantier de fouilles
 
@@ -204,17 +206,17 @@ JOSÉ : *(immédiatement radouci)* Je sais. Regarde comment le pantalon tombe su
 
 *(Convergence.)*
 JOSÉ : Bon. T'as vu ce qui se passe ? Tout le serveur est cassé. Moi j'ai atterri ici, et je me suis dit : tant qu'à faire, autant fouiller. Et regarde ce que j'ai trouvé ce matin.
-[ÉVÉNEMENT] Il sort d'une caisse, avec des gants et un respect infini, un **petit objet brun** posé sur un coussin de velours. Un nuage vert s'en échappe.
-JOSÉ : Un artefact. Préhistorique. Il dégage une aura incroyable. Ça fait trois heures que je l'étudie et j'ai les yeux qui pleurent. C'est l'émotion, je pense.
+[ÉVÉNEMENT] Il montre, avec un respect infini, un **bocal en verre** fermé, rempli d'une brume verte.
+JOSÉ : Un gaz ancien. Préhistorique. Je l'ai trouvé coincé dans la strate de Düsseldorf. Il dégage une aura incroyable. Ça fait trois heures que je l'étudie et j'ai les yeux qui pleurent. C'est l'émotion, je pense.
 JORDAN : José.
-JOSÉ : Probablement une offrande rituelle de l'époque Düsseldorf.
-JORDAN : José, c'est un caca de Snow.
+JOSÉ : Probablement le souffle sacré des fondateurs.
+JORDAN : José, c'est un pet de Snow.
 *(Long silence.)*
-JOSÉ : *(regarde l'objet, regarde Jordan, regarde l'objet)* … ça reste un artefact.
+JOSÉ : *(regarde le bocal, regarde Jordan, regarde le bocal)* … ça reste une découverte.
 CLYDE : C'est la Bête Blanche.
-JOSÉ : La Bête Blanche, c'est SNOW ? *(Il lâche le coussin.)* J'ai dormi à côté. J'ai DORMI à côté, Jordan.
-
-[ÉVÉNEMENT] Objet obtenu : **Relique Puante ×1**. *Description : « Un artefact de très grande valeur olfactive. Utilisable en combat : empoisonne tous les ennemis. Snow en produit gratuitement et sans limite. »*
+JOSÉ : La Bête Blanche, c'est SNOW ? *(Il lâche le bocal. Le couvercle saute.)*
+[ÉVÉNEMENT] Un nuage vert envahit la tranchée.
+JORDAN, JOSÉ, CLYDE : … ah. Ah, ça pue.
 
 JOSÉ : Bref. Ma vraie découverte, c'est ça.
 [ÉVÉNEMENT] Il montre au fond de la tranchée une porte de pierre scellée, gravée d'une **épingle 📌** géante. Une petite empreinte de patte est visible devant.
@@ -257,7 +259,7 @@ JOSÉ : *(le remet droit, très vite)* C'était un choix.
 > **Tutoriel combat** :
 > - **Jordan** : *Tir de l'Ancien* (mono), *Brume Ancestrale* (soin de groupe), *Souvenirs du Crétacé* (debuff défense).
 > - **José** : *Coup de Pinceau* (mono), *Sprint Néon* (mono rapide), *Tombé de Pantalon Parfait* (buff défense sur soi).
-> - Objet : *Relique Puante* (dégâts de zone et poison).
+> - Snow peut intervenir dans certains combats scriptés (un pet, et tout le monde : « Ah, ça pue. »).
 >
 > **Ennemis de la zone** :
 > - **Spam-bots** : « CLIQUEZ ICI POUR GAGNER », attaques faibles mais nombreuses.
@@ -282,15 +284,13 @@ JOSÉ : *(le remet droit, très vite)* C'était un choix.
 CLYDE : Astuce de vieux bot : la seule notification qui ne fait jamais mal, c'est celle qu'on a désactivée.
 JORDAN : C'est la phrase la plus sage que j'aie entendue de l'année.
 
-[ÉVÉNEMENT] *Trace de la Bête Blanche n° 2* : dans une des salles, un coffre qui fume en vert. L'ouvrir donne **Relique Puante ×2**, et un message : « Vous avez trouvé un trésor. Malheureusement. »
-JOSÉ : Il a fait ÇA dans un site classé ?!
+[ÉVÉNEMENT] *Trace de la Bête Blanche n° 2* : dans une des salles, un coffre qui fume en vert. L'ouvrir libère un nuage vert, et un message : « Le coffre était vide. Mais pas l'air. »
+JOSÉ : Ah, ça pue. Il a fait ÇA dans un site classé ?!
 
 #### 1-5-c : La Porte des Fondateurs
 [DÉCOR] Une grande porte rouge. Au-dessus, une inscription : « *Seuls ceux qui savent d'où vient le nom peuvent entrer.* »
 JOSÉ : C'est facile. *(Il pose la main sur la porte. Sa voix se fait plus douce.)* Düsseldorf. Les Worlds de Rocket League, 2023. Notre premier événement. On était dans la même chambre, les fondateurs. Moi, Kevin, Robin, Bidou… La chambre avait une lumière bizarre. Rouge. Toute la nuit, impossible de l'éteindre. Le lendemain, quelqu'un a dit « on est la Red Room », et c'est resté.
-JORDAN : Vous étiez quatre ?
-JOSÉ : Ouais, quatre. *(Pause.)* Enfin… il y avait cinq lits. Je sais plus pourquoi. Peut-être qu'il y avait un lit en trop.
-[ÉVÉNEMENT] *(Pas d'insistance. Le joueur tape le mot de passe.)*
+[ÉVÉNEMENT] *(Le joueur tape le mot de passe.)*
 > Saisie : `RED ROOM`
 [ÉVÉNEMENT] La porte s'ouvre. Une lumière rouge baigne la salle suivante. Le thème musical passe en version douce, orgue et ping de notification.
 
@@ -319,7 +319,6 @@ JORDAN : Et personne touche à mon chat. Sauf moi. Pour nettoyer la litière.
   - *Coup d'Épingle* : mono.
   - *Épinglage* : statut *Paralysie* un tour sur un allié.
   - *Rappel à l'ordre* : statut *Muet* sur un allié.
-  - Faiblesse : la *Relique Puante* fait double effet sur lui.
 - **Phase 2 (sous 60 % de PV) : Désinvitation**
   - Le Gardien lance *Retrait d'Invitation* : statut *Banni* sur José (il ne peut pas agir pendant deux tours).
   - Réplique, GARDIEN : « VOUS N'ÊTES PLUS INVITÉ. »
@@ -327,7 +326,8 @@ JORDAN : Et personne touche à mon chat. Sauf moi. Pour nettoyer la litière.
   - JORDAN : « Je t'ai JAMAIS désinvité ! »
 - **Phase 3 (sous 25 % de PV) : Intervention de Snow**
   - Le Gardien gagne *Suppression* : grosse attaque de zone.
-  - Événement scripté au début de la phase : Snow saute de la vitrine, se poste devant le Gardien, le fixe et… dépose une **relique fraîche** sur son socle.
+  - Événement scripté au début de la phase : Snow saute de la vitrine, se poste devant le Gardien, lui tourne le dos et… *prrrt*. Un énorme nuage vert.
+  - JORDAN, JOSÉ : « Ah, ça pue. »
   - GARDIEN : « ODEUR… NON… CONFORME… » · Le boss reçoit un debuff défense pour le reste du combat.
   - Le joueur finit le combat.
 
@@ -341,17 +341,15 @@ JORDAN : Et personne touche à mon chat. Sauf moi. Pour nettoyer la litière.
 > *[Message supprimé]*
 > **Robin** : vote à main levée : adopté
 
-> ❓ *À remplacer par le vrai premier échange si vous l'avez encore. Garder une ligne « Message supprimé » : c'est une graine du twist (c'est Ceyn qui l'avait écrite).*
+> ❓ *À remplacer par le vrai premier échange si vous l'avez encore.*
 
 JOSÉ : *(doucement)* Ça va paraître bizarre, mais… c'est le truc le plus beau que j'aie jamais déterré.
 JORDAN : Plus beau que tes baskets ?
 JOSÉ : *(longue réflexion)* … presque.
-JORDAN : Et le message supprimé, là, c'était qui ?
-JOSÉ : Aucune idée. *(Il se gratte la tête sous son chapeau.)* Quelqu'un qui a dit un truc et qui l'a regretté, je suppose. Ça arrive à tout le monde.
 
 [ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (1/7)**. *Description : « Un morceau de l'histoire de la Red Room. Il en faut sept pour ouvrir la Tour des Modérateurs. »*
 [ÉVÉNEMENT] Snow se frotte enfin contre la jambe de Jordan. Ronronnement.
-**Snow rejoint l'équipe (compagnon).** *Il suit Jordan sur la carte. De temps en temps, il s'arrête et refuse d'avancer pendant trois secondes. Il génère une Relique Puante tous les 10 combats.*
+**Snow rejoint l'équipe (compagnon).** *Il suit Jordan sur la carte. De temps en temps, il s'arrête et refuse d'avancer pendant trois secondes. Parfois, sur la carte, il pète : petit nuage vert, et une bulle « Ah, ça pue » au-dessus d'un membre de l'équipe au hasard.*
 [FLAG] `quete_bete_blanche = terminee`
 JOSÉ : Le premier qui le met dans mon sac de fouilles, je le désinvite.
 JORDAN : Ah ! Tu vois que ça existe, désinviter quelqu'un !
@@ -383,11 +381,6 @@ JORDAN : Bidou aime déjà pas respirer en temps normal.
 BIDOU *(voix lointaine, venue du ciel, très faible)* : … j'ai… *(inspire)* … entendu… *(inspire)* … je suis vexé…
 
 [ÉVÉNEMENT] Ouverture de la carte du monde. Les salons **#rocket-league**, **#vocal-1** et **#memes** deviennent accessibles.
-[ÉVÉNEMENT] Plan final du chapitre, très bref : dans la liste des membres en bas à droite de l'écran, **Ceyn** passe d'*Inactif* à *En ligne* pendant une demi-seconde, puis redevient *Inactif*.
-[ÉVÉNEMENT] *(Si le joueur a l'œil : la mécanique « Ceyn. » se déclenche.)*
-JOSÉ : Ceyn.
-JORDAN : Ceyn.
-[ÉVÉNEMENT] *(Puis ils reprennent leur route comme si de rien n'était.)*
 
 **FIN DU CHAPITRE 1**
 
@@ -395,9 +388,9 @@ JORDAN : Ceyn.
 
 ### Récapitulatif chapitre 1 (pour l'intégration)
 - **Recrues** : José (combattant), Snow (compagnon), Clyde (guide).
-- **Objets clés** : Fragment du Premier Message (1/7), Relique Puante.
+- **Objets clés** : Fragment du Premier Message (1/7).
 - **Flags** : `snow_a_clique`, `jose_aveu_portugal`, `rateaux_jose`, `quete_bete_blanche`.
-- **Graines du twist posées** : 👀 de Ceyn (prologue) ; le cinquième lit de Düsseldorf (1-5-c) ; le message supprimé (1-7) ; l'hologramme de Camil coupé par quelqu'un d'autre (1-8) ; Ceyn brièvement « En ligne » (1-8).
+- **Ceyn** : un seul graffiti sur un mur de Généralia (gag uniquement, aucun indice).
 
 ---
 
@@ -460,8 +453,8 @@ JORDAN : Snow, bouge.
 SNOW : *(ne bouge pas)*
 JOSÉ : Il a un problème avec l'autorité, ton chat.
 JORDAN : Il a un problème avec tout.
-[ÉVÉNEMENT] Le joueur doit acheter **Croquettes Spatiales** à la buvette (prix Jordan) et les poser à côté de Snow. Snow se lève, mange et laisse le poster… et une **Relique Puante** en échange.
-JOSÉ : Il paie en nature. C'est un business.
+[ÉVÉNEMENT] Le joueur doit acheter **Croquettes Spatiales** à la buvette (prix Jordan) et les poser à côté de Snow. Snow se lève, mange, laisse le poster… et pète en partant.
+JOSÉ : Ah, ça pue. Il paie en nature, ton chat.
 
 [ÉVÉNEMENT] Chaque poster donné à un supporter muté lui rend la voix. Exemples de répliques :
 - SUPPORTER 1 : « … KC ? KC ! J'avais oublié comment on disait ! »
@@ -478,7 +471,7 @@ JOSÉ : Il paie en nature. C'est un business.
 JOSÉ : C'était juste avant la demi-finale. On y croyait tellement.
 JORDAN : C'est le week-end où vous êtes devenus la Red Room, non ?
 JOSÉ : Ouais. On a perdu le match, et on a gagné un groupe. *(Un temps.)* C'est un bon échange, en vrai.
-[ÉVÉNEMENT] *(Graine discrète.)* Au dos de la photo, un petit tampon : « *Photo : Ceyn* ».
+[ÉVÉNEMENT] Sur le banc du vestiaire, un nom gravé au couteau parmi d'autres : « **Ceyn** ».
 [ÉVÉNEMENT] Mécanique « Ceyn. » :
 JORDAN : Ceyn.
 JOSÉ : Ceyn.
@@ -639,55 +632,85 @@ JORDAN : Alors on n'a pas de temps à perdre.
 - **Flags** : `rateaux_jose` (variante « refus par principe »).
 - **Mini-donjon** : la Ruche des Gradins (3 salles).
 - **Boss** : la Reine de la Ruche (2 phases, attaques, invocations et soin standards).
-- **Graines du twist** : le tampon « Photo : Ceyn » au dos de la photo de Düsseldorf.
+- **Ceyn** : nom gravé sur un banc du vestiaire (gag uniquement).
 - **Suite** : chapitre 3, #vocal-1 et Bidou.
 
 ---
 
 ## CHAPITRE 3 : Les Cimes Sans Air
 
-> **Contexte** : le salon **#vocal-1** est devenu une montagne où le Modérateur Fou a coupé le son… et l'air. Bidou est coincé au sommet. Il essaie de chanter la **Chanson du Vocal**, la seule chose capable de rouvrir le salon, mais il n'a jamais assez de souffle pour la finir.
-> **Moments clés** : l'ascension, Bidou vexé, les bonbonnes d'air, la chanson, le boss.
+> **Contexte** : le salon **#vocal-1** est devenu une montagne où le Modérateur Fou a coupé le son… et l'air. Bidou, métalleux aux cheveux longs, est coincé au sommet avec sa guitare électrique. Seul un vrai **riff de metal** avec un **cri final** peut faire sauter le silence et rouvrir le vocal. Le problème : le cri final est long, et Bidou manque d'air.
+> **Moments clés** : l'ascension et l'énigme de glace, le Yéti Roadie et son quiz, Bidou, le riff, le boss.
 > **Équipe** : Jordan, José, Kevin, puis Bidou (4 personnages, l'équipe est complète pour la première fois).
 
 ### SCÈNE 3-1 : Le pied de la montagne
 
 [DÉCOR] Une montagne grise et enneigée. Au sommet, une énorme icône de **haut-parleur barré 🔇** plantée comme un drapeau. Un panneau en bois à l'entrée du sentier : « **#vocal-1 — RESPIRATION INTERDITE. Par ordre du Modérateur.** » Le son est étouffé, comme sous l'eau.
-[MUSIQUE] Thème des **Cimes** : flûte de montagne, mais les notes s'arrêtent avant la fin de chaque phrase musicale.
+[MUSIQUE] Thème des **Cimes** : riff de guitare saturée très lointain, comme joué à travers un oreiller.
 
-[ÉVÉNEMENT] Les bulles de dialogue sont **plus petites** dans cette zone, avec une police plus fine.
 KEVIN : L'air se raréfie. À cette altitude, le taux d'oxygène baisse d'environ 30 %.
 JOSÉ : Et Bidou est en haut ?
-KEVIN : Avec ses poumons ? *(Il fait un calcul rapide sur ses doigts.)* Il respire à peu près 40 % d'un humain normal. En temps normal. Donc là…
+KEVIN : Avec ses poumons ? *(Il fait un calcul rapide sur ses doigts.)* En temps normal, il est déjà à la limite. Donc là…
 JORDAN : Donc là, faut se dépêcher.
 KEVIN : Donc là, c'est un miracle de la biologie. Skibidi miracle.
+JOSÉ : Vous entendez ? On dirait… une guitare.
+JORDAN : C'est lui. Y a que Bidou pour faire du metal en haut d'une montagne sans air.
 
-[ÉVÉNEMENT] *(Ascension : courte carte de montagne avec 2 ou 3 combats aléatoires.)*
-> **Ennemis de la zone** : **Micros Coupés** (mono, statut *Muet*), **Larsens Sauvages** (zone, faibles), **Échos** (ils répètent la dernière attaque utilisée par l'équipe).
+> **Ennemis de la zone** : **Micros Coupés** (mono, statut *Muet*), **Larsens Sauvages** (zone, faibles), **Bouchons d'Oreille** (debuff attaque).
 
-### SCÈNE 3-2 : Le refuge (tentative de drague de José)
+### SCÈNE 3-2 : Le Lac Gelé (énigme de dalles)
 
-[DÉCOR] Un petit refuge à mi-chemin. Une **Guide de Montagne** en doudoune violette, avec un petit rond rouge ⛔ flottant au-dessus de sa tête : statut Discord « **Ne pas déranger** ».
-[ÉVÉNEMENT] Jingle Pierre.
-JOSÉ : *(ajuste son foulard, essoufflé)* Mademoiselle. Archéologue. Stylé. Alpiniste, aussi, depuis… dix minutes.
-GUIDE : *(montre le rond rouge au-dessus de sa tête, sans un mot)*
-JOSÉ : … c'est quoi ?
-KEVIN : Statut « Ne pas déranger ». Ses notifications sont coupées. Tu pourrais lui écrire un poème, techniquement, elle le recevrait jamais.
-JOSÉ : *(très digne)* Le plus triste, c'est qu'elle saura jamais ce qu'elle a raté.
+[DÉCOR] Un lac gelé barre le sentier. De l'autre côté, la suite du chemin. Sur la glace, des rochers éparpillés.
+> **Énigme de glace** (classique RPG) : sur la glace, l'équipe glisse en ligne droite jusqu'à toucher un rocher. Il faut trouver le bon enchaînement de directions pour atteindre l'autre rive. Une erreur renvoie au point de départ.
+KEVIN : C'est un problème de trajectoire. Laissez-moi faire. *(Il glisse droit dans le décor et revient au départ.)* … j'avais pas pris en compte le frottement.
+JOSÉ : Il y a pas de frottement, c'est de la glace.
+KEVIN : C'est exactement ce que j'avais pas pris en compte.
+
+[ÉVÉNEMENT] *(Optionnel)* Sur un rocher au milieu du lac, quelqu'un a écrit dans la neige, en grosses lettres : **Ceyn**.
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+KEVIN : Ceyn.
+*(Ils continuent à glisser comme si de rien n'était.)*
+
+### SCÈNE 3-3 : Le Yéti Roadie (quiz)
+
+[DÉCOR] Un passage étroit entre deux falaises, bloqué par une pile de flight cases. Assis dessus, un énorme **Yéti** en t-shirt de groupe de metal noir, bracelets à clous, casque de chantier.
+YÉTI ROADIE : HALTE. Personne monte au concert sans pass backstage.
+JORDAN : Quel concert ?
+YÉTI ROADIE : Le chevelu, là-haut. Ça fait trois jours qu'il essaie de jouer. Il joue fort, mais il s'arrête toujours au moment du cri. *(Il essuie une larme.)* Moi je suis son roadie, maintenant. J'ai décidé tout seul.
+JOSÉ : Et comment on a un pass ?
+YÉTI ROADIE : Quiz. Trois questions. Si vous connaissez pas le chevelu, vous montez pas.
+
+> **Quiz** (une mauvaise réponse déclenche un combat contre 2 Larsens Sauvages, puis on recommence la question).
+> 1. **« Quel champion le chevelu joue sur LoL ? »** — Bard ✅ · Yuumi · Teemo
+>    *(Si Yuumi :)* YÉTI : « YUUMI ? Tu veux qu'il te frappe ? »
+> 2. **« Qu'est-ce qu'il écoute ? »** — Du metal ✅ · De la K-pop · Des podcasts sur la respiration
+>    *(Si podcasts :)* KEVIN : « … c'est pas faux, il en aurait besoin. » · YÉTI : « MAUVAISE RÉPONSE. Mais drôle. »
+> 3. **« Comment s'appelle le groupe ? »** — La Red Room ✅ · La Blue Room · Les Amis de Camil
+>    *(Si Les Amis de Camil :)* YÉTI : « Ça existe pas, ça. Personne n'est ami avec lui. »
+> ❓ *Questions à remplacer ou compléter avec de vraies private jokes sur Bidou.*
+
+YÉTI ROADIE : … trois sur trois. Vous êtes de vrais fans. *(Il pousse les flight cases.)* Allez-y. Et si vous le voyez manquer d'air… soyez gentils. Il est susceptible.
+[ÉVÉNEMENT] *Tentative de drague de José (chapitre 3)*. Derrière les flight cases, une **Fan de Metal** en veste à patchs attend le concert. Jingle Pierre.
+JOSÉ : *(ajuste son foulard)* Mademoiselle. Archéologue. Stylé. Grand amateur de… musique forte.
+FAN DE METAL : Ah ouais ? T'écoutes quoi ?
+JOSÉ : *(un temps beaucoup trop long)* … du rock. Genre… du gros rock. *(Il fait le signe des cornes du metal… avec le pouce sorti.)*
+FAN DE METAL : *(regarde sa main)* … avec le pouce, c'est « je t'aime » en langue des signes, ça.
+JOSÉ : *(regarde sa main)* … et alors ? Ça marche aussi.
+[ÉVÉNEMENT] Elle s'éloigne. Jingle triste, version guitare saturée.
 [FLAG] `rateaux_jose += 1`
-[ÉVÉNEMENT] Elle vend des **Pastilles pour la Gorge** (soin de *Muet*). Prix Jordan : +30 %.
 
-### SCÈNE 3-3 : Bidou
+### SCÈNE 3-4 : Bidou
 
-[DÉCOR] Le sommet. Un plateau battu par le vent, sous l'énorme 🔇. Au centre, Bidou, assis en tailleur, avec un luth. Il gratte une corde, inspire, ouvre la bouche…
-BIDOU : *(chantant)* ♪ Oh vocal… ♪ *(inspire)* ♪ … ouvre-toi… ♪ *(inspire)* ♪ … pour que… ♪ *(inspire. Inspire. Rien ne vient.)*
-[SFX] La note s'éteint. Le 🔇 au-dessus de lui brille plus fort, satisfait.
-BIDOU : *(pose le luth, à bout de souffle)* … toujours… le même… couplet…
+[DÉCOR] Le sommet. Un plateau battu par le vent, sous l'énorme 🔇. Au centre, sur une petite scène improvisée en rochers, **Bidou** : cheveux longs au vent, veste en cuir, guitare électrique branchée sur un ampli qui fume. Il joue un riff, très fort, très bien. Puis il s'approche du micro pour le cri final…
+BIDOU : *(cri metal)* RAAAAAAAAAA— *(il s'arrête net, plié en deux)* … *(inspire)* … *(inspire)* … aaaah.
+[SFX] Le riff s'éteint. Le 🔇 au-dessus de lui brille plus fort, satisfait.
+BIDOU : *(à bout de souffle, les mains sur les genoux)* … toujours… *(inspire)* … au même moment…
 
 JORDAN : BIDOU !
-BIDOU : *(se retourne lentement, l'air sombre)* … Ah. Vous voilà.
+BIDOU : *(se redresse lentement, rejette ses cheveux en arrière, l'air sombre)* … Ah. Vous voilà.
 JOSÉ : On est venus te chercher !
-BIDOU : Ça fait trois jours. *(Inspire.)* Trois jours que je chante seul sur une montagne. Sans air. Kevin, t'étais où ?
+BIDOU : Ça fait trois jours. *(Inspire.)* Trois jours que je joue seul sur une montagne. Sans air. Kevin, t'étais où ?
 KEVIN : En boucle dans un stade spatial contre Vitality.
 BIDOU : *(un temps)* … ok, ça, c'est une vraie excuse. *(Il se tourne vers Jordan.)* Et toi ?
 JORDAN : Moi j'ai… euh… combattu une épingle géante.
@@ -697,69 +720,58 @@ JORDAN : Une grosse épingle.
 [CHOIX]
 1) « Désolé Bidou, on est venus dès qu'on a pu. »
 2) « T'aurais pu descendre, aussi. »
-3) « Tu tiens le coup ? T'as pas l'air trop essoufflé. »
+3) « Joli riff. Dommage pour la fin. »
 
 *Si 1 :*
 BIDOU : *(radouci)* … ok. Ça va. *(Inspire.)* Je vous pardonne. Mais je note.
 *Si 2 :*
-BIDOU : *(se fige)* Descendre. *(Inspire.)* DESCENDRE ? Avec MES poumons ? Tu sais combien il y a de marches ?! *(Il se retourne et tourne le dos à l'équipe.)* C'est bon. J'ai compris. Je boude.
+BIDOU : *(se fige)* Descendre. *(Inspire.)* DESCENDRE ? Avec MES poumons ? Avec un AMPLI ? *(Il se retourne et tourne le dos à l'équipe.)* C'est bon. J'ai compris. Je boude.
 [FLAG] `bidou_vexe = true`
 JOSÉ : *(chuchote)* Bravo.
 KEVIN : *(chuchote)* Il va bouder au moins vingt minutes. J'ai des données.
-*(Il faut lui reparler une deuxième fois. Il accepte, en grommelant.)*
+*(Il faut lui reparler une deuxième fois.)*
 BIDOU : … bon. Je boude, mais je vous aide. C'est pas pareil.
 *Si 3 :*
-BIDOU : *(plisse les yeux)* « Pas trop essoufflé » ? *(Inspire.)* Je suis au sommet d'une montagne sans air, Jordan. Je suis au MAXIMUM de l'essoufflement. Je suis le champion du monde de l'essoufflement.
-JOSÉ : Et il est dans son élément.
-BIDOU : *(un temps, puis il sourit malgré lui)* … un peu, ouais.
+BIDOU : *(plisse les yeux)* « Dommage pour la fin » ? *(Inspire.)* Tu crois que c'est facile de faire un cri de metal à 4 000 mètres, sans air, avec MES poumons ?
+JOSÉ : Il marque un point.
+BIDOU : *(un temps, puis il sourit malgré lui)* … mais ouais. C'est dommage pour la fin.
 
 *(Convergence.)*
-BIDOU : La Chanson du Vocal. Si je la chante en entier, le salon se rouvre, et tout le monde retrouve la voix. Le problème… c'est le dernier couplet. Il est trop long. J'ai jamais assez d'air.
-KEVIN : Il te faut de l'oxygène en bouteille.
-BIDOU : Le Modérateur a caché trois **Bonbonnes d'Air** sur la montagne. *(Inspire.)* Je les ai vues. J'avais juste pas le souffle d'aller les chercher.
+BIDOU : Le silence de ce salon, c'est le Modérateur. Pour le briser, il faut le faire sauter. Un riff, plein volume, et un cri final assez long pour faire péter ce 🔇. Le riff, je l'ai. *(Inspire.)* Le cri… j'arrive jamais au bout.
+KEVIN : Et si on criait avec toi ?
+BIDOU : *(les regarde un par un)* … vous savez crier en metal ?
+JOSÉ : Non.
+JORDAN : J'ai 29 ans, Bidou, je crie quand je me lève du canapé.
+BIDOU : … ça ira.
 
-> **Quête : « Trois Bonbonnes »** (quête à objets)
-> - **Bonbonne 1** : dans une grotte, gardée par 3 Micros Coupés (combat).
-> - **Bonbonne 2** : chez la Guide de Montagne. Elle est en « Ne pas déranger », donc on ne peut pas lui parler. Il faut **attendre** qu'elle passe « En ligne » : sortir du refuge et revenir. Elle la donne gratuitement : « Pour le petit monsieur qui chante. On l'entend depuis trois jours. Il chante faux, mais il chante. »
-> - **Bonbonne 3** : au bord d'une falaise. Snow est assis dessus et refuse de bouger. Il faut lui donner des **Croquettes Spatiales** (il en reste du chapitre 2, ou la Guide en vend). Snow laisse la bonbonne… et une Relique Puante.
-> BIDOU *(en voyant la Relique)* : Ah non. Non non. Pas ici. Il y a déjà pas d'air.
+### SCÈNE 3-5 : Le Riff du Vocal
 
-### SCÈNE 3-4 : La Chanson du Vocal
-
-[ÉVÉNEMENT] Retour au sommet avec les trois bonbonnes. Bidou en prend une, inspire un grand coup, et reprend son luth.
-BIDOU : *(chantant)* ♪ Oh vocal, ouvre-toi, pour que tous les copains… ♪
-[ÉVÉNEMENT] Il enchaîne, de plus en plus fort. Le 🔇 au-dessus de lui commence à trembler.
-BIDOU : ♪ … reviennent un soir, autour d'un bon barbecue… ♪ *(deuxième bonbonne)* ♪ … de Düsseldorf à Lyon, de Toulouse à Europa Park… ♪ *(troisième bonbonne)* ♪ … et au Portugal… ♪
-JOSÉ : *(à voix basse)* Où j'étais désinvité.
-JORDAN : *(à voix basse)* José, pas maintenant.
-BIDOU : ♪ … et pour le dernier couplet… ♪ *(Il inspire. La bonbonne est vide.)* ♪ … pour… le… ♪
-[SFX] La note se brise. Silence.
-BIDOU : *(à genoux, désespéré)* … toujours. Toujours le dernier couplet.
-
-[ÉVÉNEMENT] Un temps. Jordan s'avance.
-JORDAN : Alors on le chante avec toi.
-KEVIN : Mathématiquement, quatre paires de poumons, c'est plus que une.
-JOSÉ : Et demie. Pour Bidou, on compte une demie.
-BIDOU : *(regarde José)* … je suis vexé. *(Inspire.)* Mais allez-y.
-[ÉVÉNEMENT] Les quatre chantent ensemble le dernier couplet, faux, mais fort.
-TOUS : ♪ … ET LA RED ROOM CHANTERA, MÊME SANS AIR, MÊME SANS VOIX ! ♪
-[SFX] Le 🔇 géant se fissure. Un vrai son revient : le vent, les oiseaux, le *bloop* lointain de quelqu'un qui se connecte.
+[ÉVÉNEMENT] Bidou rebranche sa guitare. Jordan, José et Kevin se placent derrière lui comme des choristes très mal préparés.
+[MUSIQUE] Le riff démarre, cette fois à plein volume. La neige tremble.
+BIDOU : *(au micro)* RED ROOOOOOOM— *(inspire)* — OOOOOM— *(inspire)* — *(il lève la main, plié en deux)* … deux secondes… *(inspire)*
+JOSÉ : On attend, on attend.
+KEVIN : *(au public imaginaire)* Petite pause technique.
+BIDOU : *(se redresse)* … c'est bon. *(Il regarde l'équipe.)* Maintenant. Tous ensemble.
+TOUS : *(cri faux, horrible, mais énorme)* RAAAAAAAAAAAAAAAAAAAAAAA !
+[SFX] Le 🔇 géant se fissure. Un vrai son revient : le vent, l'écho du riff, le *bloop* lointain de quelqu'un qui se connecte.
 [ÉVÉNEMENT] **Bidou rejoint l'équipe.**
-BIDOU : *(ému, essoufflé)* C'était… *(inspire)* … pas mal. Pour des amateurs.
+BIDOU : *(essoufflé, mais ravi)* C'était… *(inspire)* … immonde. *(Il sourit.)* J'adore.
+[ÉVÉNEMENT] Snow, qui était sur l'ampli, saute au sol, s'étire… *prrrt*.
+BIDOU : Ah. Ah non. Ça pue. *(Inspire.)* Et j'ai PAS l'air pour ça.
 
 [ÉVÉNEMENT] Le 🔇 se détache de la montagne, tombe devant l'équipe, et se déplie en un énorme golem de métal noir.
 
-### SCÈNE 3-5 : Boss : le Grand Mute
+### SCÈNE 3-6 : Boss : le Grand Mute
 
 [DÉCOR] Un golem géant en forme de haut-parleur barré. À la place du visage, une barre de volume à zéro.
 GRAND MUTE : … … … *(Ses bulles de dialogue sont vides.)*
 KEVIN : Il dit rien.
 JOSÉ : Il est muté. C'est le boss du silence, il est muté. C'est logique, en fait.
-BIDOU : *(sort son luth)* Moi, je vais le faire parler.
+BIDOU : *(fait craquer ses doigts sur le manche)* Moi, je vais le faire parler.
 
 > **Équipe** : Jordan, José, Kevin, Bidou.
-> **Compétences de Bidou** : *Ballade (inachevée)* (soin mono), *Refrain Essoufflé* (soin de groupe), *Note Vexée* (mono), *Bouderie* (buff attaque sur soi, debuff défense sur soi).
-> Rappel : sa jauge de magie s'appelle **Souffle**. Quand elle est vide, l'animation le montre plié en deux.
+> **Compétences de Bidou** (métalleux, joue Bard) : *Riff Saturé* (mono), *Headbang* (zone), *Carillons* (soin de groupe, clin d'œil aux carillons de Bard), *Destin Figé* (statut *Étourdi* sur tous les ennemis, la ult de Bard).
+> Sa jauge de magie s'appelle **Souffle**. Quand elle est vide, l'animation le montre plié en deux, les mains sur les genoux.
 
 [COMBAT] **Le Grand Mute** (2 phases, avec interventions)
 
@@ -771,11 +783,11 @@ BIDOU : *(sort son luth)* Moi, je vais le faire parler.
 - **Intervention 1 (au tour 3) : Camil**
   [ÉVÉNEMENT] Un petit projecteur s'allume derrière le boss. Hologramme de **Camil**, debout sur sa caisse « NE PAS ENLEVER ».
   CAMIL : Je vois que vous faites du bruit dans mon serveur. Grand Mute, je t'accorde le rôle **Administrateur**.
-  [ÉVÉNEMENT] Le Grand Mute reçoit un **buff défense** et une couronne dorée qui flotte au-dessus de lui.
-  CAMIL : Et toi, Bidou. Franchement, tu chantes comme une cornemuse percée.
+  [ÉVÉNEMENT] Le Grand Mute reçoit un **buff défense**, et une couronne dorée flotte au-dessus de lui.
+  CAMIL : Et toi, Bidou. Ton metal, c'est du bruit. Et coupe-toi les cheveux, on dirait une serpillière.
   BIDOU : *(se fige)* … pardon ?
   [ÉVÉNEMENT] Bidou reçoit automatiquement le statut *Vexé* : **buff attaque** pour le reste du combat.
-  BIDOU : C'est bon. J'ai compris. *(Il serre son luth.)* Je vais te le chanter, ton dernier couplet.
+  BIDOU : C'est bon. J'ai compris. *(Il monte le volume de l'ampli au maximum.)*
   JORDAN : Camil, t'es sur une caisse.
   CAMIL : C'EST UN PIÉDESTAL. *(L'hologramme se coupe.)*
   *(Kevin ne réagit pas. Il fixe le boss.)*
@@ -787,31 +799,26 @@ BIDOU : *(sort son luth)* Moi, je vais le faire parler.
 - **Intervention 2 (au premier *Mute Général*) : un Sbire déserteur**
   [ÉVÉNEMENT] Un **Sbire du Modérateur** (petit marteau 🔨 sur pattes) arrive en courant sur le côté du terrain, regarde à gauche, à droite, et jette un objet à l'équipe.
   SBIRE : Pssst ! De la part du **Sergent**. *(Il chuchote.)* Il a dit : « Vive la lutte. »
-  [ÉVÉNEMENT] Objet reçu : **Bonbonne d'Air Dorée**. Utilisée automatiquement : retire *Muet* à toute l'équipe et rend le Souffle de Bidou au maximum.
+  [ÉVÉNEMENT] Objet reçu : **Bonbonne d'Air Dorée**. Utilisée automatiquement : retire *Muet* à toute l'équipe et remplit le Souffle de Bidou.
+  BIDOU : *(inspire à fond, les yeux fermés)* … oh. C'est ça, respirer ? *(Inspire encore.)* C'est incroyable. Je comprends pourquoi vous faites ça tout le temps.
   JOSÉ : « Vive la lutte » ? Y a qu'une personne qui dit ça.
   JORDAN : … Robin.
   [ÉVÉNEMENT] Le sbire repart en courant.
-  KEVIN : Robin est sergent chez le Modérateur ? *(Un temps.)* Robin ? Le gars qui fait grève quand on lui demande de ramener des chips ?
-  *(Graine du chapitre 4.)*
+  KEVIN : Robin est sergent chez le Modérateur ? Robin ? Le gars qui fait grève quand on lui demande de ramener des chips ?
+  *(Annonce du chapitre 4.)*
 
 - **Fin du combat**
-  [ÉVÉNEMENT] Cinématique : Bidou se met devant l'équipe, inspire un très grand coup grâce à la Bonbonne Dorée et chante **une seule note**, longue, magnifique, interminable. La barre de volume du golem monte de 0 à 100, puis explose. Le Grand Mute se brise en mille petits 🔇.
-  BIDOU : *(à bout de souffle, mais triomphant)* … ça… *(inspire)* … c'était… *(inspire)* … le dernier couplet.
+  [ÉVÉNEMENT] Cinématique : Bidou, plein d'air pour la première fois de sa vie, monte sur l'ampli, lance *Destin Figé* et pousse un cri de metal **entier**, sans pause. La barre de volume du golem monte de 0 à 100, puis explose. Le Grand Mute se brise en mille petits 🔇.
+  BIDOU : *(il retombe, l'air de la bonbonne est fini)* … ça… *(inspire)* … c'était… *(inspire)* … mon premier cri complet. *(Inspire.)* Quelqu'un a filmé ?
+  KEVIN : Non.
+  BIDOU : … je suis vexé.
 
-### SCÈNE 3-6 : Le vocal rouvert
+### SCÈNE 3-7 : Le vocal rouvert
 
-[DÉCOR] Le ciel de la montagne se dégage. Le son revient partout : vent, oiseaux, notifications.
+[DÉCOR] Le ciel de la montagne se dégage. Le son revient partout : vent, oiseaux, et au loin le Yéti Roadie qui applaudit.
 [DISCORD] 🔊 **#vocal-1** · *réouvert*
-[ÉVÉNEMENT] Dans la liste du vocal qui s'affiche à l'écran, quelques noms grisés s'allument un instant : *Robin (en service)*, *Florian (en colère)*, *Yanis (en train de manger)*… et **Ceyn** 🔇, connecté et muet, qui disparaît aussitôt.
-[ÉVÉNEMENT] Mécanique « Ceyn. » :
-JORDAN : Ceyn.
-JOSÉ : Ceyn.
-KEVIN : Ceyn.
-BIDOU : *(inspire)* … Ceyn.
-[ÉVÉNEMENT] *(Ils reprennent comme si de rien n'était.)*
-
 [ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (3/7)**.
-[ÉVÉNEMENT] Objet obtenu : **Luth à Souffle Long**, une arme pour Bidou. *Description : « Accordé pour les chansons courtes. Très courtes. »*
+[ÉVÉNEMENT] Objet obtenu : **Médiator de Bard**, une arme pour Bidou. *Description : « Gravé d'un petit carillon. Il fait "meep" quand on gratte. »*
 
 BIDOU : Bon. Expliquez-moi tout. Le Modérateur, Camil, le serveur… et pourquoi le chat de Jordan me regarde comme ça ?
 JORDAN : Il regarde tout le monde comme ça.
@@ -833,13 +840,12 @@ JORDAN : Furieux, et en train d'organiser une grève. Je le connais.
 ---
 
 ### Récapitulatif chapitre 3 (pour l'intégration)
-- **Recrue** : Bidou (combattant). L'équipe atteint 4 personnages.
-- **Quête** : « Trois Bonbonnes » (grotte avec combat, PNJ en « Ne pas déranger », Snow).
-- **Objets clés** : Fragment du Premier Message (3/7), Luth à Souffle Long, Pastilles pour la Gorge (soin de *Muet*).
+- **Recrue** : Bidou (combattant, métalleux, joue Bard). L'équipe atteint 4 personnages.
+- **Énigmes** : le Lac Gelé (dalles de glace) et le quiz du Yéti Roadie.
+- **Objets clés** : Fragment du Premier Message (3/7), Médiator de Bard.
 - **Flags** : `bidou_vexe`, `rateaux_jose`.
 - **Boss** : le Grand Mute (2 phases).
   - **Intervention 1** : hologramme de Camil, qui buffe le boss et vexe Bidou (buff attaque pour Bidou).
-  - **Intervention 2** : un Sbire déserteur envoyé par « le Sergent » (Robin) donne la Bonbonne d'Air Dorée.
-- **Graines** : Ceyn connecté muet dans la liste du vocal ; Robin annoncé comme sergent résistant.
+  - **Intervention 2** : un Sbire déserteur envoyé par « le Sergent » Robin donne la Bonbonne d'Air Dorée.
+- **Ceyn** : écrit dans la neige sur le Lac Gelé (gag uniquement).
 - **Suite** : chapitre 4, la Caserne d'Annonces et Robin.
-- ❓ *Quel barde Bidou joue-t-il (Bard, Seraphine, Sona…) ? On pourra en glisser une référence dans ses animations.*

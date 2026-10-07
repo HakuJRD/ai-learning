@@ -26,7 +26,6 @@ Le camp entre les chapitres. Il s'agrandit à chaque ami recruté : dialogues de
 
 ### Prologue : « Free RP 100% legit »
 Soirée au QG, le vocal se vide un par un. Jordan reste seul, le lien arrive, il clique et il est aspiré.
-- **Graine du twist** : **Ceyn**, « Inactif » depuis des lustres, est le **seul** à réagir au lien, avec un 👀. Jordan murmure « … Ceyn. » par réflexe : le running gag sert de camouflage à l'indice.
 - Si Jordan refuse de cliquer, c'est **Snow** qui marche sur le clavier et clique. Snow est aspiré avec lui.
 
 ### Chapitre 1 : Généralia (José) : rédigé, voir draft.md
@@ -40,8 +39,8 @@ Kevin revit en boucle la demi-finale des **Worlds RLCS de Düsseldorf (13 août 
 - Boss : la Reine de la Ruche.
 
 ### Chapitre 3 : Les Cimes Sans Air (Bidou) : rédigé, voir draft.md
-Le Modérateur a coupé l'air et le son de #vocal-1. Bidou ne parvient jamais à finir la Chanson du Vocal.
-- Quête : trois Bonbonnes d'Air. Le dernier couplet est chanté par toute l'équipe.
+#vocal-1 est une montagne sans air ni son. Bidou, métalleux, n'arrive jamais au bout du cri final de son riff.
+- Énigmes : dalles de glace et quiz du Yéti Roadie. Le cri final est poussé par toute l'équipe.
 - Boss : le Grand Mute. Interventions : Camil en hologramme (buff du boss), puis un sbire envoyé par « le Sergent » Robin.
 
 ### Chapitre 4 : La Caserne d'Annonces (Robin)
@@ -68,7 +67,7 @@ La grande scène chorale, juste avant l'assaut. Tout le monde parle de Camil, pe
 
 ### Final : la Tour des Modérateurs
 - **Boss 1 : Camil**, sur un trône à son effigie. On le bat. Il hurle que c'est lui le patron… puis les fils de marionnette apparaissent : il n'a jamais rien contrôlé. **Pas de réconciliation** : il est banni du serveur pour de bon, avec le dernier coup de marteau 🔨.
-- **Révélation** : Ceyn, ancien fondateur, le 👀 du prologue, l'auteur du « message supprimé », le cinquième lit de Düsseldorf. Il a gardé le rôle **propriétaire du serveur** (👑) et veut **reprendre le contrôle du Discord qu'il a fondé**. Toute l'équipe dit en chœur : « Ceyn. »
+- **Révélation « par hasard »** : derrière le trône de Camil, l'équipe trouve la console du Modérateur. À l'écran : « Session ouverte : **Ceyn** ». Toute l'équipe, par réflexe : « Ceyn. » … « Ceyn. » … « Ceyn. » … puis un long silence. « … attends. » C'est lui, ancien fondateur, qui veut **reprendre le contrôle du Discord qu'il a fondé**. Le nom qu'on croisait partout (graffitis, banc, neige…) était sa signature depuis le début.
 - **Boss 2 : Ceyn**, qui fusionne avec le Modérateur Fou.
 - **Fin** : Jordan se réveille au QG. Le vocal se remplit. Dernier message dans le salon : Ceyn tape « … », puis « Ceyn est en train d'écrire… », et ne finit jamais son message. Générique.
 
