@@ -1671,7 +1671,7 @@ FLORIAN : ALEX.
 JOSÉ : On l'a. Le premier message. Complet.
 ROBIN : Avec ça, on ouvre la Tour des Modérateurs.
 FLORIAN : Et on va dire deux mots à Camil.
-KEVIN : *(regarde le ciel)* Je préfère ne pas lui dire de mots. Je vais juste taper.
+KEVIN : *(regarde le ciel)* Et après, on rentre chez nous. J'ai une candidature SpaceX à envoyer.
 BIDOU : *(inspire)* On est tous là. *(Inspire.)* Pour la première fois depuis… le début.
 YANIS : *(sourit)* Et même moi, je suis à l'heure.
 JOSÉ : T'es arrivé quatre minutes après tout le monde.
