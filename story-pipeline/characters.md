@@ -76,7 +76,9 @@
 ## Alex : le Moine Trop Beau
 - Le plus gros geek de LoL du groupe. Joue tous les postes, surtout **jungle et Lee Sin**.
 - Running gag : il est **trop beau**, et ça le gêne qu'on le lui dise.
-- Running gag : il habite loin et « ne veut pas nous voir ».
+- Running gag : il habite loin (**Toulouse**) et « ne veut pas nous voir ». La Red Room lui avait proposé de tout payer pour venir à Paris, il n'a pas voulu ; c'est eux qui sont descendus à Toulouse, et il leur a fait visiter sa ville.
+- **Contraste** : beau gosse populaire dans la vie, gros geek de LoL avec la Red Room.
+- **Vaiana** : sa copine, gendarme. Clin d'œil dans le jeu (intervention pendant le boss du chapitre 7).
 - **Compétences** :
   - *Coup Résonnant* : Mono.
   - *Insec* : Mono avec debuff défense.
@@ -98,10 +100,10 @@
 
 ## Yanis : le Faon Lent
 - Jungler, joue **Lilia**.
-- Running gag : il est **lent** en tout, il mange lentement. C'est la stat de vitesse la plus basse du jeu : il joue presque toujours en dernier.
+- Running gag : il est **lent** dans tout ce qu'il fait, surtout quand il mange, et toujours en retard. C'est la stat de vitesse la plus basse du jeu : il joue presque toujours en dernier.
 - Sourire d'enfer, dents ultra blanches, sourire communicatif. En retard ou pas, il sourit toujours : « Salut les mecs. »
 - Toujours ses **AirPods** dans les oreilles : il prend tout son temps pour les retirer avant de parler.
-- Dans le jeu, ses bulles de dialogue s'affichent **lettre par lettre, très lentement**.
+- Il **parle normalement**. C'est dans ses **gestes** (manger, retirer ses AirPods, se lever) et ses **retards** qu'il est lent.
 - **Compétences** :
   - *Coup de Fleur* : Mono.
   - *Sieste de Lilia* : Statut « Sommeil » sur tous les ennemis (chance).

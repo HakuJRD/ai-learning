@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.8 : Prologue + Chapitres 1 à 6
+### Script v0.9 : Prologue + Chapitres 1 à 7
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -30,12 +30,13 @@ ROBIN : Les gars, je me lève à 5 h. On m'a donné un fusil et pas un GPU, je v
 JOSÉ : Moi je reste, je suis un mec cool. Les mecs cools dorment pas.
 JORDAN : Yanis, t'es là ?
 *(Silence. Trois secondes. Cinq secondes.)*
-YANIS : … ouais.
+YANIS : Ouais, ouais, j'avais un AirPod, désolé. Je viens de le retirer.
+JORDAN : Ça fait cinq minutes qu'on t'appelle.
+YANIS : Je sais, je l'ai retiré tranquillement.
 JORDAN : Tu fais quoi ?
-YANIS : … je mange.
+YANIS : Je mange.
 JORDAN : Tu manges quoi ?
-*(Longue pause.)*
-YANIS : … le même sandwich que tout à l'heure.
+YANIS : Le même sandwich que tout à l'heure.
 
 [SFX] Un *miaou* rauque dans le micro de Jordan.
 [ÉVÉNEMENT] Snow se lève sur le clavier, se retourne… *prrrt*. Un petit nuage vert pixelisé.
@@ -58,7 +59,8 @@ BIDOU : *(démute)* Bonne n… *(inspire)* … nuit. *bloop*
 JOSÉ : Jordan, tu sais que je t'en veux toujours pour le Portugal ?
 JORDAN : Je t'ai PAS désinvité, José.
 JOSÉ : C'est ce que dirait quelqu'un qui désinvite. Bonne nuit, vieillard. Pense à prendre tes cachets. *bloop*
-YANIS : … bonne… *(L'écran reste figé quatre secondes.)* … nuit. *bloop*
+YANIS : Bonne nuit les gars ! *(Il ne se déconnecte pas.)*
+*(Dix secondes plus tard.)* *bloop*
 
 [DISCORD] 🔊 **Red Room — vocal** · 1 connecté
 [MUSIQUE] Silence. Juste le ventilo du PC. Et Snow qui gratte sa litière, beaucoup trop longtemps.
@@ -1275,7 +1277,7 @@ FLORIAN : *(fier)* Ils parlent de moi.
 
 > **Contexte** : le salon **#afk** est devenu un marais brumeux où le Modérateur jette tous les utilisateurs « inactifs ». Une **Brume d'Inactivité** endort quiconque y reste trop longtemps. Tout le monde dort… sauf Yanis. Lui, il est tellement lent naturellement que la brume ne fait aucune différence. Il est assis au milieu du marais, en train de finir son sandwich, celui du prologue.
 > **Yanis** : jungler (Lilia), d'une lenteur légendaire, surtout quand il mange. Il a toujours ses **AirPods** dans les oreilles, qu'il retire très lentement avant de parler, puis il sort son **grand sourire** : « Salut les mecs. » En retard ou pas, il sourit toujours.
-> **Mise en scène** : toutes les bulles de Yanis s'affichent **lettre par lettre, très lentement**. C'est le gag visuel principal du chapitre.
+> **Mise en scène** : Yanis **parle normalement**. C'est dans ses **gestes** et ses **retards** qu'il est lent : chaque action prend un temps fou, et il est en retard partout, mais avec le sourire.
 > **Moments clés** : le marais endormi, les miettes dans le brouillard, Yanis, le boss.
 > **Équipe** : 6 personnages, puis 7 avec Yanis.
 
@@ -1338,28 +1340,31 @@ FLORIAN : *(tape du pied)* Allez… allez…
 KEVIN : *(chuchote)* Il y a une pause de 1,8 seconde entre chaque geste. Je chronomètre depuis des années.
 [ÉVÉNEMENT] … il retire le gauche. Le range. *Clic.* Il pose le boîtier sur le banc. Il relève la tête. Et il sourit.
 [SFX] *Ting !* Un éclat de lumière : ses dents, d'une blancheur aveuglante. La brume recule d'un coup autour de lui. Deux lucioles tombent, éblouies.
-YANIS : *(lettre par lettre)* S… a… l… u… t… les… mecs.
+YANIS : Salut les mecs !
 [ÉVÉNEMENT] Toute l'équipe sourit automatiquement, même Bidou qui boudait encore un peu.
 BIDOU : *(inspire)* … je peux pas lui en vouloir. *(Inspire.)* J'essaie, mais j'y arrive pas.
 JOSÉ : C'est ce sourire. C'est une arme.
 
 JORDAN : Yanis, ça fait trois jours ! Tout le monde dort dans ce marais, on se fait kicker si on reste ici, et toi tu… manges ?
-YANIS : *(lettre par lettre)* Ouais… *(Il regarde son sandwich.)* … c'est… celui… de… l'autre… soir.
+YANIS : Ouais ! *(Il regarde son sandwich.)* C'est celui de l'autre soir. Il est super bon, en vrai.
 ROBIN : Le même sandwich ? Depuis le prologue ?
-YANIS : *(il sourit)* Je… prends… mon… temps.
+YANIS : *(il sourit)* Je prends mon temps, c'est tout. On n'est pas pressés, si ?
+TOUS : SI.
 FLORIAN : Et la brume ? Tu dors pas ?
-YANIS : *(un long temps de réflexion)* … quelle… brume ?
+YANIS : Quelle brume ?
 KEVIN : *(fasciné)* Il est tellement lent naturellement que la brume d'inactivité ne fait aucune différence. Son état normal EST l'inactivité. Le Modérateur n'a aucun effet sur lui.
 YANIS : *(sourit)* … merci ?
 
 JORDAN : On doit partir, Yanis. On récupère tout le monde. Tu viens ?
-YANIS : *(regarde le sandwich, puis l'équipe, puis le sandwich)* … ouais. *(Il prend une bouchée. Il mâche.)* … j'arrive.
+YANIS : Ouais, carrément, je viens ! J'arrive, j'arrive. *(Il prend une bouchée. Il mâche. Il ne se lève pas.)*
 [ÉVÉNEMENT] *(Écran noir. Texte : « 4 minutes plus tard ».)*
-YANIS : *(il a fini la bouchée)* … c'est bon.
+YANIS : *(il a fini la bouchée, il se lève enfin)* C'est bon, je suis prêt ! *(Il cherche ses clés. Il n'a pas de clés, on est dans Discord. Il cherche quand même.)*
+*(Écran noir. Texte : « 2 minutes plus tard ».)*
+YANIS : Ok, là je suis prêt.
 [ÉVÉNEMENT] Il range le reste du sandwich dans sa poche, pour plus tard.
 [ÉVÉNEMENT] **Yanis rejoint l'équipe.**
 JOSÉ : Comme à Europa Park. Parti à 5 h, arrivé à 9 h.
-YANIS : *(sourit)* … mais… je… suis… arrivé.
+YANIS : *(sourit)* Mais je suis arrivé, non ? C'est ça qui compte.
 
 > **Compétences de Yanis** (jungler, Lilia) : *Coup de Fleur* (mono), *Sieste de Lilia* (statut *Sommeil* sur tous les ennemis, chance), *Sourire Éclatant* (soin de groupe et statut *Aveugle* sur un ennemi), *J'arrive…* (mono, dégâts très élevés). Stat de vitesse la plus basse du jeu : il joue presque toujours en dernier.
 
@@ -1368,7 +1373,7 @@ YANIS : *(sourit)* … mais… je… suis… arrivé.
 [SFX] Un *tic-tac* énorme résonne dans tout le marais.
 [ÉVÉNEMENT] Depuis la brume s'élève un **sablier géant** avec des bras, des yeux, et un compte à rebours gravé sur le verre : « **Inactif depuis 4:59** ».
 SABLIER D'INACTIVITÉ : TIC. TAC. UTILISATEUR « YANIS ». INACTIF DEPUIS TROIS JOURS. PROCÉDURE DE KICK ENGAGÉE.
-YANIS : *(lettre par lettre)* … j'étais… pas… inactif. *(Il sort le sandwich de sa poche.)* … je… mangeais.
+YANIS : J'étais pas inactif. *(Il sort le sandwich de sa poche.)* Je mangeais.
 SABLIER D'INACTIVITÉ : MANGER À CETTE VITESSE EST CONSIDÉRÉ COMME INACTIF.
 FLORIAN : Il a pas tort, en vrai.
 YANIS : *(se tourne vers Florian, et sourit)*
@@ -1411,7 +1416,7 @@ FLORIAN : *(fond)* … non, il a tort. Il a complètement tort.
 
 - **Fin du combat**
   [ÉVÉNEMENT] Cinématique : Yanis s'avance, très lentement. Le Sablier, paniqué, accélère son compte à rebours : « 0:10… 0:05… 0:01… » Yanis le regarde, sourit, lance *J'arrive…*… et frappe exactement à **0:00**. Le Sablier vole en éclats, et le sable se répand dans le marais comme une pluie dorée.
-  YANIS : *(lettre par lettre)* … j'avais… dit… que… j'arrivais.
+  YANIS : J'avais dit que j'arrivais.
 
 ### SCÈNE 6-5 : Le réveil du marais
 
@@ -1420,7 +1425,7 @@ DORMEUR : *(bâille)* … j'ai raté quoi ?
 CLYDE : Trois jours, un coup d'État et un chat qui pète.
 [ÉVÉNEMENT] Comme pour illustrer, Snow passe au milieu des dormeurs. *prrrt.*
 TOUS LES DORMEURS : … ah. Ça pue.
-YANIS : *(sourit)* … Snow.
+YANIS : *(sourit)* Ah, Snow. Toujours un plaisir.
 
 [ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (6/7)**.
 [ÉVÉNEMENT] Objet obtenu : **AirPods de Yanis**, accessoire pour Yanis. *Description : « Immunité au Sommeil. Temps nécessaire pour les retirer : beaucoup trop. »*
@@ -1433,7 +1438,9 @@ CLYDE : D'après l'adresse d'expédition du colis… *(il calcule)* … hors du 
 KEVIN : 400 de ping. C'est plus un voyage, c'est une expédition spatiale.
 BIDOU : *(inspire)* Il veut vraiment pas nous voir.
 JOSÉ : Ou alors c'est vraiment loin.
-YANIS : *(lettre par lettre)* … on… y… va ?
+YANIS : On y va ? *(Il est le seul encore assis.)*
+JOSÉ : C'est toi qu'on attend, Yanis.
+YANIS : *(sourit)* Ah. Ouais. J'arrive.
 JORDAN : *(sourit)* On y va. Road trip de la Red Room. Je conduis.
 TOUS : … évidemment.
 
@@ -1449,7 +1456,7 @@ FLORIAN : Ils sont jaloux d'Alex. Même eux.
 
 ### Récapitulatif chapitre 6 (pour l'intégration)
 - **Recrue** : Yanis (combattant, jungler Lilia, vitesse la plus basse du jeu). 7 personnages, 4 en combat.
-- **Mise en scène** : les bulles de Yanis s'affichent lettre par lettre, très lentement ; le rituel des AirPods ; le sandwich du prologue.
+- **Mise en scène** : Yanis parle normalement ; c'est dans ses gestes (rituel des AirPods, manger) et ses retards qu'il est lent ; le sandwich du prologue.
 - **Énigme** : le labyrinthe dans le brouillard, en suivant les miettes du sandwich.
 - **Objets clés** : Fragment du Premier Message (6/7), AirPods de Yanis.
 - **Flags** : `rateaux_jose` (variante : la fée part vers le sourire de Yanis).
@@ -1458,3 +1465,245 @@ FLORIAN : Ils sont jaloux d'Alex. Même eux.
   - **Intervention 2** : le message d'Alex arrive avec trois jours de retard, avec un colis de café (réveil et buff vitesse).
 - **Ceyn** : gravé dans l'écorce d'un saule (gag uniquement).
 - **Suite** : chapitre 7, les Terres Lointaines et Alex.
+
+---
+
+## CHAPITRE 7 : Les Terres Lointaines
+
+> **Contexte** : Alex n'est pas dans le serveur. Il est **hors carte**, dans les **Terres Lointaines**, à 400 de ping : une version rêvée de **Toulouse, la Ville Rose**. Là-bas, Alex est une star : beau, populaire, adoré de toute la ville. Mais chez lui, porte fermée, c'est le plus gros geek de LoL de la Red Room, qui joue Lee Sin jusqu'à 4 h du matin.
+> **Clin d'œil réel** : la Red Room lui avait proposé de tout lui payer pour qu'il monte à Paris. Il n'a pas voulu, alors c'est eux qui sont descendus à Toulouse, et il leur a fait visiter sa ville. Le chapitre rejoue ce week-end.
+> **Moments clés** : le road trip, l'arrivée à Toulouse, la star de la ville, l'énigme du combo de Lee Sin, Alex, le boss.
+> **Équipe** : 7 personnages, puis 8 avec Alex.
+
+### SCÈNE 7-1 : Road trip
+
+[DÉCOR] Une route qui sort du serveur et s'enfonce dans le vide numérique. Des panneaux de signalisation : « Ping 50 », « Ping 150 », « Ping 300 »… La voiture de Jordan, l'*Octane* rouge, est remplie à craquer : sept personnes, un chat et un bot.
+[MUSIQUE] Thème du **Road Trip** : rock FM de station-service.
+
+JORDAN : *(au volant)* Ceintures.
+FLORIAN : *(coincé contre la vitre)* Il y a pas assez de ceintures, Jordan. Il y a pas assez de PLACE.
+ROBIN : Techniquement, c'est un 4 places.
+KEVIN : On est 7, plus un chat et un robot. Ça fait un taux de remplissage de 225 %.
+BIDOU : *(écrasé au milieu)* J'ai… *(inspire)* … pas d'air.
+JOSÉ : T'as jamais d'air, Bidou.
+BIDOU : *(inspire)* Là j'en ai ENCORE MOINS.
+[ÉVÉNEMENT] Snow, sur la plage arrière, se lève et se retourne. *prrrt.*
+TOUS : … ah. ÇA PUE.
+BIDOU : *(ouvre la fenêtre en catastrophe)* JE VAIS MOURIR. *(Inspire à fond.)* … non, ça va. L'air du dehors est meilleur que l'air du dedans.
+
+[CHOIX] *(Discussion dans la voiture, juste pour le plaisir.)*
+1) « Rappelez-moi pourquoi Alex est jamais venu à Paris ? »
+2) « Qui a pris les snacks ? »
+3) « Yanis, t'es prêt ? »
+
+*Si 1 :*
+ROBIN : On lui avait proposé de TOUT payer. Train, hôtel, resto.
+FLORIAN : Et il a dit non.
+KEVIN : Statistiquement, refuser un week-end gratuit, c'est un comportement très rare. Il faut une vraie raison.
+JOSÉ : La raison, c'est qu'il veut pas nous voir.
+JORDAN : C'est surtout que c'est loin. *(Un temps.)* Et puis la dernière fois, c'est nous qui sommes descendus. Et c'était un des meilleurs week-ends.
+*Si 2 :*
+YANIS : Moi. *(Il sort un sachet.)* Mais j'ai commencé à les manger à la maison, et j'ai pas fini.
+*(Le sachet contient un seul chips. Entamé.)*
+*Si 3 :*
+YANIS : Ouais, ouais ! *(Il est encore en train d'attacher sa ceinture. On est partis il y a une heure.)*
+
+### SCÈNE 7-2 : La Ville Rose
+
+[DÉCOR] Au bout de la route, une ville entière en **briques roses**, baignée de soleil. Une place immense avec un grand bâtiment : le **Capitole**. Un fleuve, la **Garonne**. Des terrasses, de la musique, des gens qui rient. Et partout, sur les murs, des **affiches d'Alex** : souriant, cheveux parfaits, lumière dorée. « ALEX — L'HOMME LE PLUS BEAU DE LA VILLE ROSE (VOTÉ 7 ANNÉES DE SUITE) ».
+[MUSIQUE] Thème de **Toulouse** : guitare ensoleillée, avec une pointe d'accordéon.
+
+FLORIAN : *(devant une affiche)* … c'est Alex, ça ?
+ROBIN : Il est sur tous les murs.
+KEVIN : Il y a une statue, là-bas.
+[ÉVÉNEMENT] Au centre de la place du Capitole, une **statue d'Alex grandeur nature**, en marbre rose, entourée de fleurs fraîches.
+JOSÉ : *(compare mentalement avec la statue de Camil)* … elle est à taille réelle, celle-là. Et pourtant elle a l'air plus grande que l'autre.
+JORDAN : C'est ça, la vraie classe.
+
+[ÉVÉNEMENT] Des PNJ toulousains, interrogeables :
+- **Une Mamie sur un banc** : « Alex ? Oh, le petit Alex ! Il est tellement beau. Et poli. Il m'a aidée à porter mes courses. Après, il est rentré jouer à son jeu. »
+- **Un Serveur de Terrasse** : « Alex ? C'est notre légende. Il a un sourire… ah. Mais il sort plus beaucoup. Il est toujours dans sa “jungle”, il dit. »
+- **Un Enfant** : « Quand je serai grand, je serai beau comme Alex. Et je jouerai Lee Sin. »
+- **Un Fan Club** de cinq personnes avec des t-shirts « J'♥ ALEX » : « Vous êtes ses amis de Paris ? Les fameux ? Il parle de vous TOUT le temps. »
+  ROBIN : *(touché)* Il parle de nous ?
+  FAN : Tout le temps. « La Red Room ceci, la Red Room cela. » Il dit que vous êtes ses meilleurs potes. Que vous lui manquez.
+  FLORIAN : Mais il veut pas nous voir !
+  FAN : *(perplexe)* Pourquoi il voudrait pas vous voir ?
+
+[ÉVÉNEMENT] *Tentative de drague de José (chapitre 7)*. Une **Toulousaine** en terrasse. Jingle Pierre, version accordéon.
+JOSÉ : *(ajuste son foulard, enfin à l'aise au soleil)* Mademoiselle. Archéologue. Stylé. Parisien. En visite.
+TOULOUSAINE : *(s'illumine)* Parisien ? Oh, vous connaissez peut-être Alex !
+JOSÉ : *(fier)* Bien sûr. C'est un ami proche.
+TOULOUSAINE : Vous pourriez me donner son numéro ?
+JOSÉ : *(un très long temps)* … non.
+[ÉVÉNEMENT] Jingle triste.
+[FLAG] `rateaux_jose += 1`
+JOSÉ : *(à Jordan)* Même pas là, il me laisse une chance.
+
+[ÉVÉNEMENT] *(Gag, optionnel)* Une plaque de rue en brique rose : « **Allée Ceyn** ».
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+KEVIN : Ceyn.
+BIDOU : *(inspire)* Ceyn.
+ROBIN : Ceyn.
+FLORIAN : Ceyn.
+YANIS : *(qui arrive avec du retard, en courant)* … Ceyn ! J'ai raté quoi ?
+*(Ils repartent comme si de rien n'était.)*
+
+### SCÈNE 7-3 : La porte d'Alex (énigme du combo)
+
+[DÉCOR] Une petite maison en briques roses au bout d'une ruelle. Volets fermés. Derrière la fenêtre, la lueur bleue d'un écran. On entend des clics de souris très rapides et une voix étouffée : « … insec… INSEC… ah, flash raté. »
+[ÉVÉNEMENT] Devant la porte, une cour pavée de **dalles marquées Q, W, E, R**. Sur la porte, un écriteau :
+> « *Pour entrer, faites le combo. — A.* »
+ROBIN : Le combo ? Quel combo ?
+JORDAN : *(sourit)* Le combo de Lee Sin. L'**insec**.
+KEVIN : Je comprends rien de ce que vous dites.
+JORDAN : C'est normal, Kevin. Reste dans la voiture si tu veux.
+
+> **Énigme de dalles** : il faut marcher sur les dalles dans l'ordre du combo de Lee Sin pour faire un insec : **Q** (Onde sonore), **Q** (Coup résonnant), **W** (Rempart, sur un allié), **R** (Rage du dragon). Une erreur fait sonner une alarme (« FLASH RATÉ ») et invoque un combat contre 2 **Wards de Contrôle**.
+> Indices dans la ruelle : des tags sur les murs, laissés par Alex lui-même : « Q d'abord », « deux fois Q », « W sur un pote », « R pour finir ».
+> Si le joueur échoue 3 fois, Jordan donne la solution : « Q, Q, W, R. J'ai été le mieux classé du groupe pendant 5 000 ans, je sais faire un insec. »
+
+[ÉVÉNEMENT] Une fois le combo réussi, la porte s'ouvre avec un *clic* très satisfaisant.
+
+### SCÈNE 7-4 : Alex
+
+[DÉCOR] Une chambre de geek : trois écrans, un fauteuil gaming, des figurines de Lee Sin sur toutes les étagères, un poster des Worlds, des cannettes. Et au milieu, **Alex** : cheveux parfaits, visage parfait, sourire parfait… en jogging et pantoufles, casque sur la tête, en pleine partie classée.
+ALEX : *(sans se retourner)* Deux secondes, deux secondes, je suis en game. Baron dans 30 secondes.
+JORDAN : Alex.
+ALEX : *(se retourne. Ses yeux s'écarquillent.)* … les gars ? *(Il retire son casque.)* Vous êtes VENUS ?
+FLORIAN : On a fait 400 de ping pour toi.
+ALEX : *(se lève, il est tout gêné)* Il fallait pas, c'est loin, je voulais pas que vous vous dérangiez…
+JOSÉ : Alex. T'es sur toutes les affiches de la ville. Y a une STATUE de toi.
+ALEX : *(cache son visage dans ses mains)* Me parlez pas de la statue. C'est la mairie. J'ai rien demandé.
+ROBIN : « L'homme le plus beau de la Ville Rose, sept années de suite ».
+ALEX : *(de plus en plus rouge)* Arrêtez… arrêtez, c'est gênant…
+KEVIN : Objectivement, sur le plan de la symétrie faciale…
+ALEX : KEVIN.
+BIDOU : *(inspire)* T'es beau, Alex.
+YANIS : *(arrivé en dernier, retire un AirPod, sourit)* T'es trop beau, mec.
+ALEX : *(se retourne vers le mur)* Je vous déteste. *(Un temps.)* Non. Je vous aime. Mais arrêtez.
+
+[ÉVÉNEMENT] Un temps. Alex se rassoit.
+JORDAN : Pourquoi tu viens jamais, Alex ? On te l'a proposé cent fois. On payait tout.
+ALEX : *(un temps)* … je sais. C'est pas que je veux pas vous voir. C'est que… ici, tout le monde me voit comme le beau gosse de la ville. Les affiches, la statue, tout ça. Et moi, en vrai, je suis juste un gars qui joue Lee Sin à 4 h du mat'. *(Il sourit.)* Avec vous, j'ai pas besoin d'être quelqu'un. Je suis juste Alex, le geek de la Red Room.
+FLORIAN : *(ému)* … et c'est pour ça que tu viens pas ?
+ALEX : Non, ça c'est parce que Paris c'est loin. *(Rires.)* Mais quand vous êtes descendus, la dernière fois… c'était le meilleur week-end. J'ai pu vous montrer ma ville. J'aime bien quand c'est vous qui venez.
+JOSÉ : *(essuie une larme)* T'aurais pu le dire avant.
+ALEX : Je l'ai dit. Il y a trois jours. « Je suis là les gars je vous jure. »
+ROBIN : Le message est arrivé avec trois jours de retard, Alex.
+ALEX : Ah. *(Un temps.)* C'est le ping.
+
+[ÉVÉNEMENT] Alex ouvre un tiroir et en sort un objet qui brille.
+ALEX : Et puis j'étais occupé. Pendant que vous libériez tout le monde, moi je farmais ça.
+[ÉVÉNEMENT] Objet obtenu : **Fragment du Premier Message (7/7)**.
+ALEX : Le dernier fragment. Il était dans un camp de jungle à l'autre bout des Terres Lointaines. J'ai mis trois jours à le clear. *(Il sourit.)* Je voulais pas venir les mains vides.
+JORDAN : Alors tu voulais nous voir.
+ALEX : *(gêné)* … peut-être.
+[ÉVÉNEMENT] **Alex rejoint l'équipe.**
+
+> **Compétences d'Alex** (jungler, Lee Sin) : *Coup Résonnant* (mono), *Insec* (mono avec debuff défense), *Beauté Aveuglante* (statut *Aveugle* sur tous les ennemis), *Rempart* (buff défense sur un allié).
+
+[SFX] Tout à coup, les écrans d'Alex se figent. Le sablier de chargement tourne. Un grondement monte de la ville. Les lumières de Toulouse vacillent.
+ALEX : Oh non. Pas maintenant.
+JORDAN : Quoi ?
+ALEX : Le **Lag**. Il vit sous la ville. Chaque fois que quelqu'un essaie de rejoindre le serveur depuis ici, il se réveille.
+
+### SCÈNE 7-5 : Boss : le Démon du Lag
+
+[DÉCOR] La place du Capitole, de nuit. Au centre, le sol se fend, et un monstre surgit : une créature faite de **pixels mal chargés**, avec un sablier de chargement qui tourne à la place de la tête et un compteur de ping sur le torse : « **400 ms** ».
+DÉMON DU LAG : TU… NE… PARTIRAS… PAS… *(Sa voix arrive avec un temps de retard sur le mouvement de sa bouche.)*
+KEVIN : Il est désynchronisé. Fascinant.
+ALEX : Il m'a toujours empêché de partir. Chaque fois que je prends le train pour Paris, il fait tout planter. *(Un temps.)* Bon. Parfois c'est aussi parce que j'ai la flemme.
+FLORIAN : ALEX.
+
+> **Équipe** : Alex est obligatoirement dans l'équipe pour ce combat. Le joueur choisit les 3 autres.
+
+[COMBAT] **Le Démon du Lag** (2 phases, avec interventions)
+
+- **Phase 1**
+  - *Paquet Perdu* : debuff précision sur un allié.
+  - *Freeze* : statut *Paralysie* sur un allié un tour.
+  - *Pic de Latence* : mono, gros dégâts.
+
+- **Intervention 1 (au tour 3) : la Gendarmerie**
+  [SFX] Une sirène. *Pin-pon.*
+  [ÉVÉNEMENT] Une voiture de gendarmerie se gare en travers de la place. En sort une gendarme en uniforme, très calme, carnet à la main : **Vaiana**.
+  VAIANA : Contrôle de gendarmerie. *(Elle regarde le compteur du Démon.)* 400 de ping en agglomération. Vous êtes au courant que c'est limité à 50 ?
+  DÉMON DU LAG : … QUOI… ?
+  VAIANA : *(écrit dans son carnet, arrache une feuille, la colle sur le Démon)* Amende. Et retrait de points. *(Le compteur du Démon tombe de 400 à 200 ms.)*
+  [ÉVÉNEMENT] Le Démon du Lag reçoit un **debuff défense et attaque** pour le reste du combat.
+  VAIANA : *(se tourne vers Alex)* Et toi. T'avais dit que tu sortais ce week-end.
+  ALEX : *(gêné, entre deux coups)* Je suis sorti ! Regarde, je suis dehors ! Je combats un démon !
+  VAIANA : *(un temps, elle sourit)* Bon. Ça compte. *(Elle remonte dans sa voiture.)* Rentre pas trop tard. Et dis bonjour à tes amis de Paris.
+  [SFX] *Pin-pon*, qui s'éloigne.
+  ROBIN : C'était qui ?
+  ALEX : *(rouge)* Vaiana. Ma copine.
+  JOSÉ : *(choqué)* T'es beau, populaire, t'as une statue ET une copine gendarme ?
+  ALEX : *(gêné)* … ouais.
+  JOSÉ : *(regarde le ciel)* La vie est injuste.
+
+- **Phase 2 (sous 50 % de PV)**
+  - Le Démon gagne *Déconnexion* : zone, gros dégâts.
+  - *Rollback* : il annule les derniers dégâts reçus et se soigne de 15 % (une seule fois).
+
+- **Intervention 2 (au début de la phase 2) : le fan club**
+  [ÉVÉNEMENT] Les habitants de Toulouse envahissent la place avec des pancartes « ALEX ! ALEX ! ». La mamie du banc est au premier rang.
+  FANS : ALEX ! ALEX ! T'ES TROP BEAU !
+  ALEX : *(se cache le visage)* Non, pas maintenant…
+  [ÉVÉNEMENT] Toute l'équipe en profite et se met à crier avec eux.
+  JORDAN, ROBIN, FLORIAN, KEVIN, BIDOU, JOSÉ, YANIS : T'ES TROP BEAU, ALEX !
+  ALEX : *(de plus en plus rouge, il rayonne littéralement)* ARRÊTEZ !
+  [ÉVÉNEMENT] Alex brille tellement que le Démon est **aveuglé**, et sa vitesse baisse pour le reste du combat.
+  DÉMON DU LAG : TROP… DE… BEAUTÉ… LE… RENDU… NE… SUIT… PAS…
+  KEVIN : Sa carte graphique n'arrive pas à afficher autant de beauté. C'est cohérent.
+
+- **Fin du combat**
+  [ÉVÉNEMENT] Cinématique : Alex pose son casque, fait craquer ses doigts et fait un **insec parfait** : Onde Sonore, Coup Résonnant, Rempart sur Jordan, et Rage du Dragon qui envoie le Démon du Lag droit dans les rangs de la Red Room. Toute l'équipe le frappe en même temps. Le Démon éclate en pixels, et le compteur tombe à « **12 ms** ».
+  ALEX : *(sans se retourner)* Insec.
+  JORDAN : *(applaudit)* Propre.
+  ALEX : *(sourit, gêné)* J'ai raté le flash, en vrai. Mais ça a marché quand même.
+
+### SCÈNE 7-6 : La Red Room au complet
+
+[DÉCOR] La place du Capitole, à l'aube. La ville est rose et calme. Les huit amis sont assis en ligne sur les marches, devant la statue d'Alex. Snow dort sur les genoux de Yanis.
+[ÉVÉNEMENT] Les sept fragments flottent dans les mains de Jordan, et s'assemblent en un seul message lumineux : le **Premier Message de la Red Room**, entier.
+JOSÉ : On l'a. Le premier message. Complet.
+ROBIN : Avec ça, on ouvre la Tour des Modérateurs.
+FLORIAN : Et on va dire deux mots à Camil.
+KEVIN : *(regarde le ciel)* Je préfère ne pas lui dire de mots. Je vais juste taper.
+BIDOU : *(inspire)* On est tous là. *(Inspire.)* Pour la première fois depuis… le début.
+YANIS : *(sourit)* Et même moi, je suis à l'heure.
+JOSÉ : T'es arrivé quatre minutes après tout le monde.
+YANIS : *(sourit encore plus)* À l'heure, pour moi.
+ALEX : *(regarde ses amis, un par un)* … vous savez quoi ? Après tout ça, je viendrai à Paris.
+TOUS : … ON VEUT DES PREUVES.
+
+JORDAN : *(se lève, s'étire, craquement de dos)* Aïe. *(Il sourit.)* Bon. Avant la Tour, on fait une pause. Un vrai repas. Tous ensemble.
+JOSÉ : Tu penses à quoi ?
+JORDAN : *(sourit)* Tu sais très bien à quoi je pense.
+TOUS : … LE BARBECUE DE LA RED ROOM.
+JOSÉ : *(très sérieux)* Et cette fois, personne n'est désinvité.
+JORDAN : J'AI JAMAIS DÉSINVITÉ PERSONNE !
+
+[ÉVÉNEMENT] Sur la carte du monde, un dernier message du Modérateur Fou défile dans le ciel, en lettres tremblantes :
+[DISCORD] **#annonces** · 🔨 **Modérateur Fou** (BOT)
+> @everyone Le premier message de la Red Room a été reconstitué. Ceci est un problème. La **Tour des Modérateurs** est désormais en alerte maximale. Tous les utilisateurs sont priés de… de… *(message interrompu)*
+> — *Approuvé par Camil (1,62 m, sur une caisse)*
+
+**FIN DU CHAPITRE 7**
+
+---
+
+### Récapitulatif chapitre 7 (pour l'intégration)
+- **Recrue** : Alex (combattant, jungler Lee Sin, trop beau, habite Toulouse). **La Red Room est au complet : 8 personnages**, 4 en combat.
+- **Zone** : les Terres Lointaines, une Toulouse rêvée (Capitole, Garonne, briques roses), avec des affiches et une statue d'Alex.
+- **Énigme** : les dalles Q, W, E, R (le combo insec de Lee Sin).
+- **Objets clés** : Fragment du Premier Message (7/7), puis le Premier Message complet (clé de la Tour).
+- **Flags** : `rateaux_jose` (variante : la fille lui demande le numéro d'Alex).
+- **Boss** : le Démon du Lag (2 phases).
+  - **Intervention 1** : Vaiana, gendarme, met une amende au Démon (debuff) et rappelle à Alex qu'il devait sortir ce week-end.
+  - **Intervention 2** : le fan club et l'équipe crient « T'ES TROP BEAU », Alex rayonne et aveugle le Démon.
+- **Thème** : le contraste entre Alex star populaire et Alex geek de LoL. « Avec vous, j'ai pas besoin d'être quelqu'un. »
+- **Ceyn** : une plaque de rue « Allée Ceyn » (gag uniquement).
+- **Suite** : interlude, le Barbecue de la Red Room, puis le final dans la Tour des Modérateurs.

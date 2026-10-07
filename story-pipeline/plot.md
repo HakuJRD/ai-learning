@@ -14,7 +14,7 @@ Chaque salon est devenu un royaume. Le **Modérateur Fou**, un bot devenu tyran,
 | #annonces | **La Base d'Annonces** | Robin | Base aérienne où seuls les modos peuvent parler. Robin y est aviateur, à contrecœur |
 | #classé | **Les Enfers du Classé** | Florian | Enfers grecs par rangs (Fer, Bronze…). Florian y pousse un rocher LP comme Sisyphe |
 | #afk | **Le Marais d'AFK** | Yanis | Tout y est au ralenti. Yanis est le seul à s'y sentir chez lui |
-| (hors carte) | **Les Terres Lointaines (ping 400)** | Alex | Zone hors serveur. Alex « ne veut pas nous voir » |
+| (hors carte) | **Les Terres Lointaines (ping 400)** | Alex | Une Toulouse rêvée, la Ville Rose, où Alex est une star |
 | #salle-des-mods | **La Tour des Modérateurs** | — | Donjon final |
 
 ## Le hub : le Barbecue de la Red Room
@@ -59,10 +59,11 @@ Le marais endort tout le monde, sauf Yanis, trop lent pour que ça change quoi q
 - Énigme : labyrinthe dans le brouillard, en suivant ses miettes.
 - Boss : le Sablier d'Inactivité. Interventions : le rituel des AirPods et son sourire aveuglant, puis le message d'Alex qui arrive avec trois jours de retard et un colis de café.
 
-### Chapitre 7 : Les Terres Lointaines (Alex)
-Alex est hors du serveur, à un ping de 400. Toute la Red Room fait le trajet, façon road trip.
-- Running gag : Alex est trop beau, les PNJ s'évanouissent sur son passage et il est gêné.
-- Il « ne voulait pas nous voir » ? Twist mignon : il préparait en secret la carte d'accès à la Tour des Modérateurs.
+### Chapitre 7 : Les Terres Lointaines (Alex) : rédigé, voir draft.md
+Road trip à 400 de ping jusqu'à une Toulouse rêvée, où Alex est une star (affiches, statue) mais vit en geek de LoL.
+- Énigme : dalles du combo insec de Lee Sin (Q, Q, W, R).
+- Alex avait passé trois jours à farmer le 7ᵉ fragment : il voulait bien les voir.
+- Boss : le Démon du Lag. Interventions : Vaiana la gendarme met une amende au Démon, puis le fan club et l'équipe crient « T'es trop beau ».
 
 ### Interlude : le Barbecue de la Red Room
 La grande scène chorale, juste avant l'assaut. Tout le monde parle de Camil, persuadé que c'est lui le coupable.
