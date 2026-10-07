@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v0.9 : Prologue + Chapitres 1 à 7
+### Script v1.0 : Prologue, Chapitres 1 à 7, Interlude et Final
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -1707,3 +1707,418 @@ JORDAN : J'AI JAMAIS DÉSINVITÉ PERSONNE !
 - **Thème** : le contraste entre Alex star populaire et Alex geek de LoL. « Avec vous, j'ai pas besoin d'être quelqu'un. »
 - **Ceyn** : une plaque de rue « Allée Ceyn » (gag uniquement).
 - **Suite** : interlude, le Barbecue de la Red Room, puis le final dans la Tour des Modérateurs.
+
+---
+
+## INTERLUDE : Le Barbecue de la Red Room
+
+> **Contexte** : la veille de l'assaut sur la Tour, la Red Room se pose pour un barbecue, comme le vrai. Clin d'œil réel : le vrai Barbecue de la Red Room avait eu lieu **chez Camil**, qui l'avait organisé. Il y avait eu une soirée de présentations PowerPoint à thème libre, des invités surprise arrivés sans prévenir, Jordan aux grillades (il n'a eu aucune frite), et la vaisselle faite par les invités parce que Camil ne la faisait pas. Tout le monde avait dormi sur place.
+> Ici, le barbecue a lieu dans **l'ancien jardin de Camil**, abandonné au pied de la Tour des Modérateurs.
+> **Fonction de jeu** : c'est le **hub** avant le final (sauvegarde, changement d'équipe, dernier marchand, dialogues avec chacun). C'est aussi la scène chorale du jeu.
+
+### SCÈNE I-1 : Le jardin abandonné
+
+[DÉCOR] Au pied de la Tour des Modérateurs, un jardin à l'abandon. Une clôture, une pelouse trop haute, un **barbecue rouillé**, des guirlandes lumineuses éteintes. Un panneau de bois : « *Propriété de Camil. Défense d'entrer. Défense de manger. Défense de rire.* » Au fond, la Tour, immense et noire, se perd dans les nuages.
+[MUSIQUE] Thème du **Barbecue** : guitare acoustique et grillons.
+
+ROBIN : *(regarde autour)* Attendez. Je reconnais cet endroit.
+JOSÉ : C'est le jardin de Camil. Le vrai Barbecue de la Red Room, c'était ici.
+FLORIAN : C'est lui qui l'avait organisé, en vrai. *(Un temps.)* C'était une bonne soirée.
+BIDOU : *(inspire)* C'était une super soirée. *(Inspire.)* Jusqu'à la vaisselle.
+TOUS : … la vaisselle.
+JORDAN : On a tout fait. Lui, il a rien touché.
+ALEX : J'étais pas là, mais on m'a raconté. Ça fait partie de la légende.
+JORDAN : *(pose les mains sur le barbecue rouillé)* Bon. On va le refaire. Mieux. Et cette fois…
+JOSÉ : … personne n'est désinvité.
+JORDAN : J'AI JAMAIS DÉSINVITÉ PERSONNE.
+
+[ÉVÉNEMENT] *(Mini-objectif : préparer le barbecue. Parler à chaque membre pour lui confier une tâche. Chaque tâche est une petite scène de deux répliques.)*
+- **Kevin** allume le feu : « J'ai calculé le ratio charbon/oxygène optimal. » *(Ça prend feu immédiatement, beaucoup trop fort.)* « … j'avais oublié un zéro. »
+- **Florian** ramène sa chaise pliante et une glacière depuis le tracteur : « J'ai ramené des bières de la campagne. Elles sont tièdes, mais elles sont de la campagne. »
+- **Bidou** branche une enceinte et met du metal : « C'est de l'ambiance. » *(Inspire.)* « C'est de l'AMBIANCE. »
+- **Robin** organise : « Je fais un planning. Qui grille, qui coupe, qui fait la vaisselle. » JOSÉ : « Tout le monde fait la vaisselle. C'est la tradition. »
+- **José** s'occupe de la déco, des guirlandes : « Il faut que ce soit stylé. Même un barbecue, ça a des codes. »
+- **Alex** met la table, gêné parce que tout le monde lui répète que même son assiette est belle.
+- **Yanis** va chercher le pain. Il revient au moment du dessert.
+- **Jordan** se met aux grillades. Et aux frites.
+
+### SCÈNE I-2 : Les frites
+
+[DÉCOR] La nuit tombe. Les guirlandes s'allument. Tout le monde est assis autour de la grande table.
+[ÉVÉNEMENT] Jordan, au barbecue, tablier sur le dos, retourne une grande plaque de frites avec un soin infini.
+JORDAN : Les frites au barbecue. Ma spécialité. Ça demande de la patience, du doigté, de l'expérience…
+JOSÉ : 5 000 ans d'expérience.
+JORDAN : … voilà. *(Il soulève la plaque, fier.)* Et voilà le travail. Qui veut des fr…
+[ÉVÉNEMENT] *(Cinématique accélérée.)* Les sept amis se jettent sur la plaque. Mains, fourchettes, nuages de poussière. Snow passe entre les jambes. En trois secondes, la plaque est vide.
+JORDAN : *(regarde la plaque vide)* … j'en ai même pas goûté une.
+FLORIAN : *(la bouche pleine)* Elles étaient trop bonnes, Jordan.
+ROBIN : *(la bouche pleine)* Zingis.
+YANIS : *(il arrive avec le pain)* Il reste des frites ?
+JORDAN : … non, Yanis. Il reste jamais des frites.
+[ÉVÉNEMENT] Objet obtenu : **Plaque à Frites Vide**, objet clé inutile. *Description : « Souvenir d'un sacrifice. Jordan n'a jamais goûté ses propres frites. »*
+
+### SCÈNE I-3 : La Soirée PowerPoint
+
+[ÉVÉNEMENT] Après le repas, José accroche un drap blanc entre deux arbres. Kevin branche un vieux projecteur.
+JOSÉ : Comme au vrai barbecue. Soirée PowerPoint. Thème libre. Cinq minutes chacun.
+> **Mini-jeu de dialogue** : le joueur choisit l'ordre des présentations. Chaque présentation est une courte scène de 3 ou 4 répliques, avec la première slide affichée sur le drap. À la fin, le joueur vote pour sa préférée (réplique bonus du gagnant).
+
+- **José — « L'Archéologie du Pantalon : comment bien tomber sur la paire, de l'Égypte ancienne à nos jours »**
+  JOSÉ : Slide 1 : les pharaons. Leurs pagnes tombaient-ils bien sur la paire ? *(Pause dramatique.)* Non. Ils n'avaient pas de paire.
+- **Kevin — « Pourquoi la Lune est un sigma »**
+  KEVIN : Slide 1 : la Lune ne parle à personne. Slide 2 : la Lune contrôle les marées. Slide 3 : elle n'a pas besoin de validation. Conclusion : sigma. *(Il y a 40 slides d'équations ensuite. Personne ne les lit.)*
+- **Robin — « Zingis : étude sémantique d'un mot qui veut tout et rien dire »**
+  ROBIN : Slide 1 : zingis, adjectif. Slide 2 : zingis, verbe. Slide 3 : zingis, état d'esprit. *(Il est très sérieux. Il a mis des sources.)*
+- **Bidou — « Histoire du metal en 3 slides »**
+  BIDOU : Pourquoi trois slides ? *(Inspire.)* Parce que c'est tout ce que j'ai… *(inspire)* … de souffle.
+- **Florian — « Pourquoi c'était pas ma faute »** *(47 slides)*
+  FLORIAN : Slide 1 : le jungler. Slide 2 : le jungler. Slide 3 : la météo. Slide 4 : le jungler…
+  ALEX : Je suis jungler, Florian.
+  FLORIAN : Slide 5 : surtout toi.
+- **Alex — « L'Insec : théorie et pratique »**
+  ALEX : Slide 1… *(Tout le monde siffle et applaudit.)* … je peux même pas commencer ? *(Il cache son visage.)* Arrêtez de me regarder comme ça !
+- **Yanis — « Mon sandwich »**
+  *(Le PowerPoint met longtemps à se lancer. Yanis cherche la bonne clé USB. Puis le bon fichier. Il s'excuse avec un grand sourire.)*
+  YANIS : Bon, j'ai pas eu le temps de finir. Mais regardez la photo du sandwich. Il est beau, non ?
+  TOUS : … il est beau.
+- **Jordan — « Snow : biographie non autorisée »**
+  JORDAN : Slide 1 : Snow, à l'âge de deux mois. Mignon. Slide 2 : Snow, à l'âge de trois mois. Premier pet recensé. Slide 3 : … *(Snow, sur la table, se lève et pète.)* … présentation en direct.
+  TOUS : … AH. ÇA PUE.
+
+### SCÈNE I-4 : Les invités surprise
+
+[SFX] On frappe au portail. *Toc, toc, toc.*
+JOSÉ : On attend quelqu'un ?
+JORDAN : Comme au vrai barbecue. Des gens qui étaient pas prévus.
+[ÉVÉNEMENT] Le portail s'ouvre. Un par un, des PNJ des chapitres précédents entrent sans prévenir, une bouteille ou un plat à la main :
+- **Clyde** et le **vieux Bot de Musique**, bras dessus bras dessous.
+- **L'Abeille Marchande** du Stade Orbital : « Bzz. J'ai apporté du miel. Prix normal, cette fois. Même pour vous, monsieur à la voiture. »
+- **Le Yéti Roadie**, avec une enceinte encore plus grosse que celle de Bidou.
+- **Des Sbires en grève**, avec une banderole « ZINGIS ».
+- **La mamie de Toulouse**, qui pince la joue d'Alex.
+- **Un Dormeur du Marais**, qui s'endort immédiatement dans un transat.
+BIDOU : *(inspire)* Il y a… plus de monde… qu'au vrai.
+ROBIN : Il y a plus de monde que dans la vraie Red Room.
+JORDAN : *(sourit)* C'est un barbecue de la Red Room. Il y a toujours plus de monde que prévu.
+
+[ÉVÉNEMENT] *(Tentative de drague de José, version interlude)*. José se tourne vers la seule invitée surprise qu'il ne connaît pas : une jeune femme qui vient d'entrer.
+JOSÉ : *(ajuste son foulard)* Mademoiselle. Archéologue. Stylé. Hôte de cette soirée.
+INVITÉE : *(sourit)* Ah, enchantée ! Je suis venue avec Robin.
+ROBIN : *(arrive derrière, très fier)* José, je te présente **Emma**.
+JOSÉ : *(se fige, recule de trois pas)* … enchanté. Je retire tout.
+[ÉVÉNEMENT] Derrière, une voiture de gendarmerie se gare. **Vaiana** descend, rejoint Alex, lui fait un bisou sur la joue.
+JOSÉ : *(regarde Robin et Emma, puis Alex et Vaiana)* … même au barbecue. Même au barbecue.
+[FLAG] `rateaux_jose += 1`
+
+### SCÈNE I-5 : La nuit
+
+[DÉCOR] Tard dans la nuit. Les guirlandes clignotent. Tout le monde est un peu éméché, affalé dans l'herbe, sur des transats, sur la table. Snow dort sur le barbecue encore tiède.
+[MUSIQUE] La guitare acoustique, très douce.
+
+> **Dialogues libres** : le joueur peut parler à chaque ami une dernière fois avant l'assaut. Chacun a une réplique sincère.
+- **José** : « Pour le Portugal… je sais que tu m'as pas désinvité. *(Un temps.)* Mais je continuerai à le dire. C'est notre truc. »
+- **Kevin** : « Quand on rentre, j'envoie la candidature. Pour de vrai. *(Un temps.)* Skibidi pour de vrai. »
+- **Bidou** : « Merci d'avoir crié avec moi, sur la montagne. *(Inspire.)* Ça m'a fait du bien. Ne le répète à personne. »
+- **Robin** : « On a libéré des sbires, on a fait une grève, on a gagné. *(Il sourit.)* C'est le meilleur service militaire de ma vie. »
+- **Florian** : « Je vous aime, les gars. *(Il regarde le ciel.)* Et demain, si on perd, c'est la faute de Camil. »
+- **Yanis** : « C'est trop bien, là. *(Il sourit.)* J'ai même pas envie de manger. *(Un temps.)* Bon, si, un peu. »
+- **Alex** : « Je viendrai à Paris. Pour de vrai. *(Un temps.)* Vous pourrez me payer le train, du coup ? »
+
+[ÉVÉNEMENT] Jordan, seul près du barbecue, regarde la Tour.
+CLYDE : *(s'approche)* Ça va, l'ancien ?
+JORDAN : Ouais. *(Un temps.)* Tu sais, le vrai barbecue, c'était chez Camil. C'est lui qui l'avait organisé. Et c'était une des meilleures soirées.
+CLYDE : Et pourtant, vous allez le combattre demain.
+JORDAN : Les souvenirs, ils sont à nous. Ce qui s'est passé après, c'est autre chose. *(Il sourit.)* Et puis il a jamais fait la vaisselle.
+
+[ÉVÉNEMENT] Tout le monde s'endort sur place. Fondu au noir.
+[ÉVÉNEMENT] *(Écran noir.)* Texte : « Le lendemain matin. Tout le monde a fait la vaisselle. »
+[ÉVÉNEMENT] **Sauvegarde.** La porte de la Tour des Modérateurs s'ouvre au loin.
+
+---
+
+## FINAL : La Tour des Modérateurs
+
+> **Moments clés** : la montée de la Tour (3 étages courts), le boss Camil, la révélation de Ceyn par hasard, le boss final, la fin.
+> **Rappel** : Kevin et Camil n'ont **aucune interaction**. Pendant tout l'étage de Camil, Kevin est automatiquement en réserve et n'a aucune réplique adressée à lui.
+
+### SCÈNE F-1 : L'entrée
+
+[DÉCOR] Le pied de la Tour. Une porte noire immense, avec sept encoches lumineuses en forme de fragments.
+[ÉVÉNEMENT] Jordan lève le **Premier Message de la Red Room**. Les sept fragments s'envolent, se placent dans les encoches. Le message s'affiche en lettres rouges sur la porte :
+> **José** : on est la red room maintenant
+> **Bidou** : pk
+> **Kevin** : la lumière est rouge frérot
+> *[Message supprimé]*
+> **Robin** : vote à main levée : adopté
+[ÉVÉNEMENT] La porte s'ouvre, dans une lumière rouge.
+JOSÉ : *(doucement)* Comme dans la chambre de Düsseldorf.
+
+### SCÈNE F-2 : La Galerie de l'Ego (étage 1)
+
+[DÉCOR] Un long couloir couvert de **portraits de Camil** dans des cadres dorés gigantesques. Sur chaque portrait, Camil pose en héros, mais il est minuscule au milieu du cadre. Des plaques : « Camil, Fondateur », « Camil, Visionnaire », « Camil, Meilleur Joueur (auto-proclamé) ».
+> **Énigme de miroirs** : des miroirs déformants renvoient des images de Camil à des tailles différentes. Il faut tourner les miroirs (interrupteurs) pour que le reflet final montre **la vraie taille de Camil** (1,62 m) sur une marque au sol. Les mauvaises combinaisons le font apparaître géant, avec un combat contre 2 **Reflets Vaniteux**.
+FLORIAN : Le seul miroir qui marche, c'est celui qui dit la vérité.
+ROBIN : C'est très politique, comme énigme.
+
+### SCÈNE F-3 : Le Salon des Invités (étage 2)
+
+[DÉCOR] Une grande salle de réception, avec une table dressée pour cinquante personnes. Personne n'est assis. Une pile de vaisselle sale, immense, monte jusqu'au plafond.
+[ÉVÉNEMENT] Un carton d'invitation sur la table : « *Grande Fête de Camil. Venez nombreux.* » Une liste d'invités, avec tous les noms barrés un par un.
+JOSÉ : *(lit la liste)* Il a désinvité tout le monde. *(Il se tourne vers Jordan, triomphant.)* LUI, il désinvite !
+JORDAN : MERCI ! ENFIN !
+> **Combat d'étage** : la pile de vaisselle s'anime en **Golem de Vaisselle Sale** (mini-boss : *Assiette Volante* mono, *Éclaboussure* zone avec statut *Poison*). Faible contre tout.
+BIDOU : *(inspire)* Même ici, la vaisselle nous poursuit.
+
+### SCÈNE F-4 : Boss : Camil
+
+[DÉCOR] La salle du trône. Un trône doré beaucoup trop haut, au sommet d'un escalier de vingt marches. Sur le trône, posé sur trois coussins empilés, **Camil**, les bras croisés. À côté de lui, une caisse « NE PAS ENLEVER ». Derrière, un gros rideau rouge.
+[ÉVÉNEMENT] Kevin s'arrête au bas de l'escalier, sort son téléphone et ne lève plus les yeux. *(Il passe automatiquement en réserve.)*
+CAMIL : Enfin. La Red Room. Ou ce qu'il en reste. *(Il se lève sur ses coussins.)* Vous avez traversé mon serveur, vous avez libéré mes sbires, vous avez réveillé mon marais. Et maintenant, vous venez me défier. Moi. Le seul vrai fondateur.
+ROBIN : T'étais même pas dans la chambre, à Düsseldorf.
+CAMIL : DÉTAIL.
+JORDAN : Camil. Rends le serveur. C'est fini.
+CAMIL : *(descend les coussins, monte sur sa caisse pour rester à la même hauteur)* Jamais. Ce serveur m'appartient. J'ai toujours su que j'étais fait pour diriger.
+JOSÉ : T'as même pas fait la vaisselle à ton propre barbecue.
+CAMIL : J'AVAIS DES CHOSES PLUS IMPORTANTES À FAIRE.
+FLORIAN : Comme quoi ?
+CAMIL : … diriger.
+
+> **Équipe** : au choix parmi tout le monde **sauf Kevin**.
+
+[COMBAT] **Camil** (2 phases, avec interventions)
+
+- **Phase 1**
+  - *Monologue Interminable* : statut *Sommeil* sur un allié (« Laissez-moi vous expliquer pourquoi j'ai raison… »).
+  - *Ego Surdimensionné* : buff défense sur lui-même.
+  - *Désinvitation* : statut *Banni* sur un allié (il ne peut pas agir pendant 2 tours).
+  - Si *Désinvitation* touche **José** : JOSÉ : « Tu vois, Jordan ? C'était LUI, depuis le début, le vrai désinviteur ! » JORDAN : « JE L'AI TOUJOURS DIT ! »
+
+- **Intervention 1 (au tour 3) : les invités qui ne viennent pas**
+  CAMIL : Mes fidèles ! Venez à mon secours !
+  [ÉVÉNEMENT] Camil tape dans ses mains. Rien ne se passe. Il retape. Silence. Un grillon chante.
+  CAMIL : … venez ?
+  [ÉVÉNEMENT] Un seul sbire passe la tête par la porte, voit la banderole « ZINGIS » de Robin, et repart.
+  [ÉVÉNEMENT] Camil reçoit un **debuff attaque** pour le reste du combat.
+  ROBIN : Personne vient, Camil. Personne vient jamais.
+
+- **Phase 2 (sous 50 % de PV)**
+  - Camil monte sur sa caisse : *Point de Vue Supérieur* (buff attaque).
+  - *Coup de Talonnette* : mono, gros dégâts.
+  - *Statue Minuscule* : il invoque une petite statue de lui qui lui donne un buff défense (adds faibles).
+
+- **Intervention 2 (au début de la phase 2) : Snow**
+  [ÉVÉNEMENT] Snow traverse tranquillement la salle du trône, monte les vingt marches, s'arrête au pied de la caisse de Camil, la renifle… se retourne… *prrrt.*
+  CAMIL : … AH. ÇA PUE ! *(Il recule, perd l'équilibre et tombe de sa caisse.)*
+  [ÉVÉNEMENT] Camil perd son buff *Point de Vue Supérieur* et reçoit un **debuff défense**.
+  JORDAN : C'est mon chat, ça.
+  JOSÉ : Pour une fois, il pète pour la bonne cause.
+
+- **Fin du combat**
+  [ÉVÉNEMENT] Cinématique : toute l'équipe frappe ensemble. Camil s'effondre, assis par terre, au pied de sa caisse, à sa vraie taille.
+  CAMIL : … c'est pas possible. J'avais le contrôle. J'avais TOUT le contrôle.
+  [ÉVÉNEMENT] Une lumière tombe du plafond et révèle des **fils de marionnette** accrochés aux bras de Camil, qui remontent jusqu'au rideau rouge.
+  ROBIN : … t'avais le contrôle de rien du tout, Camil.
+  CAMIL : *(regarde les fils, horrifié)* … qu'est-ce que c'est que ça ?
+
+  [ÉVÉNEMENT] Clyde s'avance, tient un petit marteau 🔨 doré.
+  CLYDE : Utilisateur Camil. Par décision de la Red Room, vous êtes **banni** du serveur. *(Un temps.)* Et vous êtes condamné à faire la vaisselle du barbecue. Toute la vaisselle. Pour l'éternité.
+  CAMIL : NON ! PAS LA VAISSELLE !
+  [SFX] *BONG.* Le marteau tombe. Camil disparaît dans un petit nuage, et réapparaît sur un écran au mur : devant un évier géant, avec un tablier, une montagne d'assiettes devant lui.
+  FLORIAN : Justice.
+  ROBIN : Zingis.
+
+### SCÈNE F-5 : La console
+
+[ÉVÉNEMENT] L'équipe s'approche du rideau rouge, là où remontent les fils. Kevin revient dans l'équipe. Jordan tire le rideau.
+[DÉCOR] Derrière, une petite salle sombre. Une console avec un écran allumé, des câbles partout, et la pièce maîtresse : le **noyau du Modérateur Fou**, une sphère rouge qui pulse.
+KEVIN : C'est d'ici qu'on contrôlait tout. Les annonces, les boss, Camil.
+ROBIN : Mais si c'est pas Camil… c'est qui ?
+[ÉVÉNEMENT] Jordan s'approche de l'écran. Un texte y est affiché, en petit, en bas :
+> *Session ouverte : **Ceyn***
+
+[ÉVÉNEMENT] Mécanique « Ceyn. », par pur réflexe :
+JORDAN : Ceyn.
+JOSÉ : Ceyn.
+KEVIN : Ceyn.
+BIDOU : *(inspire)* Ceyn.
+ROBIN : Ceyn.
+FLORIAN : Ceyn.
+YANIS : Ceyn.
+ALEX : Ceyn.
+[ÉVÉNEMENT] *(Ils commencent à repartir, comme d'habitude. Trois pas. Puis tout le monde s'arrête en même temps.)*
+[MUSIQUE] Silence total.
+JORDAN : … attends.
+JOSÉ : … attends, attends, attends.
+FLORIAN : C'est… CEYN ?
+TOUS : … Ceyn.
+
+[ÉVÉNEMENT] Un projecteur s'allume dans le dos de l'équipe. *Clic-clic-clic* : des flashs d'appareil photo.
+??? : Enfin. Il vous en a fallu, du temps.
+[ÉVÉNEMENT] L'équipe se retourne. Dans la lumière, en pleine pose de shooting, de trois quarts : **Ceyn**. **Coupe mulet** impeccable. **Maillot de la Karmine Corp**. Un **pantalon qui n'a rien à voir** avec le maillot, avec trois **chaînes** qui pendent sur le côté. Il tient un appareil photo.
+CEYN : *(change de pose)* Bonjour, la Red Room.
+ALEX : … c'est quoi ce pantalon ?
+CEYN : C'est de la mode. Vous pouvez pas comprendre.
+JOSÉ : *(en spécialiste)* Le pantalon tombe même pas sur la paire. Il tombe sur les CHAÎNES.
+
+JORDAN : C'était toi ? Depuis le début ?
+CEYN : Depuis le début. *(Il prend une photo de l'équipe. Flash.)* Le lien de Camil ? C'est moi qui l'ai envoyé depuis son compte. Camil, c'était parfait : assez d'ego pour croire qu'il dirigeait tout, et personne pour le contredire.
+ROBIN : Et les graffitis ? Le mur, le banc, la neige, l'arbre…
+CEYN : *(fier)* Ma signature. Je vous ai suivis partout. Et à chaque fois, vous avez dit mon nom… et vous êtes repartis comme si de rien n'était.
+FLORIAN : *(choqué)* … on l'a fait à CHAQUE FOIS.
+KEVIN : Le gag nous a aveuglés. C'est presque brillant.
+CEYN : Et le message supprimé, dans le Premier Message ?
+[ÉVÉNEMENT] Il claque des doigts. Sur la porte de la Tour, au loin, la ligne « *[Message supprimé]* » se révèle :
+> **Ceyn** : c'est moi qui ai trouvé le nom
+CEYN : C'était moi. J'étais là, au début. J'étais un des fondateurs. Et puis je suis parti, et le serveur a continué sans moi. Avec des nouveaux. Des gens qui ne savaient même pas que j'existais. *(Il prend une pose.)* Alors j'ai décidé de **reprendre mon serveur**. Le rendre propre. Esthétique. Et moi au centre.
+BIDOU : *(inspire)* Tu pouvais juste… *(inspire)* … revenir dire bonjour.
+CEYN : *(un temps)* … c'est moins stylé.
+
+[ÉVÉNEMENT] Ceyn lève la main. Le noyau du Modérateur Fou s'envole et fusionne avec lui. Ses chaînes de pantalon s'allongent et deviennent des chaînes d'acier. Son appareil photo devient un énorme marteau de ban. Son maillot KC brille.
+
+### SCÈNE F-6 : Boss final : Ceyn, le Modérateur Suprême
+
+[DÉCOR] La salle de la console s'agrandit et devient une immense scène de défilé de mode, avec un podium, des projecteurs et des flashs partout. Ceyn est au bout du podium, en pose.
+CEYN : Bienvenue à mon défilé. Thème : « la fin de la Red Room ».
+JORDAN : Tout le monde, en position.
+
+> **Équipe** : au choix (4 personnages). Les 4 autres restent en réserve et interviennent par les événements scriptés.
+
+[COMBAT] **Ceyn, le Modérateur Suprême** (3 phases, avec interventions)
+
+- **Phase 1 : Le Shooting**
+  - *Flash* : statut *Aveugle* sur un allié.
+  - *Pose de Trois Quarts* : buff esquive sur lui-même.
+  - *Chaîne de Pantalon* : mono, statut *Paralysie*.
+  - Réplique de Ceyn : « Souriez ! Non, pas toi, Yanis, tu m'éblouis. »
+
+- **Intervention 1 (fin de la phase 1) : le Kop Rouge**
+  [SFX] Au loin, un tambour. Puis des voix.
+  [ÉVÉNEMENT] Par les fenêtres de la Tour, on voit le **Kop Rouge** du Stade Orbital débarquer, drapeaux bleus de la KC au vent.
+  KOP ROUGE : KC ! KC ! KC !
+  CEYN : *(se fige)* … non… pas ça… *(Il porte la main à son maillot.)* … KC… KC…
+  [ÉVÉNEMENT] Ceyn, fan de la Karmine, ne peut pas s'empêcher de chanter avec eux : **il passe son tour**, et perd son buff d'esquive.
+  CEYN : *(en chantant)* KC ! KC ! … NON ! Arrêtez ! Je suis en plein boss fight !
+  KEVIN : Il est trop supporter pour résister. C'est sa faiblesse.
+
+- **Phase 2 : La Fusion (sous 60 % de PV)**
+  - Ceyn fusionne complètement avec le Modérateur : les répliques s'affichent en capitales.
+  - *Ban Hammer* : zone, gros dégâts.
+  - *Mute Général* : statut *Muet* sur toute l'équipe (2 tours).
+  - *Kick* : mono, très gros dégâts.
+
+- **Intervention 2 (au premier *Mute Général*) : tout le monde**
+  [ÉVÉNEMENT] Les membres en réserve arrivent un par un en courant, chacun avec un objet de son chapitre. *(Leurs répliques s'adaptent selon qui est en réserve. Version complète ci-dessous.)*
+  - BIDOU : « J'ai gardé une Bonbonne d'Air ! » *(retire Muet à toute l'équipe)*
+  - YANIS : *(arrive en dernier, retire un AirPod, sourit)* *(Ceyn est aveuglé)*
+  - ALEX : « Rempart sur Jordan ! » *(buff défense de l'équipe)*
+  - FLORIAN : « Michel, VAS-Y ! » *(le tracteur traverse la scène : dégâts sur Ceyn)*
+  - ROBIN : « Les sbires, avec moi ! » *(les sbires en grève lancent des tomates : debuff attaque)*
+  - JOSÉ : « Je suis un mec cool. » *(il ne fait rien de spécial, mais il le dit très bien)*
+  - KEVIN : « Calcul de trajectoire : terminé. » *(buff critique de l'équipe)*
+  [ÉVÉNEMENT] Snow, au milieu de la scène, pète. TOUS : « Ah, ça pue. » CEYN : « … ÇA PUE. » *(Ceyn reçoit un debuff défense.)*
+
+- **Phase 3 : Le Dernier Mot (sous 25 % de PV)**
+  - Ceyn, à bout, se met à hurler.
+  - CEYN : « VOUS NE POUVEZ PAS ME BATTRE ! JE SUIS LE FONDATEUR ! TOUT LE MONDE VA ENFIN RETENIR MON NOM ! »
+  - Il gagne *Signature* : il fait apparaître son nom en graffiti géant sur tout le décor (zone, gros dégâts).
+
+- **Fin du combat : la mécanique « Ceyn. »**
+  [ÉVÉNEMENT] Le nom **CEYN** s'affiche en lettres géantes sur tout l'écran.
+  [ÉVÉNEMENT] La mécanique se déclenche automatiquement, mais cette fois, les huit membres de la Red Room le disent **ensemble**, en chœur, en regardant Ceyn droit dans les yeux :
+  TOUTE LA RED ROOM : **CEYN.**
+  [ÉVÉNEMENT] *(Un temps.)* Et ils se retournent et repartent comme si de rien n'était.
+  CEYN : … non… non, attendez… VOUS AVEZ DIT MON NOM, VOUS ÊTES CENSÉS RÉAGIR !
+  [ÉVÉNEMENT] Personne ne réagit. Le Modérateur, privé d'attention, se fissure. La sphère rouge éclate en mille morceaux de lumière.
+  [ÉVÉNEMENT] Il ne reste que Ceyn, assis au bout du podium, en maillot KC, son mulet un peu décoiffé, ses chaînes de pantalon emmêlées.
+  CEYN : *(tout petit)* … c'est vraiment comme ça que vous dites mon nom ? À chaque fois ?
+  JORDAN : *(se retourne, sourit)* Ceyn.
+  CEYN : … ouais. *(Un temps. Il sourit malgré lui.)* Bon. C'est un peu drôle.
+
+### SCÈNE F-7 : Le réveil
+
+[ÉVÉNEMENT] Une lumière blanche envahit tout. Le *bloop* de connexion Discord, très fort, puis plus doux.
+[DÉCOR] Le QG. 03 h 47. L'écran allumé. La Switch sur le plateau de Mario Party. Les canettes.
+[ÉVÉNEMENT] Jordan se réveille, la tête sur le bureau. Snow est couché sur le clavier. Il le regarde, se retourne… *prrrt.*
+JORDAN : *(se redresse, craquement de dos)* … ah. Ah, ça pue.
+[DISCORD] **#général**
+> *Le message de Camil a été supprimé par un administrateur.*
+[SFX] *Bloop. Bloop. Bloop.* Des connexions dans le vocal, une par une.
+[DISCORD] 🔊 **Red Room — vocal** · connexions en cours…
+
+ROBIN : *(voix ensommeillée)* Les gars… j'ai fait un rêve chelou.
+FLORIAN : Moi aussi. J'étais Argent.
+BIDOU : *(inspire)* Moi j'ai respiré. *(Inspire.)* C'était un rêve, c'est sûr.
+KEVIN : J'ai battu Vitality. Mais c'était pas officiel.
+JOSÉ : Moi on m'a encore désinvité. Plusieurs fois.
+JORDAN : Personne t'a désinvité, José !
+YANIS : *(qui se connecte en dernier, AirPods dans les oreilles)* Salut les mecs ! J'ai raté quoi ?
+TOUS : … TOUT.
+
+[SFX] *Ding.* Un message.
+[DISCORD] **Alex** : les gars je prends le train pour paris samedi. pour de vrai.
+[ÉVÉNEMENT] Silence dans le vocal. Puis :
+TOUS : ON VEUT DES PREUVES !
+[DISCORD] **Alex** : *(photo d'un billet de train Toulouse–Paris)*
+[ÉVÉNEMENT] Le vocal explose de joie.
+JOSÉ : Et moi, je suis invité samedi ?
+JORDAN : *(sourit)* T'ES INVITÉ, JOSÉ.
+JOSÉ : *(un temps)* … merci. *(Un temps.)* Je le note quand même.
+
+[ÉVÉNEMENT] Plan final. Dans le salon #général, tout en bas, un petit texte apparaît :
+> *Ceyn est en train d'écrire…*
+[ÉVÉNEMENT] Le texte reste. Il clignote. Ceyn n'envoie jamais son message.
+TOUTE LA RED ROOM : Ceyn.
+[ÉVÉNEMENT] Fondu au noir.
+
+**FIN**
+
+### Générique
+
+[ÉVÉNEMENT] Défilé des personnages, chacun avec sa fiche et une réplique culte :
+- **Jordan** : « J'ai jamais désinvité personne. »
+- **José** : « Je suis un mec cool. »
+- **Kevin** : « Skibidi pour de vrai. »
+- **Bidou** : « C'est bon, j'ai compris. *(Inspire.)* Je boude. »
+- **Robin** : « Zingis. »
+- **Florian** : « C'était le jungler. »
+- **Yanis** : « Salut les mecs ! » *(Sa fiche arrive après le générique de fin.)*
+- **Alex** : « Arrêtez, c'est gênant. »
+- **Snow** : *prrrt.*
+- **Clyde** : « Personne se souvient de moi. Mais moi, je me souviens de vous. »
+- **Râteaux de José** : compteur final affiché. Succès débloqué : « **Pierre de Kanto** ».
+
+### Scène post-générique
+
+[DÉCOR] Une cuisine immense dans le serveur. Un évier. Une montagne de vaisselle.
+[ÉVÉNEMENT] **Camil**, sur une caisse pour atteindre l'évier, frotte une assiette, en tablier.
+CAMIL : *(seul, en grommelant)* … le seul vrai fondateur… et je fais la vaisselle…
+[ÉVÉNEMENT] Une assiette propre est posée sur la pile. Au sommet de la pile, une autre assiette sale tombe du ciel.
+CAMIL : … NON.
+
+**FIN (pour de vrai)**
+
+---
+
+### Récapitulatif Interlude et Final (pour l'intégration)
+- **Interlude, le Barbecue** : hub avant le final.
+  - Les frites de Jordan, qu'il ne goûte jamais.
+  - La Soirée PowerPoint à thème libre (mini-jeu de dialogue, vote).
+  - Les invités surprise (PNJ des chapitres, Emma et Vaiana).
+  - Les dialogues sincères de la veille, la nuit sur place, puis la vaisselle.
+- **Tour des Modérateurs**, 3 étages :
+  - la Galerie de l'Ego, avec une énigme de miroirs pour retrouver la vraie taille de Camil ;
+  - le Salon des Invités, où Camil a désinvité tout le monde, avec le Golem de Vaisselle Sale ;
+  - la salle du trône.
+- **Boss Camil** : Kevin est automatiquement en réserve.
+  - Intervention 1 : personne ne vient à son secours.
+  - Intervention 2 : Snow pète et le fait tomber de sa caisse.
+  - Il est banni et condamné à la vaisselle éternelle, sans réconciliation.
+- **Révélation de Ceyn** : « Session ouverte : Ceyn » sur la console. Le réflexe « Ceyn. » de toute l'équipe, puis « … attends. »
+  - Le gag lui-même était le camouflage : les graffitis étaient sa signature.
+  - Le « Message supprimé » du chapitre 1 était le sien.
+- **Boss final, Ceyn** (mulet, maillot KC, pantalon à chaînes, photos de mode), 3 phases.
+  - Intervention 1 : le Kop Rouge chante « KC ! KC ! » et Ceyn ne peut pas s'empêcher de chanter.
+  - Intervention 2 : tous les membres en réserve arrivent avec un objet ou un geste de leur chapitre.
+  - Coup final : la Red Room dit « CEYN. » en chœur et repart sans réagir.
+- **Fin** : réveil au QG ; Alex prend le train pour Paris (« ON VEUT DES PREUVES ») ; José est invité ; « Ceyn est en train d'écrire… ».
+- **Post-générique** : Camil fait la vaisselle.

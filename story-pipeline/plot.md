@@ -65,14 +65,16 @@ Road trip à 400 de ping jusqu'à une Toulouse rêvée, où Alex est une star (a
 - Alex avait passé trois jours à farmer le 7ᵉ fragment : il voulait bien les voir.
 - Boss : le Démon du Lag. Interventions : Vaiana la gendarme met une amende au Démon, puis le fan club et l'équipe crient « T'es trop beau ».
 
-### Interlude : le Barbecue de la Red Room
-La grande scène chorale, juste avant l'assaut. Tout le monde parle de Camil, persuadé que c'est lui le coupable.
+### Interlude : le Barbecue de la Red Room : rédigé, voir draft.md
+Dans l'ancien jardin de Camil (le vrai barbecue avait eu lieu chez lui) :
+- les frites de Jordan, qu'il ne goûte jamais ;
+- la Soirée PowerPoint ;
+- les invités surprise ;
+- la nuit sur place, puis la vaisselle.
 
-### Final : la Tour des Modérateurs
-- **Boss 1 : Camil**, sur un trône à son effigie. On le bat. Il hurle que c'est lui le patron… puis les fils de marionnette apparaissent : il n'a jamais rien contrôlé. **Pas de réconciliation** : il est banni du serveur pour de bon, avec le dernier coup de marteau 🔨.
-- **Révélation « par hasard »** : derrière le trône de Camil, l'équipe trouve la console du Modérateur. À l'écran : « Session ouverte : **Ceyn** ». Toute l'équipe, par réflexe : « Ceyn. » … « Ceyn. » … « Ceyn. » … puis un long silence. « … attends. » C'est lui, ancien fondateur, qui veut **reprendre le contrôle du Discord qu'il a fondé**. Le nom qu'on croisait partout (graffitis, banc, neige…) était sa signature depuis le début.
-- **Boss 2 : Ceyn**, qui fusionne avec le Modérateur Fou.
-- **Fin** : Jordan se réveille au QG. Le vocal se remplit. Dernier message dans le salon : Ceyn tape « … », puis « Ceyn est en train d'écrire… », et ne finit jamais son message. Générique.
-
-## Questions ouvertes
-- L'ordre des chapitres est-il libre ou imposé ? Un ordre libre ferait comme un open world par salons.
+### Final : la Tour des Modérateurs : rédigé, voir draft.md
+- **3 étages** : la Galerie de l'Ego (miroirs), le Salon des Invités (Golem de Vaisselle), le trône.
+- **Boss Camil** : Kevin en réserve. Camil est banni et condamné à la vaisselle éternelle.
+- **Révélation par hasard** : « Session ouverte : Ceyn ». Le réflexe « Ceyn. »… puis « … attends. » Les graffitis étaient sa signature, et le message supprimé était le sien.
+- **Boss final, Ceyn** : mulet, maillot KC, pantalon à chaînes. Le Kop Rouge le fait chanter, tous les amis interviennent, et le coup final est le « CEYN. » en chœur.
+- **Fin** : réveil au QG, Alex prend le train pour Paris, « Ceyn est en train d'écrire… ». Post-générique : Camil fait la vaisselle.

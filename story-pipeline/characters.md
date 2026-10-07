@@ -113,7 +113,8 @@
 ## Antagonistes
 
 ### Camil : le faux cerveau, vrai méchant
-- Ancien de la Red Room, parti en mauvais termes. **Pas de réconciliation.**
+- Ancien de la Red Room, parti en mauvais termes. **Pas de réconciliation.** C'est lui qui avait organisé le vrai Barbecue de la Red Room, chez lui, mais il n'a jamais fait la vaisselle.
+- **Fin** : banni du serveur et condamné à faire la vaisselle du barbecue pour l'éternité.
 - Dans le jeu : un **ego démesuré** dans un **tout petit corps** (1,62 m). Statues minuscules sur socles immenses, caisses pour paraître plus grand, trône beaucoup trop haut. Il renomme les places à son nom et s'embrouille avec tout le monde.
 - Il croit diriger le Modérateur Fou ; en fait, il est **manipulé** par Ceyn. Boss à battre, mais pas l'instigateur.
 - **Pas d'interaction directe avec Kevin** (ils ne se parlaient déjà pas vraiment).
@@ -123,7 +124,9 @@
 - **Ancien fondateur** de la Red Room.
 - **Running gag central** : à chaque fois que son nom apparaît, tout le groupe répète simplement « Ceyn. ». Dans le jeu : chaque membre présent de l'équipe dit « Ceyn. » dans une bulle, puis on reprend comme si de rien n'était.
 - **Règle d'écriture** : le joueur ne doit avoir **aucun indice**. Ceyn n'apparaît que sous forme de nom écrit ici et là (un graffiti, un nom gravé, un mot dans la neige), uniquement pour le gag. On découvre « par hasard » au final que c'est lui le boss.
-- Fait beaucoup de **photos de mode** en ce moment. Ses attaques de boss final seront des flashs et des « séances photo » (statuts Aveugle, Paralysie).
+- Fait beaucoup de **photos de mode** en ce moment. Ses attaques de boss final sont des flashs et des « séances photo » (statuts Aveugle, Paralysie).
+- **Look** : grand fan de la **Karmine Corp**, il porte le maillot KC avec un pantalon qui n'a rien à voir, des **chaînes** au pantalon pour faire stylé, et une **coupe mulet**.
+- **Faiblesse au combat** : quand le Kop Rouge chante « KC ! KC ! », il ne peut pas s'empêcher de chanter avec eux.
 - **Motif** : reprendre le contrôle du Discord qu'il avait fondé avec les autres.
 
 ### Le Modérateur Fou
