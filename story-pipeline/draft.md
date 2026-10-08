@@ -270,9 +270,10 @@ JOSÉ : *(le remet droit, très vite)* C'était un choix.
 [ÉVÉNEMENT] Des **messages épinglés** sont encadrés comme des reliques. José s'arrête devant chacun pour faire le guide.
 - « BARBECUE DE LA RED ROOM — samedi, ramenez les saucisses, PAS DE DÉSINVITATION »
   JOSÉ : *(très ému)* … Le jour le plus important de l'histoire de l'humanité. Ils l'ont gravé dans la pierre.
-- « Europa Park : RDV 7 h, et Yanis tu pars à 5 h stp »
-  JORDAN : Il est arrivé à 9 h.
-  JOSÉ : C'était un exploit, pour lui.
+- « Europa Park : RDV 7 h devant chez Jordan, on part avec sa voiture »
+  JOSÉ : *(les yeux brillants)* Europa Park… Le Silver Star. Le Voltron. On a fait le Voltron combien de fois, Jordan ?
+  JORDAN : Six. Mon dos s'en souvient encore.
+  JOSÉ : C'était trop bien. Tout ce qui est trop bien dans la vie, maintenant, je le compare au Voltron.
 - « Worlds RLCS Düsseldorf — demi-finale KC vs Vitality — on y croit les gars » *(La fresque est fissurée. Une petite larme de pierre coule.)*
   JOSÉ : 4-2. On évite d'en parler devant Kevin. Il est encore dans le deuil.
 - ❓ *Placeholder : vrais messages épinglés du Discord, à fournir par Jordan.*
@@ -1356,7 +1357,7 @@ YANIS : *(il a fini la bouchée, il se lève enfin)* C'est bon, je suis prêt ! 
 YANIS : Ok, là je suis prêt.
 [ÉVÉNEMENT] Il range le reste du sandwich dans sa poche, pour plus tard.
 [ÉVÉNEMENT] **Yanis rejoint l'équipe.**
-JOSÉ : Comme à Europa Park. Parti à 5 h, arrivé à 9 h.
+JOSÉ : Comme d'habitude. On dit 20 h, il arrive à 22 h.
 YANIS : *(sourit)* Mais je suis arrivé, non ? C'est ça qui compte.
 
 > **Compétences de Yanis** (jungler, Lilia) : *Coup de Fleur* (mono), *Sieste de Lilia* (statut *Sommeil* sur tous les ennemis, chance), *Sourire Éclatant* (soin de groupe et statut *Aveugle* sur un ennemi), *J'arrive…* (mono, dégâts très élevés). Stat de vitesse la plus basse du jeu : il joue presque toujours en dernier.
