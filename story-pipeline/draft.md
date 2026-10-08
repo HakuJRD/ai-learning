@@ -1,5 +1,5 @@
 # RED ROOM — Le Serveur Maudit
-### Script v1.0 : Prologue, Chapitres 1 à 7, Interlude et Final
+### Script v1.1 : Prologue, Chapitres 1 à 7, Interlude et Final (relu)
 
 > **Conventions** (compatibles RPG Maker et Godot) :
 > `[DÉCOR]` décor ou ambiance · `[MUSIQUE]` / `[SFX]` son · `[ÉVÉNEMENT]` action scriptée · `[CHOIX]` choix du joueur · `[COMBAT]` déclenche un combat · `[DISCORD]` faux message affiché dans l'interface Discord du jeu · `[FLAG]` variable de jeu.
@@ -131,7 +131,9 @@ JORDAN : Oh non non non.
 
 CLYDE : Bref. Tu es dans #général. Enfin, ce qu'il en reste. Depuis que le **Modérateur Fou** a pris le contrôle, plus personne parle ici. Les memes ont été bannis, les vocaux mutés et les AFK… *(il baisse la voix)* … kickés dans le Marais.
 JORDAN : Et mes potes ? Ils sont où ?
-CLYDE : Éparpillés dans les salons. Mais il y en a un pas loin. Il creuse depuis trois jours. Il dit qu'il fait de « l'archéologie ».
+CLYDE : Le lien a aspiré tous ceux qui étaient sur le serveur ce soir. Ils sont éparpillés dans les salons. Et attention : ici, le temps ne passe pas pareil. Pour toi, ça fait une minute. Pour eux, ça fait déjà trois jours.
+JORDAN : Trois jours ?!
+CLYDE : Il y en a un pas loin. Il creuse depuis trois jours. Il dit qu'il fait de « l'archéologie ».
 JORDAN : … José.
 
 [ÉVÉNEMENT] **Clyde rejoint l'équipe (guide, non combattant).** Tutoriel de déplacement.
@@ -156,7 +158,7 @@ JORDAN : Ça a pas duré longtemps, celle-là.
 3) Jeter une canette dessus.
 *Si 1 :* JORDAN : *(crie vers le haut)* « … BEAU… SOCLE ! » · La statue ne réagit pas. Clyde a l'air déçu de toi.
 *Si 2 :* Rien ne se passe. Clyde approuve en silence.
-*Si 3 :* La canette n'atteint même pas le sommet du socle. [SFX] *Clong.* Un PNJ applaudit quand même au loin. Objet obtenu : **Respect des Citoyens**, un objet de quête sans utilité, mais qui fait plaisir.
+*Si 3 :* La canette n'atteint même pas le sommet du socle. [SFX] *Clong.* Un PNJ applaudit quand même au loin.
 
 **B. La Boutique de Mme Nitro-Pas-Chère**
 [DÉCOR] Une échoppe de badges, de stickers et de bannières de profil.
@@ -173,7 +175,6 @@ JORDAN : Juste « ptdr » ?
 CITOYEN MUTÉ : 😤 ✋ *(Clyde : « Deux fois. »)*
 
 **PNJ optionnels**
-- **Utilisateur Supprimé** : « Je me souviens plus de qui j'étais. C'est reposant, en vrai. »
 - **Un vieux Bot de Musique** : « Avant on passait de la musique dans les vocaux. Maintenant YouTube m'a… *(grésillement)* … Personne ne se souvient de moi non plus. » *(Clyde et lui se font un câlin de robots retraités.)*
 - **Un Enfant de Généralia** : « Monsieur, c'est vrai que vous avez connu les dinosaures ? » / JORDAN : « … oui. Ils jouaient support. »
 - **Un mur de graffitis** : au milieu des tags (« GG », « nerf Yasuo », « Florian = pantacourt »), un nom écrit à la bombe : **Ceyn**.
@@ -224,8 +225,7 @@ JOSÉ : Bref. Ma vraie découverte, c'est ça.
 [ÉVÉNEMENT] Il montre au fond de la tranchée une porte de pierre scellée, gravée d'une **épingle 📌** géante. Une petite empreinte de patte est visible devant.
 JOSÉ : La **Crypte des Messages Épinglés**. Les anciens disent qu'elle contient le premier message de la Red Room. Celui de Düsseldorf.
 JORDAN : C'est qui, « les anciens » ?
-JOSÉ : Moi. Je l'ai dit hier. À Clyde.
-CLYDE : Il l'a dit.
+JOSÉ : Moi. Je l'ai dit hier.
 JORDAN : Et les traces de pattes, là, ça va vers la crypte.
 JOSÉ : Ton chat est entré dans mon site archéologique ? *(Il ajuste son chapeau.)* Bon. On y va. Mais si on trouve un trésor, c'est moi qui le mets au musée.
 
@@ -238,10 +238,6 @@ NITRO : Je coûte 9,99 € par mois.
 JOSÉ : … je peux faire un essai gratuit ?
 NITRO : Non.
 [ÉVÉNEMENT] Elle s'éloigne. Jingle triste.
-NITRO : *(se retourne, vers Jordan)* Vous, par contre, vous avez une voiture, non ?
-JORDAN : J'ai 29 ans, madame.
-NITRO : *(le regarde de haut en bas)* Ah oui. On dirait plus.
-[ÉVÉNEMENT] Elle part pour de bon.
 JOSÉ : *(revient vers Jordan, imperturbable)* Elle reviendra.
 JORDAN : Elle reviendra pas.
 JOSÉ : Elles reviennent toujours. *(Pause.)* Enfin. Une fois, peut-être, une est revenue.
@@ -353,9 +349,6 @@ JOSÉ : *(longue réflexion)* … presque.
 [ÉVÉNEMENT] Snow se frotte enfin contre la jambe de Jordan. Ronronnement.
 **Snow rejoint l'équipe (compagnon).** *Il suit Jordan sur la carte. De temps en temps, il s'arrête et refuse d'avancer pendant trois secondes. Parfois, sur la carte, il pète : petit nuage vert, et une bulle « Ah, ça pue » au-dessus d'un membre de l'équipe au hasard.*
 [FLAG] `quete_bete_blanche = terminee`
-JOSÉ : Le premier qui le met dans mon sac de fouilles, je le désinvite.
-JORDAN : Ah ! Tu vois que ça existe, désinviter quelqu'un !
-JOSÉ : … c'est pas pareil.
 
 ### SCÈNE 1-8 : L'annonce
 
@@ -368,10 +361,10 @@ JOSÉ : … c'est pas pareil.
 > — *Approuvé par Camil, Fondateur, Visionnaire, Meilleur Joueur du Serveur*
 
 [ÉVÉNEMENT] Un projecteur s'allume au sommet du socle. Un hologramme de **Camil** apparaît… à taille réelle. On doit zoomer pour le voir. Il se tient sur une caisse marquée « NE PAS ENLEVER ».
-CAMILLE : Citoyens de Généralia. Vous l'avez sûrement remarqué : le serveur va mieux depuis que je m'en occupe.
+CAMIL : Citoyens de Généralia. Vous l'avez sûrement remarqué : le serveur va mieux depuis que je m'en occupe.
 CITOYEN MUTÉ : 😐
-CAMILLE : J'ai toujours dit que la Red Room avait besoin d'un vrai leader. Quelqu'un de talentueux. De brillant. De modeste. *(Il marque une pause pour laisser le temps aux applaudissements. Il n'y en a pas.)* Bref. Moi.
-CAMILLE : Jordan, je sais que tu es là. Avec ton chat. Et ton dos. Rentre chez toi, l'ancêtre. Ici, c'est **mon** serveur maintenant.
+CAMIL : J'ai toujours dit que la Red Room avait besoin d'un vrai leader. Quelqu'un de talentueux. De brillant. De modeste. *(Il marque une pause pour laisser le temps aux applaudissements. Il n'y en a pas.)* Bref. Moi.
+CAMIL : Jordan, je sais que tu es là. Avec ton chat. Et ton dos. Rentre chez toi, l'ancêtre. Ici, c'est **mon** serveur maintenant.
 [ÉVÉNEMENT] L'hologramme se coupe au milieu d'un mot, comme si quelqu'un avait débranché une prise. *(Graine : ce n'est pas Camil qui contrôle la diffusion.)*
 
 JOSÉ : … il a pas changé, hein.
@@ -1801,13 +1794,17 @@ BIDOU : *(inspire)* Il y a… plus de monde… qu'au vrai.
 ROBIN : Il y a plus de monde que dans la vraie Red Room.
 JORDAN : *(sourit)* C'est un barbecue de la Red Room. Il y a toujours plus de monde que prévu.
 
-[ÉVÉNEMENT] *(Tentative de drague de José, version interlude)*. José se tourne vers la seule invitée surprise qu'il ne connaît pas : une jeune femme qui vient d'entrer.
-JOSÉ : *(ajuste son foulard)* Mademoiselle. Archéologue. Stylé. Hôte de cette soirée.
-INVITÉE : *(sourit)* Ah, enchantée ! Je suis venue avec Robin.
-ROBIN : *(arrive derrière, très fier)* José, je te présente **Emma**.
-JOSÉ : *(se fige, recule de trois pas)* … enchanté. Je retire tout.
-[ÉVÉNEMENT] Derrière, une voiture de gendarmerie se gare. **Vaiana** descend, rejoint Alex, lui fait un bisou sur la joue.
-JOSÉ : *(regarde Robin et Emma, puis Alex et Vaiana)* … même au barbecue. Même au barbecue.
+[ÉVÉNEMENT] Derniers invités surprise : **Emma** arrive et rejoint Robin, qui la présente fièrement à tout le monde. Puis une voiture de gendarmerie se gare : **Vaiana** descend, rejoint Alex et lui fait un bisou sur la joue.
+ROBIN : *(rayonnant)* Les gars, Emma. Emma, les gars.
+EMMA : Enchantée ! Robin m'a dit que vous aviez fait la révolution.
+ROBIN : Une petite révolution. Une révolution de base aérienne.
+
+[ÉVÉNEMENT] *(Tentative de drague de José, version interlude)*. La **Commentatrice** du Stade Orbital passe le portail à son tour. Jingle Pierre.
+JOSÉ : *(ajuste son foulard)* Mademoiselle. On se connaît. Archéologue. Stylé. Hôte de cette soirée.
+COMMENTATRICE : Toujours supporter Karmine ?
+JOSÉ : *(un temps, très digne)* Toujours.
+COMMENTATRICE : Toujours Vitality. *(Elle va se servir une saucisse.)*
+JOSÉ : *(regarde Robin et Emma, puis Alex et Vaiana, puis le ciel)* … même au barbecue. Même au barbecue.
 [FLAG] `rateaux_jose += 1`
 
 ### SCÈNE I-5 : La nuit
@@ -1969,7 +1966,8 @@ KEVIN : Le gag nous a aveuglés. C'est presque brillant.
 CEYN : Et le message supprimé, dans le Premier Message ?
 [ÉVÉNEMENT] Il claque des doigts. Sur la porte de la Tour, au loin, la ligne « *[Message supprimé]* » se révèle :
 > **Ceyn** : c'est moi qui ai trouvé le nom
-CEYN : C'était moi. J'étais là, au début. J'étais un des fondateurs. Et puis je suis parti, et le serveur a continué sans moi. Avec des nouveaux. Des gens qui ne savaient même pas que j'existais. *(Il prend une pose.)* Alors j'ai décidé de **reprendre mon serveur**. Le rendre propre. Esthétique. Et moi au centre.
+JOSÉ : C'est faux. Le nom, il est venu tout seul. On l'a trouvé tous ensemble, cette nuit-là.
+CEYN : *(ignore José)* J'étais là, au début. J'étais un des fondateurs. Et puis je suis parti, et le serveur a continué sans moi. Avec des nouveaux. Des gens qui ne savaient même pas que j'existais. *(Il prend une pose.)* Alors j'ai décidé de **reprendre mon serveur**. Le rendre propre. Esthétique. Et moi au centre.
 BIDOU : *(inspire)* Tu pouvais juste… *(inspire)* … revenir dire bonjour.
 CEYN : *(un temps)* … c'est moins stylé.
 
@@ -2103,7 +2101,7 @@ CAMIL : … NON.
 - **Interlude, le Barbecue** : hub avant le final.
   - Les frites de Jordan, qu'il ne goûte jamais.
   - La Soirée PowerPoint à thème libre (mini-jeu de dialogue, vote).
-  - Les invités surprise (PNJ des chapitres, Emma et Vaiana).
+  - Les invités surprise (PNJ des chapitres, la Commentatrice, Emma avec Robin, Vaiana avec Alex).
   - Les dialogues sincères de la veille, la nuit sur place, puis la vaisselle.
 - **Tour des Modérateurs**, 3 étages :
   - la Galerie de l'Ego, avec une énigme de miroirs pour retrouver la vraie taille de Camil ;
